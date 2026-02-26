@@ -1,40 +1,47 @@
 from urllib.parse import quote
+from dataclasses import asdict, dataclass
 import requests
+import json
 
 modesTxt = {}
 modes = {}
+session = requests.Session()
 
+@dataclass
 class Mode:
-    def __init__(self, name, game, developer, verifier, length, gameLink, verifierLink):
-        self.name = name
-        self.game = game
-        self.developer = developer
-        self.verifier = verifier
-        self.length = length
-        self.gameLink = gameLink
-        self.verifierLink = verifierLink
+    name: str
+    game: str
+    developer: str
+    verifier: str
+    length: str
+    gameLink: str
+    verifierLink: str
         
-def find_info(query):
+def find_info(session, query):
     query = query.strip()
-    searchUrl = f"https://aml-api-eta.vercel.app/search/{quote(query)}"
+    properQuery = query.replace(")", "")
+    searchUrl = f"https://aml-api-eta.vercel.app/search/{quote(properQuery, safe='')}"
 
-    r = requests.get(searchUrl)
+    r = session.get(searchUrl, timeout=10)
+    if not r.ok:
+        raise Exception(f"Search failed: {r.status_code}")
+
     results = r.json()
-
     data = results[0]
+    if not data:
+        raise ValueError(f"No matches found for '{query}'")
 
     match = next(
-        (item for item in data if item["name"].strip() == query),
+        (item for item in data if item["name"].strip().lower() == query.lower()),
         None
     )
-    
     if not match:
         raise ValueError(f"Mode '{query}' not found in search results.")
     
     query = match["id"]
     modeUrl = f"https://aml-api-eta.vercel.app/level/{query}"
     
-    r = requests.get(modeUrl)
+    r = session.get(modeUrl, timeout=10)
     data = r.json()
     modeData = data["data"]
     playerName = data["records"][0]["players"]["name"].strip()
@@ -62,21 +69,14 @@ with open("list.txt", "r") as file:
 
 for mode in modesTxt:
         try:
-            modes[mode] = find_info(mode)
+            modes[mode] = find_info(session, mode)
         except ValueError as e:
             print(e)
             
-for mode in modes:
-    print(f"Name: {modes[mode].name}")
-    print(f"Game: {modes[mode].game}")
-    print(f"Developer: {modes[mode].developer}")
-    print(f"Verifier: {modes[mode].verifier}")
-    print(f"Length: {modes[mode].length}")
-    print(f"Game Link: {modes[mode].gameLink}")
-    print(f"Verifier Link: {modes[mode].verifierLink}")
-    print("\n")
+output = []
+session.close()
+for mode, modeData in modes.items():
+    output = [asdict(mode) for mode in modes.values()]
 
-with open("modes.json", "w") as file:
-    file.write("[")
-    file.write("\n]")
-    
+with open("modes.json", "w", encoding="utf-8") as file:
+    json.dump(output, file, indent=2, ensure_ascii=False)
