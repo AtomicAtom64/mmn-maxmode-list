@@ -1,11 +1,12 @@
+import time
 from urllib.parse import quote
 from dataclasses import asdict, dataclass
 import requests
 import json
+from concurrent.futures import ThreadPoolExecutor
 
-modesTxt = {}
+mode_entries = []  # list of (name, game)
 modes = {}
-session = requests.Session()
 
 @dataclass
 class Mode:
@@ -16,7 +17,7 @@ class Mode:
     length: str
     gameLink: str
     verifierLink: str
-        
+            
 def find_info(session, query):
     query = query.strip()
     properQuery = query.replace(")", "")
@@ -56,27 +57,31 @@ def find_info(session, query):
             verifierLink=modeData["videoID"].strip()
         )
 
-
+def fetch(entry):
+    name, game = entry
+    try:
+        with requests.Session() as session:
+            mode_obj = find_info(session, name)
+            return mode_obj
+    except Exception as e:
+        print(e)
+        return None
+    
 with open("list.txt", "r") as file:
     for line in file:
-        line = line.strip() 
+        line = line.strip()
         if not line:
             continue
+
         info = line.split(" - ")
         name = info[0].strip()
         game = info[1].strip()
-        modesTxt[name] = game
 
-for mode in modesTxt:
-        try:
-            modes[mode] = find_info(session, mode)
-        except ValueError as e:
-            print(e)
-            
-output = []
-session.close()
-for mode, modeData in modes.items():
-    output = [asdict(mode) for mode in modes.values()]
+        mode_entries.append((name, game))
 
+with ThreadPoolExecutor(max_workers=10) as executor:
+    results = list(executor.map(fetch, mode_entries))
+
+output = [asdict(mode) for mode in results if mode]
 with open("modes.json", "w", encoding="utf-8") as file:
     json.dump(output, file, indent=2, ensure_ascii=False)
