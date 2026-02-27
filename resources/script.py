@@ -67,7 +67,7 @@ def fetch(entry):
         print(e)
         return None
     
-with open("resources/list.txt", "r") as file:
+with open("list.txt", "r") as file:
     for line in file:
         line = line.strip()
         if not line:
@@ -83,5 +83,5 @@ with ThreadPoolExecutor(max_workers=10) as executor:
     results = list(executor.map(fetch, mode_entries))
 
 output = [asdict(mode) for mode in results if mode]
-with open("resources/modes.json", "w", encoding="utf-8") as file:
+with open("modes.json", "w", encoding="utf-8") as file:
     json.dump(output, file, indent=2, ensure_ascii=False)
