@@ -1,3 +1,7 @@
 main {
     min-height: 100vh;
 }
+
+.navbar-brand img {
+  height: 45px;
+}
