@@ -6,3 +6,16 @@
     -ms-user-select: none;
     user-select: none;
 }
+
+.card {
+    max-width: 75vw;
+}
+
+.thumbnail {
+    max-width: 100%;
+    height: auto;
+}
+
+.card-body a {
+    text-decoration: none;
+}
