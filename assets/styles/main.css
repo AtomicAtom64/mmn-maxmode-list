@@ -5,3 +5,7 @@ main {
 .navbar-brand img {
   height: 45px;
 }
+
+.card-body a {
+    text-decoration: none;
+}
