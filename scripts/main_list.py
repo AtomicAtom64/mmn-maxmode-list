@@ -64,8 +64,7 @@ def find_info(session, query):
 def fetch(entry, session):
     name, game = entry
     try:
-        mode_obj = find_info(session, name)
-        return mode_obj
+        return find_info(session, name)
     except Exception as e:
         print(e)
         return None
