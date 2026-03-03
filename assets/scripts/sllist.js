@@ -1,4 +1,4 @@
-fetch("../resources/modes.json")
+fetch("../resources/sl_list.json")
   .then(response => response.json())
   .then(data => {
     const container = document.getElementById("modesContainer");
