@@ -4,9 +4,13 @@ from dataclasses import asdict, dataclass
 import requests
 import json
 from concurrent.futures import ThreadPoolExecutor
+from get_docs import get_main_list
 
 mode_entries = []  # list of (name, game)
 modes = {}
+
+start_time = time.time()
+session = requests.Session()
 
 @dataclass
 class Mode:
@@ -57,31 +61,33 @@ def find_info(session, query):
             verifierLink=modeData["videoID"].strip()
         )
 
-def fetch(entry):
+def fetch(entry, session):
     name, game = entry
     try:
-        with requests.Session() as session:
-            mode_obj = find_info(session, name)
-            return mode_obj
+        mode_obj = find_info(session, name)
+        return mode_obj
     except Exception as e:
         print(e)
         return None
     
-with open("resources/list.txt", "r") as file:
-    for line in file:
-        line = line.strip()
-        if not line:
-            continue
+texts = get_main_list()
+for line in texts.splitlines():
+    line = line.strip()
+    if not line:
+        continue
 
-        info = line.split(" - ")
-        name = info[0].strip()
-        game = info[1].strip()
+    parts = line.split(" - ", 1)
+    if len(parts) != 2:
+        continue  # skip malformed lines
 
-        mode_entries.append((name, game))
+    name, game = parts
+    mode_entries.append((name.strip(), game.strip()))
 
 with ThreadPoolExecutor(max_workers=10) as executor:
-    results = list(executor.map(fetch, mode_entries))
+    results = list(executor.map(lambda entry: fetch(entry, session), mode_entries))
 
 output = [asdict(mode) for mode in results if mode]
-with open("resources/modes.json", "w", encoding="utf-8") as file:
+with open("resources/main_list.json", "w", encoding="utf-8") as file:
     json.dump(output, file, indent=2, ensure_ascii=False)
+    
+print(f"Finished in {time.time() - start_time:.2f} seconds")
