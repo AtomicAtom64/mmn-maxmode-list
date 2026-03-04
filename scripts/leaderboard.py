@@ -59,11 +59,11 @@ def get_info(session, id):
         for mode in modes_results:
             mode_name = mode["levels"]["name"]
             skillpt = int(mode.get("skillValue") or 0)
-            link = mode["levels"]["videoID"]
+            link = mode["videoLink"]
             records.append(Record(mode_name, skillpt, link))
     
     return Member(id, player_name, total_skill_pt, records)  
-      
+
 session = requests.Session()
 members_id = get_members(session)
 

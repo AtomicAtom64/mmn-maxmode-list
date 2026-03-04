@@ -1,44 +1,69 @@
-const clan_id = "1a68233f-ae59-431b-ba1b-e458b548acfa";
+members = [];
 
-class Member {
-    constructor(user_id, name = null, total_skill_points = 0, modes = []) {
-        this.user_id = user_id;
-        this.name = name;
-        this.total_skill_points = total_skill_points;
-        this.modes = modes;
-    }
+fetch("../resources/members.json")
+    .then(response => response.json())
+    .then(data => {
+
+        const members = data.map(m => ({
+            ...m,
+            computedSkill: getRecords(m.records)
+        }));
+
+        members.sort((a, b) => b.computedSkill - a.computedSkill);
+
+        const container = document.getElementById("leaderboardContainer");
+
+        container.innerHTML = members.map((m, index) => `
+            <div class="list-group-item d-flex align-items-center justify-content-between">
+                <div class="d-flex align-items-center gap-3">
+                    <span class="fw-bold fs-5 text-muted" style="width:40px">
+                        #${index + 1}
+                    </span>
+                    <img 
+                        src="${getAvatar(m.id)}"
+                        class="profile rounded-circle"
+                        alt="${m.name}"
+                    >
+                    <div>
+                        <div class="fw-semibold">${m.name}</div>
+                        <small class="text-muted">
+                            Hardest: ${getHardest(m.records)}
+                        </small>
+                    </div>
+                </div>
+                <div class="fw-bold text-primary fs-5">
+                    ${m.computedSkill} Pts
+                </div>
+            </div>
+        `).join('');
+    });
+
+function getAvatar(id){
+    return `https://zirlaiexwekjusbhjibc.supabase.co/storage/v1/object/public/avatars/${id}.jpg`;
 }
 
-async function loadClanMembers() {
-    try {
-        const response = await fetch(`https://aml-api-eta.vercel.app/clans/${clan_id}/members`);
-        const clanMembers = await response.json();
+function getHardest(records) {
+    if (records.length === 0) return "N/A";
 
-        const memberIds = clanMembers.map(m => m.user_id);
+    let hardest = records[0];
+    return `
+        <a href="${hardest.youtube_link}" target="_blank" class="text-decoration-none">
+            ${hardest.mode_name} (${hardest.mode_skill_pt} Pts)
+        </a>
+    `;
 
-        const memberPromises = memberIds.map(async (id) => {
-            const res = await fetch(`https://aml-api-eta.vercel.app/player/${id}`);
-            const data = await res.json();
-
-            return new Member(
-                id,
-                data.name,
-                data.totalSkillpt,
-                data.modes
-            );
-        });
-
-        const members = await Promise.all(memberPromises);
-
-        console.log(members);
-        return members;
-
-    } catch (error) {
-        console.error("Error loading clan members:", error);
-    }
 }
 
-loadClanMembers().then(members => {
-    const container = document.getElementById("leaderboardContainer");
-    container.innerHTML = members.map(m => `<div>${m.name}: ${m.total_skill_points} skill points</div>`).join('');
-});
+function getRecords(records) {
+    if (records.length === 0) return 0;
+
+    let total = 0;
+
+    for (const r of records) {
+        if (r.mode_skill_pt >= 100) {
+            total += r.mode_skill_pt;
+        }
+    }
+
+    return total || records[0].mode_skill_pt || 0;
+}
