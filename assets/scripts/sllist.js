@@ -9,10 +9,9 @@ fetch("../resources/sl_list.json")
         <div class="card mb-3 p-2 shadow-sm mx-auto">
           <div class="row g-0">
             <div class="col-md-4">
-              <a href="https://www.youtube.com/watch?v=${mode.verifierLink}">
+              <a href="https://www.youtube.com/watch?v=${mode.verifierLink}" class="thumbnail-wrapper">
                 <img 
-                  src="https://img.youtube.com/vi/${mode.verifierLink}/maxresdefault.jpg" 
-                  class="thumbnail img-fluid rounded h-100 object-fit-cover" 
+                  class="thumbnail-img img-fluid rounded" 
                   alt="${mode.name}">
               </a>
             </div>
@@ -20,7 +19,7 @@ fetch("../resources/sl_list.json")
             <div class="col-md-8">
               <div class="card-body">
                 <h5 class="card-title">
-                  <span class="fw-bold">#${index+1}</span>
+                  <span class="fw-bold ranking">#${index+1}</span>
                   <a href="https://www.youtube.com/watch?v=${mode.verifierLink}">
                     ${mode.name}
                   </a>
@@ -42,7 +41,41 @@ fetch("../resources/sl_list.json")
         </div>
       `;
 
+      const img = card.querySelector(".thumbnail-img");
+      setThumbnail(img, mode.verifierLink);
+
       container.appendChild(card);
     });
   })
   .catch(error => console.error("Error loading JSON:", error));
+
+function setThumbnail(img, videoId) {
+  const sources = [
+    "maxresdefault.jpg",
+    "sddefault.jpg",
+    "hqdefault.jpg"
+  ];
+
+  let index = 0;
+
+  function tryNext() {
+    if (index >= sources.length) return;
+
+    img.src = `https://img.youtube.com/vi/${videoId}/${sources[index]}`;
+  }
+
+  img.onload = function () {
+    // Detect fake maxres placeholder
+    if (img.naturalWidth <= 120 && index < sources.length - 1) {
+      index++;
+      tryNext();
+    }
+  };
+
+  img.onerror = function () {
+    index++;
+    tryNext();
+  };
+
+  tryNext();
+}
