@@ -23,6 +23,7 @@ fetch("../resources/members.json")
                         src="${getAvatar(m.id)}"
                         class="profile rounded-circle"
                         alt="${m.name}"
+                        onerror="handleAvatarError(this)"
                     >
                     <div>
                         <div class="fw-semibold">${m.name}</div>
@@ -40,6 +41,11 @@ fetch("../resources/members.json")
 
 function getAvatar(id){
     return `https://zirlaiexwekjusbhjibc.supabase.co/storage/v1/object/public/avatars/${id}.jpg`;
+}
+
+function handleAvatarError(img) {
+    img.onerror = null;
+    img.src = "https://allmodeslist.pages.dev/defaultpfp.png";
 }
 
 function getHardest(records) {
