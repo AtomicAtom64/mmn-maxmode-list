@@ -2,126 +2,151 @@
   {
     "id": "b0a33675-9b73-40cc-b84b-55af8f5d0bc5",
     "name": "Unreal",
-    "total_skill_pt": 2802,
+    "total_skill_pt": 2808,
+    "total_rng_pt": 2120,
     "records": [
       {
         "mode_name": "50/20 Deluxe No Death Coin",
-        "mode_skill_pt": 862,
+        "mode_skill_pt": 863,
+        "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/b30YKngXAmk"
       },
       {
         "mode_name": "50/20 Deluxe",
-        "mode_skill_pt": 460,
+        "mode_skill_pt": 461,
+        "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/lAAnrxkAMv4"
       },
       {
         "mode_name": "Hyper Golden Freddy",
-        "mode_skill_pt": 412,
+        "mode_skill_pt": 413,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/C1iZABp26Y0"
       },
       {
         "mode_name": "Puppet Master All Challenges OG Laser Pointer",
-        "mode_skill_pt": 400,
+        "mode_skill_pt": 401,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/agS7Wk8qTmI"
       },
       {
         "mode_name": "Rat & Cat All Challenges OG Laser Pointer",
-        "mode_skill_pt": 245,
+        "mode_skill_pt": 246,
+        "mode_rng_pt": 150,
         "youtube_link": "https://www.youtube.com/watch?v=rafeKSSumDA"
       },
       {
         "mode_name": "35/20",
-        "mode_skill_pt": 205,
+        "mode_skill_pt": 206,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/JNfi7Zgrh9c"
       },
       {
         "mode_name": "Puppet Master All Challenges",
-        "mode_skill_pt": 71,
+        "mode_skill_pt": 72,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/OcNhkHUdrKg?si=UaEBri0rPyKKzggM"
       },
       {
         "mode_name": "Rat & Cat All Challenges ",
         "mode_skill_pt": 66,
+        "mode_rng_pt": 150,
         "youtube_link": "https://youtu.be/-xE4uWlONQQ?si=LW9UYj9qdUpJXc3l"
       },
       {
         "mode_name": "Super Golden Freddy",
         "mode_skill_pt": 19,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/myLI9HLVk98?si=0hidjTCF1otMdscx"
       },
       {
         "mode_name": "50/20",
-        "mode_skill_pt": 14,
+        "mode_skill_pt": 13,
+        "mode_rng_pt": 250,
         "youtube_link": "https://youtu.be/9Ed5uoZmDx8"
       },
       {
         "mode_name": "Vent Rush No Keybinds",
         "mode_skill_pt": 7,
+        "mode_rng_pt": 50,
         "youtube_link": "https://www.youtube.com/watch?v=kNJwqnBP1Yc"
       },
       {
         "mode_name": "Have Fun :)",
         "mode_skill_pt": 7,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=VhcUQlKQWKk"
       },
       {
         "mode_name": "Vent Rush",
         "mode_skill_pt": 7,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/EwspszZJ9xs"
       },
       {
         "mode_name": "Shadow Master",
         "mode_skill_pt": 6,
+        "mode_rng_pt": 25,
         "youtube_link": "https://www.youtube.com/watch?v=OcNhkHUdrKg"
       },
       {
         "mode_name": "Rat & Cat Theatre Faulty Equipment",
         "mode_skill_pt": 6,
+        "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/TZQJhlwkgWA"
       },
       {
         "mode_name": "Shadow Rat & Cat",
         "mode_skill_pt": 3,
+        "mode_rng_pt": 20,
         "youtube_link": "https://www.youtube.com/watch?v=-xE4uWlONQQ"
       },
       {
         "mode_name": "Rat & Cat",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 20,
         "youtube_link": "https://www.youtube.com/watch?v=-xE4uWlONQQ"
       },
       {
         "mode_name": "Puppet Master",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 15,
         "youtube_link": "https://www.youtube.com/watch?v=OcNhkHUdrKg"
       },
       {
         "mode_name": "Puppets Hell",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 20,
         "youtube_link": "https://youtu.be/3y-B6UCn4yM"
       },
       {
         "mode_name": "Rat & Cat Theatre",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=TZQJhlwkgWA"
       },
       {
         "mode_name": "Shadow Mr. Hugs' Madness",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/zj4272pu0kE"
       },
       {
         "mode_name": "4/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/Qq1ExWd90vg"
       },
       {
         "mode_name": "Mr. Hugs' Madness",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/ocK_iciGNyU"
       },
       {
         "mode_name": "Eternal Hell Of Suffering And Torment",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/ONCrJ7puYO4"
       }
     ]
@@ -130,150 +155,180 @@
     "id": "60f24eea-0dc0-4c12-a3a1-4b2a696e2968",
     "name": "TheSnowan",
     "total_skill_pt": 4121,
+    "total_rng_pt": 6118,
     "records": [
       {
         "mode_name": "50/20 VR (Non VR)",
-        "mode_skill_pt": 1254,
+        "mode_skill_pt": 1255,
+        "mode_rng_pt": 1100,
         "youtube_link": "https://youtu.be/CbhNAJiR4fQ?si=9w6jX51Lxkp7rFBp"
       },
       {
         "mode_name": "Bonus Mode",
         "mode_skill_pt": 856,
+        "mode_rng_pt": 300,
         "youtube_link": "https://youtu.be/4U-N4eHZk3E?si=0W3Uj31-N8mKzTUQ"
       },
       {
         "mode_name": "14/20 Ultimate Fazbear",
-        "mode_skill_pt": 450,
+        "mode_skill_pt": 451,
+        "mode_rng_pt": 300,
         "youtube_link": "https://youtu.be/HUsgam6w6DE?si=bRGqRdMYYa_FJOMg"
       },
       {
         "mode_name": "20/20 No Power Ups",
-        "mode_skill_pt": 386,
+        "mode_skill_pt": 387,
+        "mode_rng_pt": 400,
         "youtube_link": "https://youtu.be/qg50SdTV030?si=eBIQpP_XspHQPSpm"
       },
       {
         "mode_name": "14/20 Mode",
         "mode_skill_pt": 258,
+        "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/NXKMKyhhYRs?si=H_NxbzZj30aF81kU"
       },
       {
         "mode_name": "Ticketless Nightmare",
         "mode_skill_pt": 216,
+        "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/6cYXe5sp-nY?si=lQYeFdg-mb4Sit_B"
       },
       {
         "mode_name": "Hotel Hell",
-        "mode_skill_pt": 182,
+        "mode_skill_pt": 183,
+        "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/u1IsLlUQxMo?si=4R-IYyab3IejtP2t"
       },
       {
         "mode_name": "Seplophobia",
         "mode_skill_pt": 98,
+        "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/hpLo-W8nHgc"
       },
       {
         "mode_name": "Puppet Master All Challenges",
-        "mode_skill_pt": 71,
+        "mode_skill_pt": 72,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/nwFn-TLj1O4?si=1e6Y3VTEEUq46wX9"
       },
       {
         "mode_name": "\u0411\u0430\u0433\u0440\u043e\u0432\u0430\u044f \u043d\u043e\u0447\u044c \u0441\u043e \u0432\u0441\u0435\u043c\u0438 \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u0438\u044f\u043c\u0438 \u0411\u0435\u0437 \u0421\u043a\u0440\u0438\u043c\u0435\u0440\u0430 \u0410\u0440\u044e\u0442\u0430",
-        "mode_skill_pt": 47,
+        "mode_skill_pt": 46,
+        "mode_rng_pt": 150,
         "youtube_link": "https://www.youtube.com/watch?v=l99FU8XEnEo"
       },
       {
         "mode_name": "Silent Nightmare at Disney",
-        "mode_skill_pt": 41,
+        "mode_skill_pt": 40,
+        "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/I1PqR2v38B4"
       },
       {
         "mode_name": "Edge of Sanity Classic Night",
-        "mode_skill_pt": 34,
+        "mode_skill_pt": 33,
+        "mode_rng_pt": 426,
         "youtube_link": "https://youtu.be/peDSg_37QVw?si=T3ZRfGkkawhTK4iU"
       },
       {
         "mode_name": "True Nightmare",
-        "mode_skill_pt": 33,
+        "mode_skill_pt": 32,
+        "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/pVXoTGzhhxA?si=Y5yTxEvoiCQFNDYK"
       },
       {
         "mode_name": "Nyctophobia",
         "mode_skill_pt": 31,
+        "mode_rng_pt": 150,
         "youtube_link": "https://youtu.be/VBF5ghT73ec?si=BWViXK4OtCoTMOxI"
       },
       {
         "mode_name": "20/20",
         "mode_skill_pt": 28,
+        "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/qg50SdTV030?si=eBIQpP_XspHQPSpm"
       },
       {
         "mode_name": "\u0411\u0430\u0433\u0440\u043e\u0432\u0430\u044f \u043d\u043e\u0447\u044c \u0441\u043e \u0432\u0441\u0435\u043c\u0438 \u0443\u043b\u0443\u0447\u0448\u0435\u043d\u0438\u044f\u043c\u0438",
         "mode_skill_pt": 25,
+        "mode_rng_pt": 150,
         "youtube_link": "https://youtu.be/l99FU8XEnEo?si=F_Ffvrr1CzSLdJ3m"
       },
       {
         "mode_name": "\u041a\u0438\u0440\u0434\u044b\u043a \u0440\u0435\u0436\u0438\u043c \u0411\u0435\u0437 \u0421\u043a\u0440\u0438\u043c\u0435\u0440\u0430 \u0410\u0440\u044e\u0442\u0430",
         "mode_skill_pt": 25,
+        "mode_rng_pt": 150,
         "youtube_link": "https://www.youtube.com/watch?v=ec8TVVI8EuY"
       },
       {
         "mode_name": "\u041a\u0438\u0440\u0434\u044b\u043a \u0440\u0435\u0436\u0438\u043c",
         "mode_skill_pt": 25,
+        "mode_rng_pt": 150,
         "youtube_link": "https://www.youtube.com/watch?v=ec8TVVI8EuY"
       },
       {
         "mode_name": "\u0411\u0430\u0433\u0440\u043e\u0432\u0430\u044f \u043d\u043e\u0447\u044c",
         "mode_skill_pt": 18,
+        "mode_rng_pt": 50,
         "youtube_link": "https://www.youtube.com/watch?v=ahyaV5JmsTA"
       },
       {
         "mode_name": "50/20",
-        "mode_skill_pt": 14,
+        "mode_skill_pt": 13,
+        "mode_rng_pt": 250,
         "youtube_link": "https://youtu.be/a0or1VwkMz8?si=qw9WbbQOjuWLgtkJ"
       },
       {
         "mode_name": "Hasta La Pasta!",
         "mode_skill_pt": 8,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/NKCeWwA70bs?si=jvilbmhLKSRGyMdQ"
       },
       {
         "mode_name": "Treasure Hunt Hard Mode",
         "mode_skill_pt": 8,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/7jm_MwE0R9o?si=pmY8P5zVavYOiVRg"
       },
       {
         "mode_name": "Nightmare Blind Mode / Mad Freddy / Insta-Foxy",
         "mode_skill_pt": 3,
+        "mode_rng_pt": 162,
         "youtube_link": "https://youtu.be/vpwIIWzoq3s?si=gAaXYgUAtp_NApbK"
       },
       {
         "mode_name": "Treasure Hunt",
         "mode_skill_pt": 3,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/7jm_MwE0R9o?si=kP2PA4LfO9cTjPb4"
       },
       {
         "mode_name": "Golden Freddy",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/zTxvAr_jLxQ?si=3-o1EAHG2RffEzNL"
       },
       {
         "mode_name": "Nightmare Blind Mode / All Nightmare",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 30,
         "youtube_link": "https://youtu.be/D-r4oXu83jk?si=TZvuI0q1qJadkmYV"
       },
       {
         "mode_name": "Nightmare Aggressive Only",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 400,
         "youtube_link": "https://youtu.be/iYghbGYDPSQ?si=Gz8J3keqjfGtVzfE"
       },
       {
         "mode_name": "4/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/8RHSm3uG7K0?si=QLYYxQvM7nQv24dW"
       },
       {
         "mode_name": "Eternal Hell Of Suffering And Torment",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/yb_yyN6u3qk?si=hHuXCzjPzji3WNbY"
       }
     ]
@@ -281,41 +336,49 @@
   {
     "id": "eff4e779-c7d4-48dc-abf4-0614c1489185",
     "name": "FilipiKacper",
-    "total_skill_pt": 218,
+    "total_skill_pt": 215,
+    "total_rng_pt": 700,
     "records": [
       {
         "mode_name": "MYDOOM",
-        "mode_skill_pt": 53,
+        "mode_skill_pt": 52,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=XguKSNJnE5Y&t"
       },
       {
         "mode_name": "Supersonic Showdown",
-        "mode_skill_pt": 46,
+        "mode_skill_pt": 45,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=boz7DftnJgQ"
       },
       {
         "mode_name": "True Showdown Ultimatum ",
         "mode_skill_pt": 42,
+        "mode_rng_pt": 50,
         "youtube_link": "https://www.youtube.com/watch?v=acn1G3QdwwE"
       },
       {
         "mode_name": "Silent Nightmare at Disney",
-        "mode_skill_pt": 41,
+        "mode_skill_pt": 40,
+        "mode_rng_pt": 200,
         "youtube_link": "https://www.youtube.com/watch?v=LBXbQ_1XYdM"
       },
       {
         "mode_name": "True Showdown",
         "mode_skill_pt": 22,
+        "mode_rng_pt": 50,
         "youtube_link": "https://www.youtube.com/watch?v=cWefNEkS9LE"
       },
       {
         "mode_name": "Costume's Finale",
         "mode_skill_pt": 7,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=0UvkjRi9hmc&t"
       },
       {
         "mode_name": "Nightmare at Disney",
         "mode_skill_pt": 7,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=x2EMW-__hLs"
       }
     ]
@@ -324,75 +387,90 @@
     "id": "c6d7a2cd-a5d8-4703-895a-9e8900b0f520",
     "name": "AtomicAtom",
     "total_skill_pt": 380,
+    "total_rng_pt": 845,
     "records": [
       {
         "mode_name": "Hyper Catfight Crashout",
         "mode_skill_pt": 300,
+        "mode_rng_pt": 150,
         "youtube_link": "https://www.youtube.com/watch?v=ENNZDaN08lw"
       },
       {
         "mode_name": "10 20 Phone Mickey All Night",
         "mode_skill_pt": 31,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/LZvgvWdoKLk"
       },
       {
         "mode_name": "Catfight Crashout",
         "mode_skill_pt": 15,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/P_XLwnmaDZs"
       },
       {
         "mode_name": "The Headspace Emissary",
         "mode_skill_pt": 12,
+        "mode_rng_pt": 50,
         "youtube_link": "https://www.youtube.com/watch?v=fPLJb33x-PE"
       },
       {
         "mode_name": "Nightmare at Disney",
         "mode_skill_pt": 7,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=9xBxI4fpFUY"
       },
       {
         "mode_name": "10 20 Mode",
         "mode_skill_pt": 6,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/LZvgvWdoKLk"
       },
       {
         "mode_name": "Max Mode No Jeremy Help",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 50,
         "youtube_link": "https://www.youtube.com/watch?v=9Y_QdhAEzMU&feature=youtu.be"
       },
       {
         "mode_name": "Night Null",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/WF_1O5Fj6cI"
       },
       {
         "mode_name": "Max Mode",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 50,
         "youtube_link": "https://www.youtube.com/watch?v=9Y_QdhAEzMU&feature=youtu.be"
       },
       {
         "mode_name": "Shadow Mr. Hugs' Madness All Challenges",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 15,
         "youtube_link": "https://youtu.be/FsRP9OSuFVU"
       },
       {
         "mode_name": "Shadow Mr. Hugs' Madness",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/FsRP9OSuFVU"
       },
       {
         "mode_name": "7/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://www.youtube.com/watch?v=Tqy6WThv3Nc"
       },
       {
         "mode_name": "Mr. Hugs' Madness",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/A--N2jxE0eA"
       },
       {
         "mode_name": "Eternal Hell Of Suffering And Torment",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/inuwu05JY1Y"
       }
     ]
@@ -400,96 +478,115 @@
   {
     "id": "afbd03b6-8f0d-4f66-bfd6-e7a1af80a334",
     "name": "Aleks",
-    "total_skill_pt": 5376,
+    "total_skill_pt": 5381,
+    "total_rng_pt": 2010,
     "records": [
       {
         "mode_name": "Maanantai",
-        "mode_skill_pt": 1188,
+        "mode_skill_pt": 1189,
+        "mode_rng_pt": 150,
         "youtube_link": "https://youtu.be/xmQ8G9HKJOI?si=FcwywAdINP-Zrh_x"
       },
       {
         "mode_name": "Funtime Gala Very Hard Mode",
         "mode_skill_pt": 1076,
+        "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/dWoHPhuJ9hw?si=Sn_7La7StDeIzk2B"
       },
       {
         "mode_name": "Hyper Golden Freddy All Challenges",
         "mode_skill_pt": 526,
+        "mode_rng_pt": 110,
         "youtube_link": "https://youtu.be/SueYkSkC9t4?si=rJL7WjW7Nq3Nsx9B"
       },
       {
         "mode_name": "Hyper Golden Freddy 25 AI",
         "mode_skill_pt": 522,
+        "mode_rng_pt": 250,
         "youtube_link": "https://youtu.be/lDjmdyX3ab4?si=AP9PCYg-IuCceur5"
       },
       {
         "mode_name": "Hyper Golden Freddy",
-        "mode_skill_pt": 412,
+        "mode_skill_pt": 413,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/OfuJHhkA6W8?si=2t1-FkV0qShNvw9C"
       },
       {
         "mode_name": "The Challenging Addiction No Power Generator",
-        "mode_skill_pt": 315,
+        "mode_skill_pt": 316,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/E5hcy4uQMpU?si=uxjH_VPvbqQh0UAt"
       },
       {
         "mode_name": "The Challenging Addiction v1.2.0",
         "mode_skill_pt": 311,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/boXdli7KQe8?si=m0dHGZy23Qpf9lRJ"
       },
       {
         "mode_name": "The Gala Files Hard Mode",
         "mode_skill_pt": 207,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/YGjFHfJlXXw?si=np9Rez8q10ntoTbu"
       },
       {
         "mode_name": "TOP1MAXMODE Hard Mode",
         "mode_skill_pt": 152,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/dojGYjCUgWI?si=cYTZWC1A_d1O-BYl"
       },
       {
         "mode_name": "Funtime Gala Hard Mode",
         "mode_skill_pt": 150,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/AQDRaO_hSJQ?si=ihkZuyp0bkYJSLsh"
       },
       {
         "mode_name": "The Gala Files",
         "mode_skill_pt": 149,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/YGjFHfJlXXw?si=np9Rez8q10ntoTbu"
       },
       {
         "mode_name": "The Killer Bite",
-        "mode_skill_pt": 135,
+        "mode_skill_pt": 136,
+        "mode_rng_pt": 250,
         "youtube_link": "https://youtu.be/hBc28xJ1j9E?si=oGZvc2Flm2F09wYC"
       },
       {
         "mode_name": "Piilo",
-        "mode_skill_pt": 104,
+        "mode_skill_pt": 105,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/xmQ8G9HKJOI?si=EqK1qP3g6WymCY6i"
       },
       {
         "mode_name": "Rat & Cat All Challenges ",
         "mode_skill_pt": 66,
+        "mode_rng_pt": 150,
         "youtube_link": "https://youtu.be/f8VALIPFQHw?si=GyRpip_wV9Wclgmc"
       },
       {
         "mode_name": "Super Golden Freddy v1.0.0",
         "mode_skill_pt": 33,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/xQoEwJJDPdE?si=UBdjgGRbjbg22SQ-"
       },
       {
         "mode_name": "Super Golden Freddy",
         "mode_skill_pt": 19,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/OfuJHhkA6W8?si=2t1-FkV0qShNvw9C"
       },
       {
         "mode_name": "The Challenging Addiction",
         "mode_skill_pt": 7,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/boXdli7KQe8?si=pUzaaC2VTFHOFJJk"
       },
       {
         "mode_name": "TOP1MAXMODE",
         "mode_skill_pt": 4,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/dojGYjCUgWI?si=cYTZWC1A_d1O-BYl"
       }
     ]
@@ -498,55 +595,66 @@
     "id": "ba9edb5a-8cb4-4939-a851-2c42393af47f",
     "name": "Monocled",
     "total_skill_pt": 70,
+    "total_rng_pt": 860,
     "records": [
       {
         "mode_name": "7/20 No Watching Cindy v2.2.1",
         "mode_skill_pt": 33,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=O30codF_drw"
       },
       {
         "mode_name": "The Closing Act",
         "mode_skill_pt": 14,
+        "mode_rng_pt": 150,
         "youtube_link": "https://www.youtube.com/watch?v=o8nB4wtTUXs"
       },
       {
         "mode_name": "7/20 No Power Out v2.2.1",
         "mode_skill_pt": 5,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=fNGGa0SAQ4U"
       },
       {
         "mode_name": "7/20 v2.2.1",
         "mode_skill_pt": 5,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=Q0tvocl5cuk"
       },
       {
         "mode_name": "Ringing Nightmare",
         "mode_skill_pt": 3,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=pvgyrqmH1IQ"
       },
       {
         "mode_name": "Shadow Rat & Cat",
         "mode_skill_pt": 3,
+        "mode_rng_pt": 20,
         "youtube_link": "https://www.youtube.com/watch?v=UfWzfYvHxfg"
       },
       {
         "mode_name": "Rat & Cat",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 20,
         "youtube_link": "https://www.youtube.com/watch?v=UfWzfYvHxfg"
       },
       {
         "mode_name": "Monstergami Night",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 70,
         "youtube_link": "https://www.youtube.com/watch?v=W9qAC0oNgjc"
       },
       {
         "mode_name": "Rat & Cat Theatre",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=dEFCpQPKYwo"
       },
       {
         "mode_name": "Night Null",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=KhoPSE2PtDE"
       }
     ]
@@ -554,51 +662,61 @@
   {
     "id": "3bee619d-9bd0-4d6f-9217-8c92abdbd390",
     "name": "Mac Izner",
-    "total_skill_pt": 27,
+    "total_skill_pt": 26,
+    "total_rng_pt": 719,
     "records": [
       {
         "mode_name": "50/20",
-        "mode_skill_pt": 14,
+        "mode_skill_pt": 13,
+        "mode_rng_pt": 250,
         "youtube_link": "https://youtu.be/ALP4QHTHxIM?si=mTHKjMMVuXMhffJS"
       },
       {
         "mode_name": "Shadow Rat & Cat",
         "mode_skill_pt": 3,
+        "mode_rng_pt": 20,
         "youtube_link": "https://youtu.be/8TLqvwvyux8?si=vO7OpwG_1_dn9tHB"
       },
       {
         "mode_name": "Monstergami Night",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 70,
         "youtube_link": "https://youtu.be/q6RSN0HBN0o?si=SPGQpCVQ7n47JjUL"
       },
       {
         "mode_name": "Airtime Anarchy",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/zhz5SViDoSw?si=RR8US_nEEtdYsEH1"
       },
       {
         "mode_name": "Rat & Cat Theatre",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=z7nyZx2Gx1M"
       },
       {
         "mode_name": "Catastrophic Poem",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 104,
         "youtube_link": "https://youtu.be/q6f-Ie8XfeQ?si=79VQ8jzDQR6ztCR1"
       },
       {
         "mode_name": "Musical Mischief",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://www.youtube.com/watch?v=RXE8aiXlzr0"
       },
       {
         "mode_name": "Night Null",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/QTq3krVhBJc"
       },
       {
         "mode_name": "Shadow Mr. Hugs' Madness All Challenges",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 15,
         "youtube_link": "https://youtu.be/HeANKDXBVdg?si=HTB08Aj46BiYF0q5"
       }
     ]
@@ -606,151 +724,181 @@
   {
     "id": "e714e244-b2cc-4dcb-bb12-a6317e37b5cf",
     "name": "nobility_",
-    "total_skill_pt": 1467,
+    "total_skill_pt": 1469,
+    "total_rng_pt": 1986,
     "records": [
       {
         "mode_name": "35/25",
         "mode_skill_pt": 464,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/427suUux_GQ"
       },
       {
         "mode_name": "The Challenging Addiction No Power Generator",
-        "mode_skill_pt": 315,
+        "mode_skill_pt": 316,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/vOEhHUNXcWs"
       },
       {
         "mode_name": "The Challenging Addiction v1.2.0",
         "mode_skill_pt": 311,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/ryRBJGFqQss"
       },
       {
         "mode_name": "35/20",
-        "mode_skill_pt": 205,
+        "mode_skill_pt": 206,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/U3SWM8G-4nk"
       },
       {
         "mode_name": "Blood 7/20 v2.2.1",
-        "mode_skill_pt": 102,
+        "mode_skill_pt": 103,
+        "mode_rng_pt": 150,
         "youtube_link": "https://youtu.be/vPL2_Z6rE9M"
       },
       {
         "mode_name": "50/20",
-        "mode_skill_pt": 14,
+        "mode_skill_pt": 13,
+        "mode_rng_pt": 250,
         "youtube_link": "https://youtu.be/dDwjimeF7-4"
       },
       {
         "mode_name": "Ringing Nightmare Faulty Equipment",
         "mode_skill_pt": 11,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=TijocJ_Uz80"
       },
       {
         "mode_name": "The Challenging Addiction",
         "mode_skill_pt": 7,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/MDfgHmQgcsM"
       },
       {
         "mode_name": "Rat & Cat Theatre Faulty Equipment",
         "mode_skill_pt": 6,
+        "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/oVhYwlMIDbU"
       },
       {
         "mode_name": "7/20 v2.2.1",
         "mode_skill_pt": 5,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/bKLeKB2Oma0"
       },
       {
         "mode_name": "Golden Freddy V.Hard",
         "mode_skill_pt": 4,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/IRbN2anLE0M"
       },
       {
         "mode_name": "Ringing Nightmare",
         "mode_skill_pt": 3,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=TijocJ_Uz80"
       },
       {
         "mode_name": "Golden Freddy",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/Dg9Y1Hd-IOY"
       },
       {
         "mode_name": "Puppets Hell",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 20,
         "youtube_link": "https://youtu.be/_6HUzgjDqCM"
       },
       {
         "mode_name": "Rat & Cat Theatre",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/oVhYwlMIDbU"
       },
       {
         "mode_name": "Musical Mischief",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/iXAZWKeWnS8"
       },
       {
         "mode_name": "Nightmare Aggressive Only",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 400,
         "youtube_link": "https://youtu.be/GQvk3ssSLM8"
       },
       {
         "mode_name": "Shadow Mr. Hugs' Madness All Challenges",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 15,
         "youtube_link": "https://youtu.be/5RGNQKEojfA"
       },
       {
         "mode_name": "Nightmare",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/jpx6NIBsg-k"
       },
       {
         "mode_name": "Shadow Mr. Hugs' Madness",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/5RGNQKEojfA"
       },
       {
         "mode_name": "5/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/HqcgiIt9e4A"
       },
       {
         "mode_name": "7/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/vY3rDMOYnuw"
       },
       {
         "mode_name": "Mr. Hugs' Madness",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/5RGNQKEojfA"
       },
       {
         "mode_name": "the mistery",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/WxPjHy3rTsE"
       },
       {
         "mode_name": "I always go back",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/WxPjHy3rTsE"
       },
       {
         "mode_name": "GG WINDOGE",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/iExkwDkpNvc"
       },
       {
         "mode_name": "play the max mode",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/iExkwDkpNvc"
       },
       {
         "mode_name": "Mr. Active's Calm Adventure",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 1,
         "youtube_link": "https://youtu.be/XBNpbUuqKKA"
       },
       {
         "mode_name": "Eternal Hell Of Suffering And Torment",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/ETcUhJpJIiQ"
       }
     ]
@@ -758,66 +906,85 @@
   {
     "id": "f0b48997-2ebf-43a6-ba70-8e1692456e46",
     "name": "EdgeLord",
-    "total_skill_pt": 2234,
+    "total_skill_pt": 2272,
+    "total_rng_pt": 1652,
     "records": [
       {
         "mode_name": "50/20 Deluxe No Death Coin",
-        "mode_skill_pt": 862,
+        "mode_skill_pt": 863,
+        "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/ofEH3cf-Mzk?si=wyRv1tXe8UGwCF9t"
       },
       {
         "mode_name": "35/25",
         "mode_skill_pt": 464,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/ujK4iSu2eBA?si=v5Irf8mmZKFemcYA"
       },
       {
         "mode_name": "50/20 Deluxe",
-        "mode_skill_pt": 460,
+        "mode_skill_pt": 461,
+        "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/ofEH3cf-Mzk?si=wyRv1tXe8UGwCF9t"
       },
       {
         "mode_name": "35/20",
-        "mode_skill_pt": 205,
+        "mode_skill_pt": 206,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/amyihSM1cf4?si=KZpu3RpJzPOW0waK"
       },
       {
         "mode_name": "Blood 7/20 v2.2.1",
-        "mode_skill_pt": 102,
+        "mode_skill_pt": 103,
+        "mode_rng_pt": 150,
         "youtube_link": "https://youtu.be/4WTVOQDo7mo?si=QtzPVN-KMeGnB_Ha"
       },
       {
         "mode_name": "True Showdown Ultimatum ",
         "mode_skill_pt": 42,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/DFHa6Tr4Qy4"
       },
       {
         "mode_name": "Rat & Cat Theatre Faulty Equipment Separate Luring",
-        "mode_skill_pt": 42,
+        "mode_skill_pt": 41,
+        "mode_rng_pt": 250,
         "youtube_link": "https://youtu.be/FYQ4bNWQRKs?si=whKKRcajRXH4xWzK"
+      },
+      {
+        "mode_name": "Thunder's Wrath",
+        "mode_skill_pt": 35,
+        "mode_rng_pt": 92,
+        "youtube_link": "https://youtu.be/3ZXu2OJfbTs?si=WcH5PvNKeL04v6_l"
       },
       {
         "mode_name": "True Showdown",
         "mode_skill_pt": 22,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/DFHa6Tr4Qy4"
       },
       {
         "mode_name": "Catfight Crashout",
         "mode_skill_pt": 15,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/2JzyCTAp_Hk?si=wzSMpz4EPnnb7GnI"
       },
       {
         "mode_name": "Ringing Nightmare Faulty Equipment",
         "mode_skill_pt": 11,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/JFnKc1NZlbw?si=Mh7lcFWGV_vsoVmv"
       },
       {
         "mode_name": "Rat & Cat Theatre Faulty Equipment",
         "mode_skill_pt": 6,
+        "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/FYQ4bNWQRKs?si=qS2M0r--b64sJlze"
       },
       {
         "mode_name": "Tricky Ten",
         "mode_skill_pt": 3,
+        "mode_rng_pt": 60,
         "youtube_link": "https://youtu.be/GiuhGj9jD6c"
       }
     ]
@@ -826,45 +993,54 @@
     "id": "7ade7f52-5180-4c04-9f1d-fc86dbf6eac1",
     "name": "bonnybunny",
     "total_skill_pt": 98,
+    "total_rng_pt": 527,
     "records": [
       {
         "mode_name": "Thunder's Wrath",
         "mode_skill_pt": 35,
+        "mode_rng_pt": 92,
         "youtube_link": "https://www.youtube.com/watch?v=054D_jfxIV4&t=80s"
       },
       {
         "mode_name": "Parasitic Pals",
         "mode_skill_pt": 29,
+        "mode_rng_pt": 200,
         "youtube_link": "https://www.youtube.com/watch?v=2WtMKCruxxo"
       },
       {
         "mode_name": "Tricky Ten++",
         "mode_skill_pt": 13,
+        "mode_rng_pt": 60,
         "youtube_link": "https://www.youtube.com/watch?v=_IJSTB3DHok&t=44s"
       },
       {
         "mode_name": "6/20",
         "mode_skill_pt": 9,
+        "mode_rng_pt": 25,
         "youtube_link": "https://www.youtube.com/watch?v=NqmKZM5ff_M"
       },
       {
         "mode_name": "Shadow Master",
         "mode_skill_pt": 6,
+        "mode_rng_pt": 25,
         "youtube_link": "https://www.youtube.com/watch?v=mdi-mTM-6mg"
       },
       {
         "mode_name": "Tricky Ten",
         "mode_skill_pt": 3,
+        "mode_rng_pt": 60,
         "youtube_link": "https://www.youtube.com/watch?v=vvlct5mZmRo&t=34s"
       },
       {
         "mode_name": "Puppet Master",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 15,
         "youtube_link": "https://www.youtube.com/watch?v=T2xNCnPQc3U"
       },
       {
         "mode_name": "4/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 50,
         "youtube_link": "https://www.youtube.com/watch?v=gThjlEn38uA"
       }
     ]
@@ -873,30 +1049,36 @@
     "id": "da508237-427f-4b23-b366-ce14f9b97e83",
     "name": "The Red Robin",
     "total_skill_pt": 10,
+    "total_rng_pt": 660,
     "records": [
       {
         "mode_name": "Golden Freddy V.Hard",
         "mode_skill_pt": 4,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=Dk4cuJ4-G64&t=132s"
       },
       {
         "mode_name": "Sticky Situation",
         "mode_skill_pt": 3,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/Ni-aJBan8S4?si=xxJNxb-ZZ2eCHjmw"
       },
       {
         "mode_name": "Nightmare Aggressive Only",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 400,
         "youtube_link": "https://youtu.be/YYYqSGLIopE?si=-F53zm1DZCyqiDG7"
       },
       {
         "mode_name": "4/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/AkVMv5C3hGM"
       },
       {
         "mode_name": "7/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://www.youtube.com/watch?v=55QSQ1aGKTI&t=9s"
       }
     ]
@@ -904,141 +1086,169 @@
   {
     "id": "bd1880ba-99a6-49ae-8b4a-e80391f580c5",
     "name": "GoNO",
-    "total_skill_pt": 73,
+    "total_skill_pt": 72,
+    "total_rng_pt": 840,
     "records": [
       {
         "mode_name": "True Nightmare",
-        "mode_skill_pt": 33,
+        "mode_skill_pt": 32,
+        "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/JU-h2D5aZTs?si=IeK5wbK7C0E40y-U"
       },
       {
         "mode_name": "New-Fangled nonsense",
         "mode_skill_pt": 6,
+        "mode_rng_pt": 150,
         "youtube_link": "https://youtu.be/b3pOJJXSW9o"
       },
       {
         "mode_name": "Violet's Walk in the Park",
         "mode_skill_pt": 5,
+        "mode_rng_pt": 75,
         "youtube_link": "https://youtu.be/5EVgMR1WiKE"
       },
       {
         "mode_name": "Hard Boiled Mode",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/TTv6jRsvivQ"
       },
       {
         "mode_name": "Clanging Catastrophe",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 40,
         "youtube_link": "https://youtu.be/KysCtS1zToM"
       },
       {
         "mode_name": "False Saviours",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=fauLy65i3w4"
       },
       {
         "mode_name": "Airtime Anarchy",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/s83DJrf9YrU"
       },
       {
         "mode_name": "Night 6",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/SkJqFdK4vBI"
       },
       {
         "mode_name": "Musical Mischief",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/oWPCynjQWj0"
       },
       {
         "mode_name": "7/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/E6YgtuXyQSg"
       },
       {
         "mode_name": "True Nightmare",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 20,
         "youtube_link": "https://youtu.be/7AEujWHqOb4"
       },
       {
         "mode_name": "Shadow Mr. Hugs' Madness All Challenges",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 15,
         "youtube_link": "https://youtu.be/Vj3ZMrfRiX8"
       },
       {
         "mode_name": "Shadow Mr. Hugs' Madness",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/Vj3ZMrfRiX8"
       },
       {
         "mode_name": "All Max",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/nw9qf1_Y2fo"
       },
       {
         "mode_name": "CCTV Night",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 1,
         "youtube_link": "https://youtu.be/nw9qf1_Y2fo"
       },
       {
         "mode_name": "?\u00a3]]\u20ac[\u00a3]",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/tnNfDH4O7sg"
       },
       {
         "mode_name": "Mr. Hugs' Madness",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/Vj3ZMrfRiX8"
       },
       {
         "mode_name": "All Active",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 25,
         "youtube_link": "https://youtu.be/asXCVGGGvB0"
       },
       {
         "mode_name": "Investigation",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 1,
         "youtube_link": "https://youtu.be/LPQGKGOPHMM"
       },
       {
         "mode_name": "10/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 2,
         "youtube_link": "https://youtu.be/l4KRIu7XSWEhttps://youtu.be/l4KRIu7XSWE"
       },
       {
         "mode_name": "the mistery",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/5Zh2HxajR20"
       },
       {
         "mode_name": "I always go back",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/q1-gkcm58oo"
       },
       {
         "mode_name": "GG WINDOGE",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/8wlV9in3Y9s"
       },
       {
         "mode_name": "play the max mode",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/8wlV9in3Y9s"
       },
       {
         "mode_name": "Mr. Active's Calm Adventure",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 1,
         "youtube_link": "https://youtu.be/EUpyUrd9Sa0"
       },
       {
         "mode_name": "One Night at Timmy's",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/QX77FLOly44"
       },
       {
         "mode_name": "Eternal Hell Of Suffering And Torment",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/j3d9F9r9e3M"
       }
     ]
@@ -1046,46 +1256,55 @@
   {
     "id": "596e34c0-c7ba-4fc2-a4ed-a5172240ccfd",
     "name": "HIDK",
-    "total_skill_pt": 82,
+    "total_skill_pt": 81,
+    "total_rng_pt": 640,
     "records": [
       {
         "mode_name": "The Bit",
         "mode_skill_pt": 34,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/PAzjtjvwyB0"
       },
       {
         "mode_name": "Catfight Crashout",
         "mode_skill_pt": 15,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/_j9QlSy_0GI"
       },
       {
         "mode_name": "50/20",
-        "mode_skill_pt": 14,
+        "mode_skill_pt": 13,
+        "mode_rng_pt": 250,
         "youtube_link": "https://youtu.be/mdHPOaiUEqw"
       },
       {
         "mode_name": "Gurtmare",
         "mode_skill_pt": 8,
+        "mode_rng_pt": 75,
         "youtube_link": "https://youtu.be/wNCfGMMd1Ps"
       },
       {
         "mode_name": "Have Fun :)",
         "mode_skill_pt": 7,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/JiuCax4ALs0"
       },
       {
         "mode_name": "FNAF 3 Night 1",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/eA4_yN6HgkI"
       },
       {
         "mode_name": "Crashout",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 15,
         "youtube_link": "https://youtu.be/O3q7YwNCRHo"
       },
       {
         "mode_name": "Eternal Hell Of Suffering And Torment",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/B52gONmJsvY"
       }
     ]
@@ -1094,160 +1313,192 @@
     "id": "716d4061-ef95-4a53-93b4-360d75fd186f",
     "name": "BlazingClemSwi",
     "total_skill_pt": 82,
+    "total_rng_pt": 1280,
     "records": [
       {
         "mode_name": "Silent Hill",
         "mode_skill_pt": 14,
+        "mode_rng_pt": 25,
         "youtube_link": "https://youtu.be/Ni7yKsntxvI"
       },
       {
         "mode_name": "Playing with Fire",
         "mode_skill_pt": 6,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/2W_PFAtEGxM"
       },
       {
         "mode_name": "Monstergami Night OG Laser Pointer",
         "mode_skill_pt": 5,
+        "mode_rng_pt": 80,
         "youtube_link": "https://youtu.be/FHU8C5mliqI"
       },
       {
         "mode_name": "Max Mode",
         "mode_skill_pt": 4,
+        "mode_rng_pt": 25,
         "youtube_link": "https://youtu.be/wVe3BuiNyo8"
       },
       {
         "mode_name": "5/20",
         "mode_skill_pt": 4,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/AomYwBONtf8"
       },
       {
         "mode_name": "Shadow Challenge All Challenges",
         "mode_skill_pt": 3,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/c50112Eudtk"
       },
       {
         "mode_name": "Rabbit Rumble",
         "mode_skill_pt": 3,
+        "mode_rng_pt": 20,
         "youtube_link": "https://youtu.be/R9pnVrOO4co"
       },
       {
         "mode_name": "Musical Mischief All Challenges",
         "mode_skill_pt": 3,
+        "mode_rng_pt": 10,
         "youtube_link": "https://www.youtube.com/watch?v=0-Aibke2UmM&t=3s"
       },
       {
         "mode_name": "Nightmare Mode",
         "mode_skill_pt": 3,
+        "mode_rng_pt": 60,
         "youtube_link": "https://youtu.be/_YCpVJbE1g8"
       },
       {
         "mode_name": "GOLDEN SONIC",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/6f_oJYLXM2A"
       },
       {
         "mode_name": "Clanging Catastrophe",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 40,
         "youtube_link": "https://www.youtube.com/watch?v=v0qSKJlqaTA"
       },
       {
         "mode_name": "Golden Freddy",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/aGMEv0zCK0M"
       },
       {
         "mode_name": "Puppet Master",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 15,
         "youtube_link": "https://youtu.be/_AgQMUjalFw"
       },
       {
         "mode_name": "Monstergami Night",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 70,
         "youtube_link": "https://youtu.be/6njfjWLJ3qg"
       },
       {
         "mode_name": "Plan B",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/dLsRwBBTgS8"
       },
       {
         "mode_name": "Chaos Challenge",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 50,
         "youtube_link": "https://www.youtube.com/watch?v=DBQmau_ud7g"
       },
       {
         "mode_name": "Rat & Cat 20 Mode",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/-Y_3qlUQq9k"
       },
       {
         "mode_name": "Main Cast 20 Mode",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/q0aDwiX4BZI"
       },
       {
         "mode_name": "7/20 Special Mode",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/Gn7dpqM4vVI"
       },
       {
         "mode_name": "Shadow Challenge",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/TEu0LUsZDmg"
       },
       {
         "mode_name": "Double Whammy",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 15,
         "youtube_link": "https://youtu.be/_Pqgi3UjYdE"
       },
       {
         "mode_name": "Max Mode",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/ihrjVKbJJY4"
       },
       {
         "mode_name": "Golden Freddy",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/iP2B59zPLA0"
       },
       {
         "mode_name": "6/20",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/99CD-8Kwrug"
       },
       {
         "mode_name": "Musical Mischief",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://www.youtube.com/watch?v=MbmIH7zuWns"
       },
       {
         "mode_name": "7/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 1,
         "youtube_link": "https://youtu.be/nN_UMvKBOmg"
       },
       {
         "mode_name": "Night Null",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/AebHOESPNP8"
       },
       {
         "mode_name": "Night 8",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 20,
         "youtube_link": "https://youtu.be/6fviFzBMeSA"
       },
       {
         "mode_name": "Hard Mode",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 9,
         "youtube_link": "https://youtu.be/sxAr-nnU2Jg"
       },
       {
         "mode_name": "7/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/nnAE-iXFdpU"
       },
       {
         "mode_name": "4/20 Challenge",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/5vBXQIVRi-A"
       }
     ]
@@ -1256,40 +1507,48 @@
     "id": "e9d97a09-1960-4c84-853a-aa761242b929",
     "name": "DryBones9",
     "total_skill_pt": 7,
+    "total_rng_pt": 29,
     "records": [
       {
         "mode_name": "20/20/20/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/vrp9tWpX9jQ"
       },
       {
         "mode_name": "4/20 v1.0.0",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 16,
         "youtube_link": "https://www.youtube.com/watch?v=-CkpFXnKOOI"
       },
       {
         "mode_name": "10/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 2,
         "youtube_link": "https://www.youtube.com/watch?v=Nm2PEov7rgw"
       },
       {
         "mode_name": "6/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://www.youtube.com/watch?v=-L48VvMtAh0"
       },
       {
         "mode_name": "Mr. Active's Calm Adventure",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 1,
         "youtube_link": "https://www.youtube.com/watch?v=WvBncs6J5Mc"
       },
       {
         "mode_name": "One Night at Timmy's",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://www.youtube.com/watch?v=2Dt86dUeehs"
       },
       {
         "mode_name": "Eternal Hell Of Suffering And Torment",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/WOhQU5agfxM"
       }
     ]
@@ -1298,65 +1557,78 @@
     "id": "e31ed3ca-c766-476a-a573-6a7497c74f92",
     "name": "EclipseVoid",
     "total_skill_pt": 1478,
+    "total_rng_pt": 1660,
     "records": [
       {
         "mode_name": "Funtime Gala Very Hard Mode",
         "mode_skill_pt": 1076,
+        "mode_rng_pt": 200,
         "youtube_link": "https://www.youtube.com/watch?v=xw5VvDOhZc8"
       },
       {
         "mode_name": "Funtime Gala Hard Mode",
         "mode_skill_pt": 150,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=ztDFcYVGj6c"
       },
       {
         "mode_name": "Golden Freddy No Blackouts",
-        "mode_skill_pt": 116,
+        "mode_skill_pt": 117,
+        "mode_rng_pt": 150,
         "youtube_link": "https://www.youtube.com/watch?v=3KCATo2tM7E"
       },
       {
         "mode_name": "Parasitic Pals Aggressive AIs",
         "mode_skill_pt": 87,
+        "mode_rng_pt": 200,
         "youtube_link": "https://www.youtube.com/watch?v=8LTqM-Ikzi0"
       },
       {
         "mode_name": "Super Golden Freddy",
         "mode_skill_pt": 19,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=gz167cNRYcs"
       },
       {
         "mode_name": "50/20",
-        "mode_skill_pt": 14,
+        "mode_skill_pt": 13,
+        "mode_rng_pt": 250,
         "youtube_link": "https://www.youtube.com/watch?v=D_R65bvyVss"
       },
       {
         "mode_name": "Percy's Best Friend Aggressive AIs",
         "mode_skill_pt": 9,
+        "mode_rng_pt": 65,
         "youtube_link": "https://www.youtube.com/watch?v=KfSNFl8stbI"
       },
       {
         "mode_name": "Golden Freddy",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/oSFUvSroakY"
       },
       {
         "mode_name": "Puppets Hell",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 20,
         "youtube_link": "https://www.youtube.com/watch?v=6nJLeGT1MPE"
       },
       {
         "mode_name": "Burning Pizzeria",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 25,
         "youtube_link": "https://www.youtube.com/watch?v=ox9T-H8dNu8"
       },
       {
         "mode_name": "Nightmare Aggressive Only",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 400,
         "youtube_link": "https://youtu.be/VlzotifunsI"
       },
       {
         "mode_name": "4/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/94H30t3-vCE"
       }
     ]
@@ -1364,51 +1636,61 @@
   {
     "id": "94900f02-b1d1-4476-b5c4-e4fca2f2833b",
     "name": "Hidden",
-    "total_skill_pt": 34,
+    "total_skill_pt": 33,
+    "total_rng_pt": 380,
     "records": [
       {
         "mode_name": "Baltimore Front Line",
         "mode_skill_pt": 10,
+        "mode_rng_pt": 55,
         "youtube_link": "https://www.youtube.com/watch?v=sUAIApXOPsk"
       },
       {
         "mode_name": "False Trueskillz Never Clear",
-        "mode_skill_pt": 9,
+        "mode_skill_pt": 8,
+        "mode_rng_pt": 10,
         "youtube_link": "https://www.youtube.com/watch?v=lFkQ3jQXF24"
       },
       {
         "mode_name": "Violet's Walk in the Park",
         "mode_skill_pt": 5,
+        "mode_rng_pt": 75,
         "youtube_link": "https://youtu.be/S7Voy3IeN34"
       },
       {
         "mode_name": "Sticky Situation",
         "mode_skill_pt": 3,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=XuT-t7HHLBo"
       },
       {
         "mode_name": "4/20",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/g9RteigQmVE"
       },
       {
         "mode_name": "Perfect Attendance",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 15,
         "youtube_link": "https://youtu.be/_0fUB87f9Qw"
       },
       {
         "mode_name": "Crashout",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 15,
         "youtube_link": "https://youtu.be/rHCd04B1CZk"
       },
       {
         "mode_name": "5/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://www.youtube.com/watch?v=-n6olA0-TIU"
       },
       {
         "mode_name": "Eternal Hell Of Suffering And Torment",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://www.youtube.com/watch?v=fbpr6facN_E"
       }
     ]
@@ -1417,135 +1699,162 @@
     "id": "6e24f0cb-9f0e-4c40-94e5-06ecaa0fce4b",
     "name": "bruhman64",
     "total_skill_pt": 72,
+    "total_rng_pt": 1675,
     "records": [
       {
         "mode_name": "Airtime Anarchy Forced XOR",
         "mode_skill_pt": 15,
+        "mode_rng_pt": 125,
         "youtube_link": "https://youtu.be/-dYO18enkhg"
       },
       {
         "mode_name": "Bonnet Night",
         "mode_skill_pt": 12,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/jS_Td7iKc40"
       },
       {
         "mode_name": "Diddified Airtime Anarchy",
         "mode_skill_pt": 6,
+        "mode_rng_pt": 200,
         "youtube_link": "https://www.youtube.com/watch?v=HejLAo0Wm_U&list=PLL1FbAAeQyzzO6B7doj2Z7MPqpGK3f3S8&index=1"
       },
       {
         "mode_name": "Candy's Wrath",
         "mode_skill_pt": 4,
+        "mode_rng_pt": 50,
         "youtube_link": "https://www.youtube.com/watch?v=T4vZxhGtQRQ"
       },
       {
         "mode_name": "Rat and Cat All Challenges",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=zWaXlNN34ME"
       },
       {
         "mode_name": "Puppet Master",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 15,
         "youtube_link": "https://youtu.be/1NSGwfQUIlU"
       },
       {
         "mode_name": "Monstergami Night",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 90,
         "youtube_link": "https://www.youtube.com/watch?v=d9npMA1cHts"
       },
       {
         "mode_name": "Monstergami Night",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 70,
         "youtube_link": "https://youtu.be/Po31b_7Wqg8"
       },
       {
         "mode_name": "Perfect Airtime Anarchy",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/SrU8J7uA9tI?list=PLL1FbAAeQyzzO6B7doj2Z7MPqpGK3f3S8"
       },
       {
         "mode_name": "Airtime Anarchy",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/-6jywnZdb_Q"
       },
       {
         "mode_name": "8/20",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=3vhETxkVnnE"
       },
       {
         "mode_name": "TRUE HATRED MODE",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 95,
         "youtube_link": "https://www.youtube.com/watch?v=k7dmd1lSoB4"
       },
       {
         "mode_name": "SML Chaos",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 150,
         "youtube_link": "https://www.youtube.com/watch?v=NMM4eMHxMw8"
       },
       {
         "mode_name": "Steakhouse Burrito",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/9AnVhn2dUoI"
       },
       {
         "mode_name": "Night 20 Solo",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 75,
         "youtube_link": "https://youtu.be/AmU7pAg2_Qk"
       },
       {
         "mode_name": "Perfect Attendance",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 15,
         "youtube_link": "https://youtu.be/-NLtZ2iTnWM"
       },
       {
         "mode_name": "Sigma's Paradise",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/5HlICJhutx4"
       },
       {
         "mode_name": "Hyper RAT Night",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/nvqnEu_Fmlo"
       },
       {
         "mode_name": "True Nightmare",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 20,
         "youtube_link": "https://youtu.be/sTslEEsg8Zw"
       },
       {
         "mode_name": "Bedside Bedlam",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/uFcopPTuCko"
       },
       {
         "mode_name": "Shadow Mr. Hugs' Madness All Challenges",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 15,
         "youtube_link": "https://youtu.be/lOa3i7otZFs"
       },
       {
         "mode_name": "all active",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 35,
         "youtube_link": "https://www.youtube.com/watch?v=xHEjVlS94LU"
       },
       {
         "mode_name": "Shadow Mr. Hugs' Madness",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/HeGeGP1eeZU"
       },
       {
         "mode_name": "4/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/UJjBsJ3PueE"
       },
       {
         "mode_name": "Mr. Hugs' Madness",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/0QeNZwrkU9o"
       },
       {
         "mode_name": "GG WINDOGE",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/yQyHlLEJCEQ"
       }
     ]
@@ -1554,20 +1863,24 @@
     "id": "febeafca-81e7-4db0-bd7b-26fb6d3aa1eb",
     "name": "FM200X",
     "total_skill_pt": 11,
+    "total_rng_pt": 217,
     "records": [
       {
         "mode_name": "Larrymare v1.2.0",
         "mode_skill_pt": 8,
+        "mode_rng_pt": 98,
         "youtube_link": "https://youtu.be/UmiYR3vYeWQ?si=bifeqwhPXxkYHhDN"
       },
       {
         "mode_name": "Perfect Attendance",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 15,
         "youtube_link": "https://youtu.be/sapx1bdaiAg?si=7cMJzJt2kj2yX80d"
       },
       {
         "mode_name": "Catastrophic Poem",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 104,
         "youtube_link": "https://youtu.be/2ja3gwJHa6k?si=xoLTrSlu4chqKm7O"
       }
     ]
@@ -1576,40 +1889,48 @@
     "id": "39de849a-b35d-4bd9-9cf6-bbc4bf2dc178",
     "name": "piselake",
     "total_skill_pt": 665,
+    "total_rng_pt": 800,
     "records": [
       {
         "mode_name": "The Gala Files Hard Mode",
         "mode_skill_pt": 207,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=i7xLnnA_abw&t=78s"
       },
       {
         "mode_name": "Funtime Gala Hard Mode",
         "mode_skill_pt": 150,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/6m29jlPbHY8"
       },
       {
         "mode_name": "The Gala Files",
         "mode_skill_pt": 149,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=i-C6PbYiy_E"
       },
       {
         "mode_name": "Piilo",
-        "mode_skill_pt": 104,
+        "mode_skill_pt": 105,
+        "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=7mH_N0ORWjM"
       },
       {
         "mode_name": "The Bit",
         "mode_skill_pt": 34,
+        "mode_rng_pt": 50,
         "youtube_link": "https://www.youtube.com/watch?v=uwzCCiaFcNo"
       },
       {
         "mode_name": "50/20",
-        "mode_skill_pt": 14,
+        "mode_skill_pt": 13,
+        "mode_rng_pt": 250,
         "youtube_link": "https://www.youtube.com/watch?v=KO1ffDhQIbw"
       },
       {
         "mode_name": "Have Fun :)",
         "mode_skill_pt": 7,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/jRxFBqRCAW4"
       }
     ]
@@ -1618,111 +1939,133 @@
     "id": "5ea16ef8-5e6f-4298-ab47-1f5c592017bf",
     "name": "leonardo da monkey",
     "total_skill_pt": 0,
+    "total_rng_pt": 0,
     "records": []
   },
   {
     "id": "aedf901a-25df-4042-86f6-857e834b2820",
     "name": "Clolemoxeo",
     "total_skill_pt": 22,
+    "total_rng_pt": 1957,
     "records": [
       {
         "mode_name": "Clanging Catastrophe No Shocking Patpat",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 150,
         "youtube_link": "https://www.youtube.com/watch?v=xl1oJ5wP81c"
       },
       {
         "mode_name": "Clanging Catastrophe",
         "mode_skill_pt": 2,
+        "mode_rng_pt": 40,
         "youtube_link": "https://www.youtube.com/watch?v=hv_S6GXxEZo"
       },
       {
         "mode_name": "Musical Mischief",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/yoTUjRVmLBQ?si=CsfEuhZZ442N3O2q"
       },
       {
         "mode_name": "Night Null",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/Q44XbTCav3M?si=ZOkXq49j8z0GA5sr"
       },
       {
         "mode_name": "True Nightmare",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 20,
         "youtube_link": "https://youtu.be/Ya5pYTnghHc"
       },
       {
         "mode_name": "Hard Boiled Mode",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 15,
         "youtube_link": "https://youtu.be/DOa5DJtGSIA?si=mAnIJwSWCIKUyXzC"
       },
       {
         "mode_name": "Balloon Man",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/KTYTky4Tfr8"
       },
       {
         "mode_name": "Shadow Mr. Hugs' Madness",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/eUEF0ccfJf0?si=fPVMdxoy-lWu12yM"
       },
       {
         "mode_name": " Chaos Mode",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/N3ufwfyzrfQ?si=oBFdkazPrGByYdYA"
       },
       {
         "mode_name": "Mr. Hugs' Madness",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 10,
         "youtube_link": "https://youtu.be/tFHFrW41PTw"
       },
       {
         "mode_name": "Secret Night",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 1,
         "youtube_link": "https://youtu.be/f7veJA0v8LY?si=9Di2v9F1o5C3peeX"
       },
       {
         "mode_name": "4/20",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/TJlFrg1JcPA"
       },
       {
         "mode_name": "the mistery",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://www.youtube.com/watch?v=wWc-bwoG4f4"
       },
       {
         "mode_name": "I always go back",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/sXJwpMUXYF0"
       },
       {
         "mode_name": "GG WINDOGE",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/8mJWvTgmhoM?si=NdfP78VFiRWV18wr"
       },
       {
         "mode_name": "play the max mode",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/GT4-UJN05G4?si=j61UfQW3AWK7qHXN"
       },
       {
         "mode_name": "Mr. Active's Calm Adventure",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 1,
         "youtube_link": "https://youtu.be/YZSype8mabw?si=24W1QMf2YHHbHnRI"
       },
       {
         "mode_name": "One Night at Timmy's",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/HuOPybVpa-M?si=16otPm-F-Kkznajx"
       },
       {
         "mode_name": "[REDACTED]",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 1500,
         "youtube_link": "https://youtu.be/Uv7GqSp2zwM"
       },
       {
         "mode_name": "Eternal Hell Of Suffering And Torment",
         "mode_skill_pt": 1,
+        "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/rTQdW6cN2w0?si=W6kdu19OordHrie9"
       }
     ]
