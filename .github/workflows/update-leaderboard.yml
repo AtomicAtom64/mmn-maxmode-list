@@ -19,6 +19,7 @@ jobs:
         uses: actions/setup-python@v6
         with:
           python-version: "3.13"
+          cache: "pip"
         
       - name: Install dependencies
         run: pip install -r requirements.txt
@@ -30,6 +31,6 @@ jobs:
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add .
+          git add resources/
           git diff --quiet || git commit -am "Daily leaderboard update"
           git push
