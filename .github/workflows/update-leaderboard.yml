@@ -1,0 +1,32 @@
+name: Update Leaderboard
+
+on:
+  schedule:
+    - cron: "0 0 * * *"   # every day at 00:00 UTC
+  workflow_dispatch:      # allows manual run
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+
+    steps:
+      - uses: actions/checkout@v3
+
+      - name: Setup Python
+        uses: actions/setup-python@v6
+        with:
+          python-version: "3.13"
+        
+      - name: Install dependencies
+        run: pip install requirements.txt
+
+      - name: Run the script
+        run: cd scripts && python leaderboard.py
+
+      - name: Commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email github-actions@github.com
+          git add .
+          git commit -m "Daily leaderboard update" || echo "No changes"
+          git push
