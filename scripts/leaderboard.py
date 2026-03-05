@@ -1,14 +1,11 @@
 import os
 import time
 from dataclasses import asdict, dataclass
-from dotenv import load_dotenv
 import requests
 import json
 from concurrent.futures import ThreadPoolExecutor
 
-load_dotenv()
-
-CLAN_ID = os.getenv('CLAN_ID')
+CLAN_ID = "1a68233f-ae59-431b-ba1b-e458b548acfa"
 
 members = []
 
