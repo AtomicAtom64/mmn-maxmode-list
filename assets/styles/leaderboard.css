@@ -1,8 +1,28 @@
+body {
+    padding-top: 100px;
+}
+
 .profile {
-    display: flex;
     align-items: center;
     gap: 15px;
     width: 50px;
     height: 50px;
     object-fit: cover;
+    flex-shrink: 0;
+}
+
+.player-info {
+    min-width: 0; /* VERY important for text truncation in flex */
+    flex: 1;
+}
+
+.hardest {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.index {
+    width: 30px;
 }
