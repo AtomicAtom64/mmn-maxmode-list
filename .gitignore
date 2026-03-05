@@ -3,3 +3,9 @@ fiveserver.config.js
 scripts/credentials.json
 scripts/token.json
 *.pyc
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+!.env.example
