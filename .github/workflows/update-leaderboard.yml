@@ -3,7 +3,10 @@ name: Update Leaderboard
 on:
   schedule:
     - cron: "0 0 * * *"   # every day at 00:00 UTC
-  workflow_dispatch:      # allows manual run
+  workflow_dispatch:  
+
+permissions:
+  contents: write
 
 jobs:
   update:
@@ -28,5 +31,5 @@ jobs:
           git config user.name github-actions
           git config user.email github-actions@github.com
           git add .
-          git commit -m "Daily leaderboard update" || echo "No changes"
+          git diff --quiet || git commit -am "Daily leaderboard update"
           git push
