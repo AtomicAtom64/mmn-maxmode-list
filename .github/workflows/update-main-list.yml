@@ -35,5 +35,5 @@ jobs:
             git config user.name github-actions
             git config user.email github-actions@github.com
             git add resources/
-            git diff --quiet || git commit -m "Weekly main list update"
+            git commit -m "Weekly main list update" || echo "No changes"
             git push
