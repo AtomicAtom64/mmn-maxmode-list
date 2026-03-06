@@ -1,4 +1,4 @@
-name: Update Main List
+name: Update SL List
 
 on:
   schedule:
