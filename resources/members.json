@@ -2,7 +2,7 @@
   {
     "id": "b0a33675-9b73-40cc-b84b-55af8f5d0bc5",
     "name": "Unreal",
-    "total_skill_pt": 2810,
+    "total_skill_pt": 2812,
     "total_rng_pt": 2120,
     "records": [
       {
@@ -13,19 +13,19 @@
       },
       {
         "mode_name": "50/20 Deluxe",
-        "mode_skill_pt": 461,
+        "mode_skill_pt": 462,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/lAAnrxkAMv4"
       },
       {
         "mode_name": "Hyper Golden Freddy",
-        "mode_skill_pt": 413,
+        "mode_skill_pt": 414,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/C1iZABp26Y0"
       },
       {
         "mode_name": "Puppet Master All Challenges OG Laser Pointer",
-        "mode_skill_pt": 401,
+        "mode_skill_pt": 402,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/agS7Wk8qTmI"
       },
@@ -61,7 +61,7 @@
       },
       {
         "mode_name": "50/20",
-        "mode_skill_pt": 14,
+        "mode_skill_pt": 13,
         "mode_rng_pt": 250,
         "youtube_link": "https://youtu.be/9Ed5uoZmDx8"
       },
@@ -154,30 +154,30 @@
   {
     "id": "60f24eea-0dc0-4c12-a3a1-4b2a696e2968",
     "name": "TheSnowan",
-    "total_skill_pt": 4128,
-    "total_rng_pt": 6118,
+    "total_skill_pt": 4156,
+    "total_rng_pt": 6218,
     "records": [
       {
         "mode_name": "50/20 VR (Non VR)",
-        "mode_skill_pt": 1256,
+        "mode_skill_pt": 1257,
         "mode_rng_pt": 1100,
         "youtube_link": "https://youtu.be/CbhNAJiR4fQ?si=9w6jX51Lxkp7rFBp"
       },
       {
         "mode_name": "Bonus Mode",
-        "mode_skill_pt": 857,
+        "mode_skill_pt": 858,
         "mode_rng_pt": 300,
         "youtube_link": "https://youtu.be/4U-N4eHZk3E?si=0W3Uj31-N8mKzTUQ"
       },
       {
         "mode_name": "14/20 Ultimate Fazbear",
-        "mode_skill_pt": 451,
+        "mode_skill_pt": 452,
         "mode_rng_pt": 300,
         "youtube_link": "https://youtu.be/HUsgam6w6DE?si=bRGqRdMYYa_FJOMg"
       },
       {
         "mode_name": "20/20 No Power Ups",
-        "mode_skill_pt": 387,
+        "mode_skill_pt": 388,
         "mode_rng_pt": 400,
         "youtube_link": "https://youtu.be/qg50SdTV030?si=eBIQpP_XspHQPSpm"
       },
@@ -260,6 +260,12 @@
         "youtube_link": "https://www.youtube.com/watch?v=ec8TVVI8EuY"
       },
       {
+        "mode_name": "Flamewall",
+        "mode_skill_pt": 25,
+        "mode_rng_pt": 100,
+        "youtube_link": "https://www.youtube.com/watch?v=DmxMmIXaxy0"
+      },
+      {
         "mode_name": "\u041a\u0438\u0440\u0434\u044b\u043a \u0440\u0435\u0436\u0438\u043c",
         "mode_skill_pt": 25,
         "mode_rng_pt": 150,
@@ -273,7 +279,7 @@
       },
       {
         "mode_name": "50/20",
-        "mode_skill_pt": 14,
+        "mode_skill_pt": 13,
         "mode_rng_pt": 250,
         "youtube_link": "https://youtu.be/a0or1VwkMz8?si=qw9WbbQOjuWLgtkJ"
       },
@@ -386,12 +392,12 @@
   {
     "id": "c6d7a2cd-a5d8-4703-895a-9e8900b0f520",
     "name": "AtomicAtom",
-    "total_skill_pt": 380,
+    "total_skill_pt": 381,
     "total_rng_pt": 845,
     "records": [
       {
         "mode_name": "Hyper Catfight Crashout",
-        "mode_skill_pt": 300,
+        "mode_skill_pt": 301,
         "mode_rng_pt": 150,
         "youtube_link": "https://www.youtube.com/watch?v=ENNZDaN08lw"
       },
@@ -478,18 +484,18 @@
   {
     "id": "afbd03b6-8f0d-4f66-bfd6-e7a1af80a334",
     "name": "Aleks",
-    "total_skill_pt": 5389,
-    "total_rng_pt": 2010,
+    "total_skill_pt": 5428,
+    "total_rng_pt": 2060,
     "records": [
       {
         "mode_name": "Maanantai",
-        "mode_skill_pt": 1190,
+        "mode_skill_pt": 1191,
         "mode_rng_pt": 150,
         "youtube_link": "https://youtu.be/xmQ8G9HKJOI?si=FcwywAdINP-Zrh_x"
       },
       {
         "mode_name": "Funtime Gala Very Hard Mode",
-        "mode_skill_pt": 1077,
+        "mode_skill_pt": 1078,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/dWoHPhuJ9hw?si=Sn_7La7StDeIzk2B"
       },
@@ -501,13 +507,13 @@
       },
       {
         "mode_name": "Hyper Golden Freddy 25 AI",
-        "mode_skill_pt": 523,
+        "mode_skill_pt": 524,
         "mode_rng_pt": 250,
         "youtube_link": "https://youtu.be/lDjmdyX3ab4?si=AP9PCYg-IuCceur5"
       },
       {
         "mode_name": "Hyper Golden Freddy",
-        "mode_skill_pt": 413,
+        "mode_skill_pt": 414,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/OfuJHhkA6W8?si=2t1-FkV0qShNvw9C"
       },
@@ -519,7 +525,7 @@
       },
       {
         "mode_name": "The Challenging Addiction v1.2.0",
-        "mode_skill_pt": 311,
+        "mode_skill_pt": 312,
         "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/boXdli7KQe8?si=m0dHGZy23Qpf9lRJ"
       },
@@ -564,6 +570,12 @@
         "mode_skill_pt": 66,
         "mode_rng_pt": 150,
         "youtube_link": "https://youtu.be/f8VALIPFQHw?si=GyRpip_wV9Wclgmc"
+      },
+      {
+        "mode_name": "The Bit",
+        "mode_skill_pt": 34,
+        "mode_rng_pt": 50,
+        "youtube_link": "https://youtu.be/42LEYsLgUgM?si=Iqa2DaWCWROv-AyR"
       },
       {
         "mode_name": "Super Golden Freddy v1.0.0",
@@ -662,12 +674,12 @@
   {
     "id": "3bee619d-9bd0-4d6f-9217-8c92abdbd390",
     "name": "Mac Izner",
-    "total_skill_pt": 27,
+    "total_skill_pt": 26,
     "total_rng_pt": 719,
     "records": [
       {
         "mode_name": "50/20",
-        "mode_skill_pt": 14,
+        "mode_skill_pt": 13,
         "mode_rng_pt": 250,
         "youtube_link": "https://youtu.be/ALP4QHTHxIM?si=mTHKjMMVuXMhffJS"
       },
@@ -724,9 +736,15 @@
   {
     "id": "e714e244-b2cc-4dcb-bb12-a6317e37b5cf",
     "name": "nobility_",
-    "total_skill_pt": 1471,
+    "total_skill_pt": 2272,
     "total_rng_pt": 1986,
     "records": [
+      {
+        "mode_name": "SCHIZOPHRENIA",
+        "mode_skill_pt": 801,
+        "mode_rng_pt": 0,
+        "youtube_link": "https://youtu.be/4HJieuScXeE"
+      },
       {
         "mode_name": "35/25",
         "mode_skill_pt": 465,
@@ -741,7 +759,7 @@
       },
       {
         "mode_name": "The Challenging Addiction v1.2.0",
-        "mode_skill_pt": 311,
+        "mode_skill_pt": 312,
         "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/ryRBJGFqQss"
       },
@@ -759,7 +777,7 @@
       },
       {
         "mode_name": "50/20",
-        "mode_skill_pt": 14,
+        "mode_skill_pt": 13,
         "mode_rng_pt": 250,
         "youtube_link": "https://youtu.be/dDwjimeF7-4"
       },
@@ -906,8 +924,8 @@
   {
     "id": "f0b48997-2ebf-43a6-ba70-8e1692456e46",
     "name": "EdgeLord",
-    "total_skill_pt": 2275,
-    "total_rng_pt": 1652,
+    "total_skill_pt": 2326,
+    "total_rng_pt": 1952,
     "records": [
       {
         "mode_name": "50/20 Deluxe No Death Coin",
@@ -923,7 +941,7 @@
       },
       {
         "mode_name": "50/20 Deluxe",
-        "mode_skill_pt": 461,
+        "mode_skill_pt": 462,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/ofEH3cf-Mzk?si=wyRv1tXe8UGwCF9t"
       },
@@ -952,6 +970,12 @@
         "youtube_link": "https://youtu.be/FYQ4bNWQRKs?si=whKKRcajRXH4xWzK"
       },
       {
+        "mode_name": "Perpetual Ten",
+        "mode_skill_pt": 35,
+        "mode_rng_pt": 100,
+        "youtube_link": "https://youtu.be/YqjQQCYNL9Y"
+      },
+      {
         "mode_name": "Thunder's Wrath",
         "mode_skill_pt": 35,
         "mode_rng_pt": 92,
@@ -968,6 +992,12 @@
         "mode_skill_pt": 15,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/2JzyCTAp_Hk?si=wzSMpz4EPnnb7GnI"
+      },
+      {
+        "mode_name": "Hopeless Ten",
+        "mode_skill_pt": 15,
+        "mode_rng_pt": 200,
+        "youtube_link": "https://youtu.be/YqjQQCYNL9Y?si=u9Qn282bZqros7gQ"
       },
       {
         "mode_name": "Ringing Nightmare Faulty Equipment",
@@ -1256,7 +1286,7 @@
   {
     "id": "596e34c0-c7ba-4fc2-a4ed-a5172240ccfd",
     "name": "HIDK",
-    "total_skill_pt": 82,
+    "total_skill_pt": 81,
     "total_rng_pt": 640,
     "records": [
       {
@@ -1273,7 +1303,7 @@
       },
       {
         "mode_name": "50/20",
-        "mode_skill_pt": 14,
+        "mode_skill_pt": 13,
         "mode_rng_pt": 250,
         "youtube_link": "https://youtu.be/mdHPOaiUEqw"
       },
@@ -1312,14 +1342,20 @@
   {
     "id": "716d4061-ef95-4a53-93b4-360d75fd186f",
     "name": "BlazingClemSwi",
-    "total_skill_pt": 83,
-    "total_rng_pt": 1280,
+    "total_skill_pt": 88,
+    "total_rng_pt": 1305,
     "records": [
       {
         "mode_name": "Silent Hill",
         "mode_skill_pt": 14,
         "mode_rng_pt": 25,
         "youtube_link": "https://youtu.be/Ni7yKsntxvI"
+      },
+      {
+        "mode_name": "Max Mode All Modifiers",
+        "mode_skill_pt": 6,
+        "mode_rng_pt": 25,
+        "youtube_link": "https://youtu.be/VcHWr5qR0fk"
       },
       {
         "mode_name": "Playing with Fire",
@@ -1335,7 +1371,7 @@
       },
       {
         "mode_name": "Max Mode",
-        "mode_skill_pt": 5,
+        "mode_skill_pt": 4,
         "mode_rng_pt": 25,
         "youtube_link": "https://youtu.be/wVe3BuiNyo8"
       },
@@ -1561,7 +1597,7 @@
     "records": [
       {
         "mode_name": "Funtime Gala Very Hard Mode",
-        "mode_skill_pt": 1077,
+        "mode_skill_pt": 1078,
         "mode_rng_pt": 200,
         "youtube_link": "https://www.youtube.com/watch?v=xw5VvDOhZc8"
       },
@@ -1591,7 +1627,7 @@
       },
       {
         "mode_name": "50/20",
-        "mode_skill_pt": 14,
+        "mode_skill_pt": 13,
         "mode_rng_pt": 250,
         "youtube_link": "https://www.youtube.com/watch?v=D_R65bvyVss"
       },
@@ -1636,8 +1672,8 @@
   {
     "id": "94900f02-b1d1-4476-b5c4-e4fca2f2833b",
     "name": "Hidden",
-    "total_skill_pt": 33,
-    "total_rng_pt": 380,
+    "total_skill_pt": 31,
+    "total_rng_pt": 400,
     "records": [
       {
         "mode_name": "Baltimore Front Line",
@@ -1647,8 +1683,8 @@
       },
       {
         "mode_name": "False Trueskillz Never Clear",
-        "mode_skill_pt": 8,
-        "mode_rng_pt": 10,
+        "mode_skill_pt": 6,
+        "mode_rng_pt": 30,
         "youtube_link": "https://www.youtube.com/watch?v=lFkQ3jQXF24"
       },
       {
@@ -1888,7 +1924,7 @@
   {
     "id": "39de849a-b35d-4bd9-9cf6-bbc4bf2dc178",
     "name": "piselake",
-    "total_skill_pt": 669,
+    "total_skill_pt": 668,
     "total_rng_pt": 800,
     "records": [
       {
@@ -1923,7 +1959,7 @@
       },
       {
         "mode_name": "50/20",
-        "mode_skill_pt": 14,
+        "mode_skill_pt": 13,
         "mode_rng_pt": 250,
         "youtube_link": "https://www.youtube.com/watch?v=KO1ffDhQIbw"
       },
