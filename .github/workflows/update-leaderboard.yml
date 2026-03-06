@@ -27,10 +27,15 @@ jobs:
       - name: Run the script
         run:  python scripts/leaderboard.py
 
+      - name: Show diff
+        run: |
+          git status
+          git diff
+
       - name: Commit changes
         run: |
           git config user.name github-actions
           git config user.email github-actions@github.com
-          git add resources/
-          git diff --quiet || git commit -am "Daily leaderboard update"
+          git add resources
+          git commit -m "Update leaderboard" || echo "No changes"
           git push
