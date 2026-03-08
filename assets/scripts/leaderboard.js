@@ -3,7 +3,8 @@ const failedAvatars = new Set();
 const scoring = {
     "OG": m => m.computedSkill,
     "100/0": m => m.total_skill_pt,
-    "90/10": m => m.total_skill_pt * 0.9 + m.total_rng_pt * 0.1
+    "90/10": m => m.total_skill_pt * 0.9 + m.total_rng_pt * 0.1,
+    "Modes": m => m.records.length
 };
 
 fetch("../resources/members.json")
@@ -12,7 +13,7 @@ fetch("../resources/members.json")
 
         members = data.map(m => ({
             ...m,
-            computedSkill: getRecords(m.records)
+            computedSkill: getRecords(m.records),
         }));
 
         members.sort((a, b) => b.computedSkill - a.computedSkill);
@@ -50,7 +51,14 @@ function displayLeaderboard(members, type) {
                     ${m.total_skill_pt} Pts
                 </div>
             `;
-        } else {
+        } else if(type === "Modes") {
+            scoreText = `
+                <div class="fw-bold text-primary fs-5">
+                    ${m.records.length} Modes
+                </div>
+            `;
+        }
+        else {
             scoreText = `
                 <div class="fw-bold text-primary fs-5">
                     ${m.computedSkill} Pts
