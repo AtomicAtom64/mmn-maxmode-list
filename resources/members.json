@@ -7,13 +7,13 @@
     "records": [
       {
         "mode_name": "50/20 Deluxe No Death Coin",
-        "mode_skill_pt": 832,
+        "mode_skill_pt": 833,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/b30YKngXAmk"
       },
       {
         "mode_name": "50/20 Deluxe",
-        "mode_skill_pt": 436,
+        "mode_skill_pt": 437,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/lAAnrxkAMv4"
       },
@@ -37,13 +37,13 @@
       },
       {
         "mode_name": "35/20",
-        "mode_skill_pt": 189,
+        "mode_skill_pt": 188,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/JNfi7Zgrh9c"
       },
       {
         "mode_name": "Puppet Master All Challenges",
-        "mode_skill_pt": 67,
+        "mode_skill_pt": 66,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/OcNhkHUdrKg?si=UaEBri0rPyKKzggM"
       },
@@ -154,18 +154,18 @@
   {
     "id": "60f24eea-0dc0-4c12-a3a1-4b2a696e2968",
     "name": "TheSnowan",
-    "total_skill_pt": 4164,
+    "total_skill_pt": 4166,
     "total_rng_pt": 6218,
     "records": [
       {
         "mode_name": "50/20 VR (Non VR)",
-        "mode_skill_pt": 1438,
+        "mode_skill_pt": 1439,
         "mode_rng_pt": 1100,
         "youtube_link": "https://youtu.be/CbhNAJiR4fQ?si=9w6jX51Lxkp7rFBp"
       },
       {
         "mode_name": "Bonus Mode",
-        "mode_skill_pt": 826,
+        "mode_skill_pt": 827,
         "mode_rng_pt": 300,
         "youtube_link": "https://youtu.be/4U-N4eHZk3E?si=0W3Uj31-N8mKzTUQ"
       },
@@ -177,13 +177,13 @@
       },
       {
         "mode_name": "20/20 No Power Ups",
-        "mode_skill_pt": 356,
+        "mode_skill_pt": 357,
         "mode_rng_pt": 400,
         "youtube_link": "https://youtu.be/qg50SdTV030?si=eBIQpP_XspHQPSpm"
       },
       {
         "mode_name": "14/20 Mode",
-        "mode_skill_pt": 236,
+        "mode_skill_pt": 237,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/NXKMKyhhYRs?si=H_NxbzZj30aF81kU"
       },
@@ -195,7 +195,7 @@
       },
       {
         "mode_name": "Hotel Hell",
-        "mode_skill_pt": 167,
+        "mode_skill_pt": 166,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/u1IsLlUQxMo?si=4R-IYyab3IejtP2t"
       },
@@ -207,7 +207,7 @@
       },
       {
         "mode_name": "Puppet Master All Challenges",
-        "mode_skill_pt": 67,
+        "mode_skill_pt": 66,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/nwFn-TLj1O4?si=1e6Y3VTEEUq46wX9"
       },
@@ -342,7 +342,7 @@
   {
     "id": "eff4e779-c7d4-48dc-abf4-0614c1489185",
     "name": "FilipiKacper",
-    "total_skill_pt": 205,
+    "total_skill_pt": 204,
     "total_rng_pt": 700,
     "records": [
       {
@@ -359,7 +359,7 @@
       },
       {
         "mode_name": "True Showdown Ultimatum ",
-        "mode_skill_pt": 40,
+        "mode_skill_pt": 39,
         "mode_rng_pt": 50,
         "youtube_link": "https://www.youtube.com/watch?v=acn1G3QdwwE"
       },
@@ -502,18 +502,24 @@
   {
     "id": "afbd03b6-8f0d-4f66-bfd6-e7a1af80a334",
     "name": "Aleks",
-    "total_skill_pt": 7265,
-    "total_rng_pt": 2060,
+    "total_skill_pt": 8604,
+    "total_rng_pt": 2260,
     "records": [
       {
+        "mode_name": "Perfect Golden Freddy",
+        "mode_skill_pt": 1337,
+        "mode_rng_pt": 200,
+        "youtube_link": "https://youtu.be/R3vCshOEHqU?si=FV4ieAcNL4cf91Sj"
+      },
+      {
         "mode_name": "The Challenging Addiction No Power Generator No Deactivating Tools 1.2.0",
-        "mode_skill_pt": 1049,
+        "mode_skill_pt": 1050,
         "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/6pKkqRiO7tk?si=v0f51tEkTJthFF7B"
       },
       {
         "mode_name": "Funtime Gala Very Hard Mode",
-        "mode_skill_pt": 1026,
+        "mode_skill_pt": 1027,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/dWoHPhuJ9hw?si=Sn_7La7StDeIzk2B"
       },
@@ -525,19 +531,19 @@
       },
       {
         "mode_name": "The Challenging Addiction No Power Generator No Deactivating Tools",
-        "mode_skill_pt": 774,
+        "mode_skill_pt": 775,
         "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/VHjASC1OoE0?si=N5LwijuIx8n6AQ__"
       },
       {
         "mode_name": "Maanantai",
-        "mode_skill_pt": 690,
+        "mode_skill_pt": 691,
         "mode_rng_pt": 150,
         "youtube_link": "https://youtu.be/xmQ8G9HKJOI?si=FcwywAdINP-Zrh_x"
       },
       {
         "mode_name": "Hyper Golden Freddy All Challenges",
-        "mode_skill_pt": 498,
+        "mode_skill_pt": 499,
         "mode_rng_pt": 110,
         "youtube_link": "https://youtu.be/SueYkSkC9t4?si=rJL7WjW7Nq3Nsx9B"
       },
@@ -573,19 +579,19 @@
       },
       {
         "mode_name": "TOP1MAXMODE Hard Mode",
-        "mode_skill_pt": 140,
+        "mode_skill_pt": 139,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/dojGYjCUgWI?si=cYTZWC1A_d1O-BYl"
       },
       {
         "mode_name": "Funtime Gala Hard Mode",
-        "mode_skill_pt": 138,
+        "mode_skill_pt": 137,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/AQDRaO_hSJQ?si=ihkZuyp0bkYJSLsh"
       },
       {
         "mode_name": "The Gala Files",
-        "mode_skill_pt": 137,
+        "mode_skill_pt": 136,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/YGjFHfJlXXw?si=np9Rez8q10ntoTbu"
       },
@@ -783,13 +789,13 @@
     "records": [
       {
         "mode_name": "HYPOXIA",
-        "mode_skill_pt": 1057,
+        "mode_skill_pt": 1058,
         "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/Fjem5jVKagE"
       },
       {
         "mode_name": "Schizophrenia No Power Generator No Deactivating Tools",
-        "mode_skill_pt": 791,
+        "mode_skill_pt": 792,
         "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/KtHhPQ7h11A"
       },
@@ -801,7 +807,7 @@
       },
       {
         "mode_name": "35/25",
-        "mode_skill_pt": 439,
+        "mode_skill_pt": 440,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/427suUux_GQ"
       },
@@ -819,19 +825,19 @@
       },
       {
         "mode_name": "35/20",
-        "mode_skill_pt": 189,
+        "mode_skill_pt": 188,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/U3SWM8G-4nk"
       },
       {
         "mode_name": "Blood 7/20 v2.2.1",
-        "mode_skill_pt": 94,
+        "mode_skill_pt": 93,
         "mode_rng_pt": 150,
         "youtube_link": "https://youtu.be/vPL2_Z6rE9M"
       },
       {
         "mode_name": "GLUE IN YOUR VEINS",
-        "mode_skill_pt": 14,
+        "mode_skill_pt": 13,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/9tXjBKI40GE"
       },
@@ -1037,25 +1043,25 @@
     "records": [
       {
         "mode_name": "50/20 Deluxe No Death Coin",
-        "mode_skill_pt": 832,
+        "mode_skill_pt": 833,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/ofEH3cf-Mzk?si=wyRv1tXe8UGwCF9t"
       },
       {
         "mode_name": "35/25",
-        "mode_skill_pt": 439,
+        "mode_skill_pt": 440,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/ujK4iSu2eBA?si=v5Irf8mmZKFemcYA"
       },
       {
         "mode_name": "50/20 Deluxe",
-        "mode_skill_pt": 436,
+        "mode_skill_pt": 437,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/ofEH3cf-Mzk?si=wyRv1tXe8UGwCF9t"
       },
       {
         "mode_name": "35/20",
-        "mode_skill_pt": 189,
+        "mode_skill_pt": 188,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/amyihSM1cf4?si=KZpu3RpJzPOW0waK"
       },
@@ -1067,13 +1073,13 @@
       },
       {
         "mode_name": "Blood 7/20 v2.2.1",
-        "mode_skill_pt": 94,
+        "mode_skill_pt": 93,
         "mode_rng_pt": 150,
         "youtube_link": "https://youtu.be/4WTVOQDo7mo?si=QtzPVN-KMeGnB_Ha"
       },
       {
         "mode_name": "True Showdown Ultimatum ",
-        "mode_skill_pt": 40,
+        "mode_skill_pt": 39,
         "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/DFHa6Tr4Qy4"
       },
@@ -1712,30 +1718,30 @@
   {
     "id": "e31ed3ca-c766-476a-a573-6a7497c74f92",
     "name": "EclipseVoid",
-    "total_skill_pt": 1398,
+    "total_skill_pt": 1396,
     "total_rng_pt": 1660,
     "records": [
       {
         "mode_name": "Funtime Gala Very Hard Mode",
-        "mode_skill_pt": 1026,
+        "mode_skill_pt": 1027,
         "mode_rng_pt": 200,
         "youtube_link": "https://www.youtube.com/watch?v=xw5VvDOhZc8"
       },
       {
         "mode_name": "Funtime Gala Hard Mode",
-        "mode_skill_pt": 138,
+        "mode_skill_pt": 137,
         "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=ztDFcYVGj6c"
       },
       {
         "mode_name": "Golden Freddy No Blackouts",
-        "mode_skill_pt": 106,
+        "mode_skill_pt": 105,
         "mode_rng_pt": 150,
         "youtube_link": "https://www.youtube.com/watch?v=3KCATo2tM7E"
       },
       {
         "mode_name": "Parasitic Pals Aggressive AIs",
-        "mode_skill_pt": 80,
+        "mode_skill_pt": 79,
         "mode_rng_pt": 200,
         "youtube_link": "https://www.youtube.com/watch?v=8LTqM-Ikzi0"
       },
@@ -1792,8 +1798,8 @@
   {
     "id": "6e24f0cb-9f0e-4c40-94e5-06ecaa0fce4b",
     "name": "bruhman64",
-    "total_skill_pt": 133,
-    "total_rng_pt": 2025,
+    "total_skill_pt": 138,
+    "total_rng_pt": 2140,
     "records": [
       {
         "mode_name": "My Challenge For Costume's Congregation",
@@ -1836,6 +1842,12 @@
         "mode_skill_pt": 4,
         "mode_rng_pt": 50,
         "youtube_link": "https://www.youtube.com/watch?v=T4vZxhGtQRQ"
+      },
+      {
+        "mode_name": "Sticky Situation",
+        "mode_skill_pt": 3,
+        "mode_rng_pt": 100,
+        "youtube_link": "https://www.youtube.com/watch?v=4ZpEWzIIbXc"
       },
       {
         "mode_name": "FNAF 3 Night 1",
@@ -1916,6 +1928,12 @@
         "youtube_link": "https://youtu.be/eAON5clD9G0"
       },
       {
+        "mode_name": "Double Whammy",
+        "mode_skill_pt": 2,
+        "mode_rng_pt": 15,
+        "youtube_link": "https://youtu.be/5pnwt7Dgvh4"
+      },
+      {
         "mode_name": "Perfect Attendance",
         "mode_skill_pt": 2,
         "mode_rng_pt": 15,
@@ -1986,14 +2004,20 @@
   {
     "id": "febeafca-81e7-4db0-bd7b-26fb6d3aa1eb",
     "name": "FM200X",
-    "total_skill_pt": 11,
-    "total_rng_pt": 217,
+    "total_skill_pt": 15,
+    "total_rng_pt": 317,
     "records": [
       {
         "mode_name": "Larrymare v1.2.0",
         "mode_skill_pt": 8,
         "mode_rng_pt": 98,
         "youtube_link": "https://youtu.be/UmiYR3vYeWQ?si=bifeqwhPXxkYHhDN"
+      },
+      {
+        "mode_name": "Hardest Fun Fun Fun Dayo",
+        "mode_skill_pt": 4,
+        "mode_rng_pt": 100,
+        "youtube_link": "https://youtu.be/UGAUO2KsgI8?si=pXzxEuH18-C0sFsQ"
       },
       {
         "mode_name": "Perfect Attendance",
@@ -2012,12 +2036,12 @@
   {
     "id": "39de849a-b35d-4bd9-9cf6-bbc4bf2dc178",
     "name": "piselake",
-    "total_skill_pt": 1376,
+    "total_skill_pt": 1375,
     "total_rng_pt": 1092,
     "records": [
       {
         "mode_name": "Eternal Pizza Man",
-        "mode_skill_pt": 710,
+        "mode_skill_pt": 711,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/D6zjAua5ogs"
       },
@@ -2029,13 +2053,13 @@
       },
       {
         "mode_name": "Funtime Gala Hard Mode",
-        "mode_skill_pt": 138,
+        "mode_skill_pt": 137,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/6m29jlPbHY8"
       },
       {
         "mode_name": "The Gala Files",
-        "mode_skill_pt": 137,
+        "mode_skill_pt": 136,
         "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=i-C6PbYiy_E"
       },
@@ -2334,12 +2358,12 @@
   {
     "id": "64cdf0a4-0a5b-4199-a081-96cdf43b310c",
     "name": "proatfnaf",
-    "total_skill_pt": 165,
+    "total_skill_pt": 164,
     "total_rng_pt": 450,
     "records": [
       {
         "mode_name": "The Gala Files",
-        "mode_skill_pt": 137,
+        "mode_skill_pt": 136,
         "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=t_6C7rARuRM"
       },
