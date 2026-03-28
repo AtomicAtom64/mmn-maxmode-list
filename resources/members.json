@@ -660,7 +660,7 @@
   {
     "id": "ba9edb5a-8cb4-4939-a851-2c42393af47f",
     "name": "Monocled",
-    "total_skill_pt": 69,
+    "total_skill_pt": 68,
     "total_rng_pt": 860,
     "records": [
       {
@@ -671,7 +671,7 @@
       },
       {
         "mode_name": "The Closing Act",
-        "mode_skill_pt": 14,
+        "mode_skill_pt": 13,
         "mode_rng_pt": 150,
         "youtube_link": "https://www.youtube.com/watch?v=o8nB4wtTUXs"
       },
@@ -1448,7 +1448,7 @@
   {
     "id": "596e34c0-c7ba-4fc2-a4ed-a5172240ccfd",
     "name": "HIDK",
-    "total_skill_pt": 80,
+    "total_skill_pt": 79,
     "total_rng_pt": 640,
     "records": [
       {
@@ -1471,7 +1471,7 @@
       },
       {
         "mode_name": "Gurtmare",
-        "mode_skill_pt": 8,
+        "mode_skill_pt": 7,
         "mode_rng_pt": 75,
         "youtube_link": "https://youtu.be/wNCfGMMd1Ps"
       },
