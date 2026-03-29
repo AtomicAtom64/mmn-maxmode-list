@@ -2,12 +2,12 @@
   {
     "id": "b0a33675-9b73-40cc-b84b-55af8f5d0bc5",
     "name": "Unreal",
-    "total_skill_pt": 2658,
+    "total_skill_pt": 2655,
     "total_rng_pt": 2120,
     "records": [
       {
         "mode_name": "50/20 Deluxe No Death Coin",
-        "mode_skill_pt": 834,
+        "mode_skill_pt": 831,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/b30YKngXAmk"
       },
@@ -25,7 +25,7 @@
       },
       {
         "mode_name": "Puppet Master All Challenges OG Laser Pointer",
-        "mode_skill_pt": 372,
+        "mode_skill_pt": 373,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/agS7Wk8qTmI"
       },
@@ -37,19 +37,19 @@
       },
       {
         "mode_name": "35/20",
-        "mode_skill_pt": 190,
+        "mode_skill_pt": 191,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/JNfi7Zgrh9c"
       },
       {
         "mode_name": "Puppet Master All Challenges",
-        "mode_skill_pt": 67,
+        "mode_skill_pt": 66,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/OcNhkHUdrKg?si=UaEBri0rPyKKzggM"
       },
       {
         "mode_name": "Rat & Cat All Challenges ",
-        "mode_skill_pt": 62,
+        "mode_skill_pt": 61,
         "mode_rng_pt": 150,
         "youtube_link": "https://youtu.be/-xE4uWlONQQ?si=LW9UYj9qdUpJXc3l"
       },
@@ -154,30 +154,30 @@
   {
     "id": "60f24eea-0dc0-4c12-a3a1-4b2a696e2968",
     "name": "TheSnowan",
-    "total_skill_pt": 4468,
+    "total_skill_pt": 4470,
     "total_rng_pt": 6218,
     "records": [
       {
         "mode_name": "50/20 VR (Non VR)",
-        "mode_skill_pt": 1423,
+        "mode_skill_pt": 1421,
         "mode_rng_pt": 1100,
         "youtube_link": "https://youtu.be/CbhNAJiR4fQ?si=9w6jX51Lxkp7rFBp"
       },
       {
         "mode_name": "Bonus Mode",
-        "mode_skill_pt": 988,
+        "mode_skill_pt": 990,
         "mode_rng_pt": 300,
         "youtube_link": "https://youtu.be/4U-N4eHZk3E?si=0W3Uj31-N8mKzTUQ"
       },
       {
         "mode_name": "14/20 Ultimate Fazbear",
-        "mode_skill_pt": 429,
+        "mode_skill_pt": 430,
         "mode_rng_pt": 300,
         "youtube_link": "https://youtu.be/HUsgam6w6DE?si=bRGqRdMYYa_FJOMg"
       },
       {
         "mode_name": "20/20 No Power Ups",
-        "mode_skill_pt": 360,
+        "mode_skill_pt": 361,
         "mode_rng_pt": 400,
         "youtube_link": "https://youtu.be/qg50SdTV030?si=eBIQpP_XspHQPSpm"
       },
@@ -201,13 +201,13 @@
       },
       {
         "mode_name": "Seplophobia",
-        "mode_skill_pt": 89,
+        "mode_skill_pt": 88,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/hpLo-W8nHgc"
       },
       {
         "mode_name": "Puppet Master All Challenges",
-        "mode_skill_pt": 67,
+        "mode_skill_pt": 66,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/nwFn-TLj1O4?si=1e6Y3VTEEUq46wX9"
       },
@@ -231,7 +231,7 @@
       },
       {
         "mode_name": "True Nightmare",
-        "mode_skill_pt": 31,
+        "mode_skill_pt": 32,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/pVXoTGzhhxA?si=Y5yTxEvoiCQFNDYK"
       },
@@ -261,7 +261,7 @@
       },
       {
         "mode_name": "Flamewall",
-        "mode_skill_pt": 24,
+        "mode_skill_pt": 25,
         "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=mHd6uMo1mxk"
       },
@@ -347,7 +347,7 @@
     "records": [
       {
         "mode_name": "MYDOOM",
-        "mode_skill_pt": 50,
+        "mode_skill_pt": 49,
         "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=XguKSNJnE5Y&t"
       },
@@ -371,7 +371,7 @@
       },
       {
         "mode_name": "True Showdown",
-        "mode_skill_pt": 21,
+        "mode_skill_pt": 22,
         "mode_rng_pt": 50,
         "youtube_link": "https://www.youtube.com/watch?v=cWefNEkS9LE"
       },
@@ -392,8 +392,8 @@
   {
     "id": "c6d7a2cd-a5d8-4703-895a-9e8900b0f520",
     "name": "AtomicAtom",
-    "total_skill_pt": 396,
-    "total_rng_pt": 965,
+    "total_skill_pt": 399,
+    "total_rng_pt": 1065,
     "records": [
       {
         "mode_name": "Hyper Catfight Crashout",
@@ -436,6 +436,12 @@
         "mode_skill_pt": 6,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/LZvgvWdoKLk"
+      },
+      {
+        "mode_name": "Rebranded Island",
+        "mode_skill_pt": 3,
+        "mode_rng_pt": 100,
+        "youtube_link": "https://www.youtube.com/watch?v=DPL5iP3MYZs"
       },
       {
         "mode_name": "Tricky Ten",
@@ -508,12 +514,12 @@
   {
     "id": "afbd03b6-8f0d-4f66-bfd6-e7a1af80a334",
     "name": "Aleks",
-    "total_skill_pt": 8779,
+    "total_skill_pt": 8767,
     "total_rng_pt": 2410,
     "records": [
       {
         "mode_name": "Perfect Golden Freddy",
-        "mode_skill_pt": 1324,
+        "mode_skill_pt": 1323,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/R3vCshOEHqU?si=FV4ieAcNL4cf91Sj"
       },
@@ -525,25 +531,25 @@
       },
       {
         "mode_name": "Funtime Gala Very Hard Mode",
-        "mode_skill_pt": 1017,
+        "mode_skill_pt": 1018,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/dWoHPhuJ9hw?si=Sn_7La7StDeIzk2B"
       },
       {
         "mode_name": "The Challenging Addiction No Power Generator v1.2.0",
-        "mode_skill_pt": 800,
+        "mode_skill_pt": 797,
         "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/6pKkqRiO7tk?si=v0f51tEkTJthFF7B"
       },
       {
         "mode_name": "The Challenging Addiction No Power Generator No Deactivating Tools",
-        "mode_skill_pt": 778,
+        "mode_skill_pt": 775,
         "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/VHjASC1OoE0?si=N5LwijuIx8n6AQ__"
       },
       {
         "mode_name": "Maanantai",
-        "mode_skill_pt": 681,
+        "mode_skill_pt": 679,
         "mode_rng_pt": 150,
         "youtube_link": "https://youtu.be/xmQ8G9HKJOI?si=FcwywAdINP-Zrh_x"
       },
@@ -573,7 +579,7 @@
       },
       {
         "mode_name": "The Challenging Addiction v1.2.0",
-        "mode_skill_pt": 287,
+        "mode_skill_pt": 286,
         "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/boXdli7KQe8?si=m0dHGZy23Qpf9lRJ"
       },
@@ -609,19 +615,19 @@
       },
       {
         "mode_name": "The Killer Bite",
-        "mode_skill_pt": 124,
+        "mode_skill_pt": 123,
         "mode_rng_pt": 250,
         "youtube_link": "https://youtu.be/hBc28xJ1j9E?si=oGZvc2Flm2F09wYC"
       },
       {
         "mode_name": "Piilo",
-        "mode_skill_pt": 94,
+        "mode_skill_pt": 93,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/xmQ8G9HKJOI?si=EqK1qP3g6WymCY6i"
       },
       {
         "mode_name": "Rat & Cat All Challenges ",
-        "mode_skill_pt": 62,
+        "mode_skill_pt": 61,
         "mode_rng_pt": 150,
         "youtube_link": "https://youtu.be/f8VALIPFQHw?si=GyRpip_wV9Wclgmc"
       },
@@ -660,7 +666,7 @@
   {
     "id": "ba9edb5a-8cb4-4939-a851-2c42393af47f",
     "name": "Monocled",
-    "total_skill_pt": 68,
+    "total_skill_pt": 69,
     "total_rng_pt": 860,
     "records": [
       {
@@ -671,7 +677,7 @@
       },
       {
         "mode_name": "The Closing Act",
-        "mode_skill_pt": 13,
+        "mode_skill_pt": 14,
         "mode_rng_pt": 150,
         "youtube_link": "https://www.youtube.com/watch?v=o8nB4wtTUXs"
       },
@@ -728,7 +734,7 @@
   {
     "id": "3bee619d-9bd0-4d6f-9217-8c92abdbd390",
     "name": "Mac Izner",
-    "total_skill_pt": 610,
+    "total_skill_pt": 609,
     "total_rng_pt": 719,
     "records": [
       {
@@ -739,7 +745,7 @@
       },
       {
         "mode_name": "The Challenging Addiction v1.2.0",
-        "mode_skill_pt": 287,
+        "mode_skill_pt": 286,
         "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/LYJLxOwE-Xk?si=UH04f_8pwwdcNjI5"
       },
@@ -808,24 +814,24 @@
   {
     "id": "e714e244-b2cc-4dcb-bb12-a6317e37b5cf",
     "name": "nobility_",
-    "total_skill_pt": 4166,
+    "total_skill_pt": 4160,
     "total_rng_pt": 2696,
     "records": [
       {
         "mode_name": "HYPOXIA",
-        "mode_skill_pt": 1061,
+        "mode_skill_pt": 1062,
         "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/Fjem5jVKagE"
       },
       {
         "mode_name": "Schizophrenia No Power Generator No Deactivating Tools",
-        "mode_skill_pt": 794,
+        "mode_skill_pt": 791,
         "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/KtHhPQ7h11A"
       },
       {
         "mode_name": "SCHIZOPHRENIA",
-        "mode_skill_pt": 783,
+        "mode_skill_pt": 780,
         "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/4HJieuScXeE"
       },
@@ -843,19 +849,19 @@
       },
       {
         "mode_name": "The Challenging Addiction v1.2.0",
-        "mode_skill_pt": 287,
+        "mode_skill_pt": 286,
         "mode_rng_pt": 0,
         "youtube_link": "https://youtu.be/ryRBJGFqQss"
       },
       {
         "mode_name": "35/20",
-        "mode_skill_pt": 190,
+        "mode_skill_pt": 191,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/U3SWM8G-4nk"
       },
       {
         "mode_name": "Blood 7/20",
-        "mode_skill_pt": 113,
+        "mode_skill_pt": 112,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/vPL2_Z6rE9M"
       },
@@ -1074,12 +1080,12 @@
   {
     "id": "f0b48997-2ebf-43a6-ba70-8e1692456e46",
     "name": "EdgeLord",
-    "total_skill_pt": 2325,
+    "total_skill_pt": 2324,
     "total_rng_pt": 2202,
     "records": [
       {
         "mode_name": "50/20 Deluxe No Death Coin",
-        "mode_skill_pt": 834,
+        "mode_skill_pt": 831,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/ofEH3cf-Mzk?si=wyRv1tXe8UGwCF9t"
       },
@@ -1097,7 +1103,7 @@
       },
       {
         "mode_name": "35/20",
-        "mode_skill_pt": 190,
+        "mode_skill_pt": 191,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/amyihSM1cf4?si=KZpu3RpJzPOW0waK"
       },
@@ -1139,7 +1145,7 @@
       },
       {
         "mode_name": "True Showdown",
-        "mode_skill_pt": 21,
+        "mode_skill_pt": 22,
         "mode_rng_pt": 50,
         "youtube_link": "https://youtu.be/DFHa6Tr4Qy4"
       },
@@ -1278,12 +1284,12 @@
   {
     "id": "bd1880ba-99a6-49ae-8b4a-e80391f580c5",
     "name": "GoNO",
-    "total_skill_pt": 70,
+    "total_skill_pt": 71,
     "total_rng_pt": 840,
     "records": [
       {
         "mode_name": "True Nightmare",
-        "mode_skill_pt": 31,
+        "mode_skill_pt": 32,
         "mode_rng_pt": 200,
         "youtube_link": "https://youtu.be/JU-h2D5aZTs?si=IeK5wbK7C0E40y-U"
       },
@@ -1759,7 +1765,7 @@
     "records": [
       {
         "mode_name": "Funtime Gala Very Hard Mode",
-        "mode_skill_pt": 1017,
+        "mode_skill_pt": 1018,
         "mode_rng_pt": 200,
         "youtube_link": "https://www.youtube.com/watch?v=xw5VvDOhZc8"
       },
@@ -1771,7 +1777,7 @@
       },
       {
         "mode_name": "Golden Freddy No Blackouts",
-        "mode_skill_pt": 106,
+        "mode_skill_pt": 105,
         "mode_rng_pt": 150,
         "youtube_link": "https://www.youtube.com/watch?v=3KCATo2tM7E"
       },
@@ -2078,24 +2084,24 @@
   {
     "id": "39de849a-b35d-4bd9-9cf6-bbc4bf2dc178",
     "name": "piselake",
-    "total_skill_pt": 2892,
+    "total_skill_pt": 2883,
     "total_rng_pt": 1517,
     "records": [
       {
         "mode_name": "Have Fun :) Aggressive Long Nights",
-        "mode_skill_pt": 715,
+        "mode_skill_pt": 713,
         "mode_rng_pt": 200,
         "youtube_link": "https://www.youtube.com/watch?v=1ti5LmmjAdw&lc=Ugz4L_ptjPROEwNco494AaABAg"
       },
       {
         "mode_name": "Eternal Pizza Man",
-        "mode_skill_pt": 710,
+        "mode_skill_pt": 708,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/D6zjAua5ogs"
       },
       {
         "mode_name": "Pizza Man",
-        "mode_skill_pt": 696,
+        "mode_skill_pt": 693,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/d0brYtdjcnc"
       },
@@ -2119,13 +2125,13 @@
       },
       {
         "mode_name": "Candy Challenge",
-        "mode_skill_pt": 95,
+        "mode_skill_pt": 94,
         "mode_rng_pt": 100,
         "youtube_link": "https://youtu.be/N2cGNTGHlGw"
       },
       {
         "mode_name": "Piilo",
-        "mode_skill_pt": 94,
+        "mode_skill_pt": 93,
         "mode_rng_pt": 100,
         "youtube_link": "https://www.youtube.com/watch?v=7mH_N0ORWjM"
       },
@@ -2299,8 +2305,8 @@
   {
     "id": "8733b590-e4e3-4dca-a8f5-78707706d86d",
     "name": "[BN] Ronarenik",
-    "total_skill_pt": 26,
-    "total_rng_pt": 560,
+    "total_skill_pt": 28,
+    "total_rng_pt": 590,
     "records": [
       {
         "mode_name": "Violet's Walk in the Park",
@@ -2325,6 +2331,12 @@
         "mode_skill_pt": 2,
         "mode_rng_pt": 40,
         "youtube_link": "https://youtu.be/f_uYY7vzNfM"
+      },
+      {
+        "mode_name": "Something About Cats",
+        "mode_skill_pt": 2,
+        "mode_rng_pt": 30,
+        "youtube_link": "https://youtu.be/Ia4RJIEuN6w"
       },
       {
         "mode_name": "Peggle attack",
