@@ -9,6 +9,15 @@
     "verifierLink": "S-BHGESm8oY"
   },
   {
+    "name": "Bitcrush 5 No High Lures",
+    "game": "Lost Location Custom Night",
+    "developer": "KeplerFNAF",
+    "verifier": "trip_P",
+    "length": "6:00",
+    "gameLink": "https://gamejolt.com/games/llcn/912329",
+    "verifierLink": "CIRcR6uSDRY"
+  },
+  {
     "name": "Eternal PERFECT CACOPHONY",
     "game": "Sister Location Super Custom Night",
     "developer": "astaceres",
@@ -36,15 +45,6 @@
     "verifierLink": "HyPpYiass9E"
   },
   {
-    "name": "Budget Factory Man",
-    "game": "FNATG Recreation Thing",
-    "developer": "svord_113",
-    "verifier": "simpway",
-    "length": "25:00",
-    "gameLink": "https://www.roblox.com/games/80451337500482/FNATG-Recreation-Thing",
-    "verifierLink": "gHK-xT6utaM"
-  },
-  {
     "name": "Hopeless \"Greed\" v1.6.5",
     "game": "Ultimate Custom Night: Deluxe",
     "developer": "Nephryte",
@@ -63,15 +63,6 @@
     "verifierLink": "97Vbj_tc0-Y"
   },
   {
-    "name": "Max Mode No Buffs",
-    "game": "One Night at Frogger's (Members Only Build)",
-    "developer": "Mr. Manatee",
-    "verifier": "TheBones5",
-    "length": "N/A",
-    "gameLink": "https://docs.google.com/document/d/1vpAhDzQM2q3xjQah15j94SWi4lSFuRvR9iZ7MfqDkt0/edit?usp=sharing",
-    "verifierLink": "SpC3flYCwk0"
-  },
-  {
     "name": "lost and found night",
     "game": "One Night at Chica's Magic Rainbow's: REMASTERED (unoffical)",
     "developer": "Cooperklam1",
@@ -79,6 +70,15 @@
     "length": "7:35",
     "gameLink": "https://gamejolt.com/games/im_losing_patience_with_you/894750?feed_last_id=%7B\"ver\":\"1\",\"pos\":\"1714943248.292\"%7D",
     "verifierLink": "TOszbJ1ZpN0"
+  },
+  {
+    "name": "Budget Factory Man",
+    "game": "Budget Factory Man",
+    "developer": "svord_113",
+    "verifier": "simpway",
+    "length": "25:00",
+    "gameLink": "https://www.roblox.com/games/80451337500482/FNATG-Recreation-Thing",
+    "verifierLink": "gHK-xT6utaM"
   },
   {
     "name": "Hopeless Pursuit v1.6.5",
@@ -144,15 +144,6 @@
     "verifierLink": "8bZXq9qQty4"
   },
   {
-    "name": "Rat & Cat All Challenges Pixel Pointer v3.0.0",
-    "game": "FNaC 3 Custom Night",
-    "developer": "Mr. Manatee",
-    "verifier": "abi",
-    "length": "~8:00",
-    "gameLink": "https://gamejolt.com/games/fnacbblegacy/1056763",
-    "verifierLink": "hImjNm0SdJ8"
-  },
-  {
     "name": "Rainbowgeddon",
     "game": "One Night at Chica's Magic Rainbow's RO Practice Mod",
     "developer": "DiamondAce",
@@ -160,6 +151,24 @@
     "length": "7:30",
     "gameLink": "https://gamejolt.com/games/ONaCMR/795951",
     "verifierLink": "Vn2aP8_k8sQ"
+  },
+  {
+    "name": "Happiest Memory",
+    "game": "Sister Location REDUX",
+    "developer": "mirk8lik3",
+    "verifier": "DarkMen",
+    "length": "6:00",
+    "gameLink": "https://gamejolt.com/games/SLR/1043220",
+    "verifierLink": "xTKaeCKuBYQ"
+  },
+  {
+    "name": "Rat & Cat All Challenges Pixel Pointer v3.0.0",
+    "game": "FNaC 3 Custom Night",
+    "developer": "Mr. Manatee",
+    "verifier": "abi",
+    "length": "~8:00",
+    "gameLink": "https://gamejolt.com/games/fnacbblegacy/1056763",
+    "verifierLink": "hImjNm0SdJ8"
   },
   {
     "name": "Puppets Hell All Challenges v2.1.3",
@@ -921,10 +930,10 @@
     "name": "Neverending Nightmare",
     "game": "Chuck E. Cheese: Rebooted, Charmified!",
     "developer": "Nephryte",
-    "verifier": "tox",
+    "verifier": "Karubeften_P",
     "length": "N/A",
     "gameLink": "https://gamejolt.com/games/Charmified/825863",
-    "verifierLink": "WD7Q620E45Y"
+    "verifierLink": "MwZncM6tp5U"
   },
   {
     "name": "THE LAST SILLY v1.1.0",
@@ -1258,6 +1267,15 @@
     "length": "6:00",
     "gameLink": "https://gamejolt.com/games/asleep_onslaught/995793",
     "verifierLink": "NWxhxJrTdsk"
+  },
+  {
+    "name": "Infernal Indigo",
+    "game": "JR’s Endless",
+    "developer": "Matt Warkoski",
+    "verifier": "PM.SerK",
+    "length": "N/A",
+    "gameLink": "https://gamejolt.com/games/jrsendless/1019650",
+    "verifierLink": "_c7AlHZevc4"
   },
   {
     "name": "Hardest TOONMARE",
