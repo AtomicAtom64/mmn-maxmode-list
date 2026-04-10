@@ -24,6 +24,7 @@ class Mode:
             
 def find_info(session, query):
     query = query.strip()
+    query = query.replace("’", "'")
     properQuery = query.replace(")", "")
     searchUrl = f"https://aml-api-eta.vercel.app/search/{quote(properQuery, safe='')}"
 
