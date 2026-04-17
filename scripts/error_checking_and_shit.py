@@ -1,10 +1,7 @@
 import time
-from urllib.parse import quote
-from dataclasses import asdict, dataclass
+from dataclasses import dataclass
 import requests
-import json
 from concurrent.futures import ThreadPoolExecutor
-from get_docs import get_main_list
 
 mode_entries = []  # list of (name, game)
 
@@ -59,28 +56,24 @@ def fetch(entry, session):
         error_log.write(f"{e}\n")
         return None
     
-texts = get_main_list()
+with open("scripts/modes.txt", "r") as texts:
+    for line in texts:
+        line = line.strip()
+        if not line:
+            continue
+
+        parts = line.split(" - ", 1)
+        if len(parts) != 2:
+            continue  # skip malformed lines
+
+        name, game = parts
+        mode_entries.append((name.strip(), game.strip()))
+        
 modes_list = session.get("https://aml-api-eta.vercel.app/levels/ml/page/all/", timeout=10)
 modes_list = modes_list.json()
 
-for line in texts.splitlines():
-    line = line.strip()
-    if not line:
-        continue
-
-    parts = line.split(" - ", 1)
-    if len(parts) != 2:
-        continue  # skip malformed lines
-
-    name, game = parts
-    mode_entries.append((name.strip(), game.strip()))
-
 with ThreadPoolExecutor(max_workers=10) as executor:
     results = list(executor.map(lambda entry: fetch(entry, session), mode_entries))
-
-output = [asdict(mode) for mode in results if mode]
-with open("resources/main_list.json", "w", encoding="utf-8") as file:
-    json.dump(output, file, indent=2, ensure_ascii=False)
     
 print(f"Finished in {time.time() - start_time:.2f} seconds")
 error_log.close()

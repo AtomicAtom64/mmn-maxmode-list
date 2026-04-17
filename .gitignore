@@ -3,6 +3,7 @@ fiveserver.config.js
 scripts/credentials.json
 scripts/token.json
 *.pyc
+tempCodeRunnerFile.py
 
 # wrangler files
 .wrangler
