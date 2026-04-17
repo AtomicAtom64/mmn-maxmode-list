@@ -190,12 +190,12 @@
   },
   {
     "name": "50/20",
-    "game": "Ultimate Custom Night",
-    "developer": "Scott Cawthon",
-    "verifier": "SenimW",
-    "length": "4:30",
-    "gameLink": "https://store.steampowered.com/app/871720/Ultimate_Custom_Night",
-    "verifierLink": "oL6VUFkEDaY"
+    "game": "Ultimate Custom Night: DELUXE",
+    "developer": "Nephryte",
+    "verifier": "Karsan49",
+    "length": "6:00",
+    "gameLink": "https://gamejolt.com/games/UCNDX/975856",
+    "verifierLink": "XV9ZfoGct2w"
   },
   {
     "name": "Hopeless Pursuit",
@@ -205,6 +205,15 @@
     "length": "6:00",
     "gameLink": "https://www.mediafire.com/file/tvllwcnjwi53rrr/ultimate-custom-night-deluxe.exe/file",
     "verifierLink": "cYPy4Dunbrk"
+  },
+  {
+    "name": "70/40 Spaghetti Bolognese",
+    "game": "Ultimate Nintendo Night 2",
+    "developer": "babsicoot",
+    "verifier": "Xervy",
+    "length": "5:15",
+    "gameLink": "https://www.dropbox.com/scl/fo/vv5thl3jvfhtqot6md8tq/AHnrxUDl5krLCJ4OTsTV43Y?rlkey=9am6oc2tv4ocwjmep33sf3479&e=4&st=nprvbzdn&dl=0",
+    "verifierLink": "8bZXq9qQty4"
   },
   {
     "name": "Perfect Eternal Suicide Mouse",
@@ -612,15 +621,6 @@
     "verifierLink": "38uO8nXNgPE"
   },
   {
-    "name": "Girlboss",
-    "game": "Girl's Night",
-    "developer": "ITDEER/Bop",
-    "verifier": "cam66",
-    "length": "6:13",
-    "gameLink": "https://gamejolt.com/games/girlsnight/911062",
-    "verifierLink": "JWhtg7WEeCc"
-  },
-  {
     "name": "Hyper Gatekeep Gaslight",
     "game": "Hyper Girl’s Night",
     "developer": "Divisionn",
@@ -631,12 +631,12 @@
   },
   {
     "name": "9/30",
-    "game": "Nightmare Before Disney 3",
-    "developer": "Enlain",
-    "verifier": "Danek_360_P",
-    "length": "4:30",
-    "gameLink": "https://gamejolt.com/games/holycrap/607410",
-    "verifierLink": "qTgZXZ-GJbs"
+    "game": "NewGame",
+    "developer": "Koolgamer",
+    "verifier": "DriftmadefromN",
+    "length": "N/A",
+    "gameLink": "https://drive.google.com/file/d/1mP98e4ocPiduK6zcCOM4PxnmpfEIV6op/view",
+    "verifierLink": "99VkdlMLqd8"
   },
   {
     "name": "The Eternal Silly",
@@ -1017,6 +1017,15 @@
     "verifierLink": "zQS-h32FR-w"
   },
   {
+    "name": "Ribboron’s Greeddown",
+    "game": "Ultimate Nintendo Night: Joofified",
+    "developer": "Djoof",
+    "verifier": "Palex23",
+    "length": "4:30",
+    "gameLink": "https://gamejolt.com/games/unnjoof/868766",
+    "verifierLink": "9Q4rVflB8l4"
+  },
+  {
     "name": "Rat & Cat Theater All Challenges v1.0.1",
     "game": "Five Nights at Candy's 3 Deluxe",
     "developer": "Official_LR",
@@ -1177,15 +1186,6 @@
     "length": "12:00",
     "gameLink": "https://gamejolt.com/games/fnacecrqol/830737?feed_last_id=%7B\"ver\":\"1\",\"pos\":\"1691600131.501\"%7D",
     "verifierLink": "JXfqjGIQgzg"
-  },
-  {
-    "name": "The Last Call No Ban Hammer without Pressing Stop Signal",
-    "game": "Ultra Discord Night",
-    "developer": "NYÓ¨X",
-    "verifier": "Palex23",
-    "length": "4:30",
-    "gameLink": "https://gamejolt.com/games/udn/630533",
-    "verifierLink": "kQAIZBpQvGY"
   },
   {
     "name": "Final Night All Challenges No Stalling",
@@ -1422,6 +1422,15 @@
     "verifierLink": "B2uDTGMnUSc"
   },
   {
+    "name": "BFP All Challenges v3.12",
+    "game": "The Return to Freddy's 2: Reworked",
+    "developer": "It's me no one",
+    "verifier": "",
+    "length": "6:00",
+    "gameLink": "https://mega.nz/file/tmdDRB5T#rHJn8XEad3lFSeD1jVvgA9QdFuBJf9HGRvcLn6wSRb4",
+    "verifierLink": "TGgoqmF-R3o"
+  },
+  {
     "name": "Neverending Nightmare",
     "game": "Chuck E. Cheese: Rebooted, Charmified!",
     "developer": "Nephryte",
@@ -1630,12 +1639,12 @@
   },
   {
     "name": "7/30",
-    "game": "Five Nights at Sonic's 4: Alternate Edition -Round 2-",
-    "developer": "Lustre",
-    "verifier": "Eevee25",
+    "game": "FNAC 1 Custom Night",
+    "developer": "Mr Manatee",
+    "verifier": "SwaGh",
     "length": "6:00",
-    "gameLink": "https://gamejolt.com/games/fnas4aer2/648897",
-    "verifierLink": "qccEA8v0rpM"
+    "gameLink": "https://gamejolt.com/games/fnacbetter/729972",
+    "verifierLink": "Pti_8egxKO4"
   },
   {
     "name": "Eternal Ten",
@@ -1854,6 +1863,15 @@
     "verifierLink": "jE6SthVbGXA"
   },
   {
+    "name": "True Golden Freddy All Challenges",
+    "game": "Sister Location: Ultra Custom Night",
+    "developer": "Sai_Kenshin",
+    "verifier": "",
+    "length": "9:00",
+    "gameLink": "https://gamejolt.com/games/slucn/821229",
+    "verifierLink": "livg_qQSWyc"
+  },
+  {
     "name": "Sleep Paralysis",
     "game": "FNATI, But Dumb!",
     "developer": "CesarZ",
@@ -1882,12 +1900,12 @@
   },
   {
     "name": "Yellow Bear",
-    "game": "JOLLY 3: Chapter 1",
-    "developer": "IvanG",
-    "verifier": "Fourskingaming",
+    "game": "Sister Location: Classic",
+    "developer": "Vesper Games",
+    "verifier": "QuesadillaQueso",
     "length": "6:00",
-    "gameLink": "https://gamejolt.com/games/jolly-3-official/218061",
-    "verifierLink": "pOKf16Do3sA"
+    "gameLink": "https://gamejolt.com/games/slc/1035036",
+    "verifierLink": "Sj_qJNIXO-w"
   },
   {
     "name": "Suicide Mouse",
@@ -1924,6 +1942,15 @@
     "length": "6:00",
     "gameLink": "https://gamejolt.com/games/fnacbblegacy/1056763",
     "verifierLink": "an5EDcopH0U"
+  },
+  {
+    "name": "Lenny's Challenge, Nice Management",
+    "game": "TGTBTUATOO",
+    "developer": "Lolmoon786",
+    "verifier": "Lolmoon786",
+    "length": "2:49",
+    "gameLink": "https://gamejolt.com/games/TGTBTUATOO/1056585",
+    "verifierLink": "eco9uVsJnOE"
   },
   {
     "name": "Sex On The Beach",
@@ -2431,12 +2458,12 @@
   },
   {
     "name": "True Nightmare",
-    "game": "Five Nights at Chuck E. Cheese's: Rebooted",
+    "game": "Oblitus Casa",
     "developer": "Radiance Team",
-    "verifier": "Kosta Vesta_P",
-    "length": "6:00",
-    "gameLink": "https://gamejolt.com/games/fnacecr/563650",
-    "verifierLink": "XkW6K9UFAIY"
+    "verifier": "Dark_Reun",
+    "length": "N/A",
+    "gameLink": "https://gamejolt.com/games/OblitusCasa/356260",
+    "verifierLink": "jmFMjt80G5c"
   },
   {
     "name": "Palle Sudate",
@@ -2599,6 +2626,15 @@
     "length": "31:00",
     "gameLink": "https://gamejolt.com/games/corpseflowerooospookyyy/850060",
     "verifierLink": "hItbOwAAtL4"
+  },
+  {
+    "name": "God Complex",
+    "game": "Cookie Clicker Custom Chaos",
+    "developer": "RosemaryEva",
+    "verifier": "",
+    "length": "4:30",
+    "gameLink": "https://gamejolt.com/games/cookietimesfour/995162",
+    "verifierLink": "iG3qyXB7s1s"
   },
   {
     "name": "True Mayhem Hard Mode",
