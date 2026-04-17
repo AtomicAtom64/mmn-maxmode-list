@@ -6,7 +6,7 @@ import json
 from concurrent.futures import ThreadPoolExecutor
 from get_docs import get_main_list
 
-mode_entries = []  # list of (name, game)
+mode_entries = []  # list of (name, game, custom name)
 
 start_time = time.time()
 session = requests.Session()
@@ -23,7 +23,7 @@ class Mode:
     gameLink: str
     verifierLink: str
             
-def find_info(session, name, game):
+def find_info(session, name, game, custom_name=None):
 
     match = next(
         (m for m in modes_list if m["name"].strip().lower() == name.lower() and m["game"].strip().lower() == game.lower()), # type: ignore
@@ -41,7 +41,7 @@ def find_info(session, name, game):
     playerName = data["records"][0]["players"]["name"].strip() if data["records"] else ""
     
     return Mode(
-            name=modeData["name"].strip(),
+            name=custom_name or modeData["name"].strip(),
             game=modeData["game"].strip(),
             developer=modeData["creator"].strip(),
             verifier=playerName,
@@ -51,9 +51,9 @@ def find_info(session, name, game):
         )
 
 def fetch(entry, session):
-    name, game = entry
+    name, game, custom_name = entry
     try:
-        return find_info(session, name, game)
+        return find_info(session, name, game, custom_name)
     except Exception as e:
         print(e)
         error_log.write(f"{e}\n")
@@ -67,13 +67,21 @@ for line in texts.splitlines():
     line = line.strip()
     if not line:
         continue
+    
+    custom_name = None
+    if " $ " in line:
+        parts = line.split(" $ ", 1)
+        if len(parts) != 2:
+            continue  # skip malformed lines
+        custom_name = parts[1].strip()
+        line = parts[0]
 
     parts = line.split(" - ", 1)
     if len(parts) != 2:
         continue  # skip malformed lines
 
     name, game = parts
-    mode_entries.append((name.strip(), game.strip()))
+    mode_entries.append((name.strip(), game.strip(), custom_name))
 
 with ThreadPoolExecutor(max_workers=10) as executor:
     results = list(executor.map(lambda entry: fetch(entry, session), mode_entries))
