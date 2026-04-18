@@ -1,3 +1,4 @@
+import os
 import time
 from dataclasses import asdict, dataclass
 import requests
@@ -79,7 +80,7 @@ def get_modes(texts, list_name):
         name, game = parts
         mode_entries.append((name.strip(), game.strip(), custom_name))
 
-    with open(f"{__file__}/../errors.txt", "w") as error_log:
+    with open(f"{os.path.dirname(__file__)}/../errors.txt", "w") as error_log:
         with ThreadPoolExecutor(max_workers=10) as executor:
             results = list(executor.map(lambda entry: fetch(entry, session, modes_list, error_log), mode_entries))
 
