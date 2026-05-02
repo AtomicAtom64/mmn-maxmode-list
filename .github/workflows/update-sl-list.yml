@@ -35,5 +35,5 @@ jobs:
             git config user.name github-actions
             git config user.email github-actions@github.com
             git add resources/
-            git commit -m "Weekly SL list update" || echo "No changes"
+            git commit -m "Daily SL list update" || echo "No changes"
             git push
