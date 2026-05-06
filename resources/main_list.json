@@ -504,6 +504,15 @@
     "verifierLink": "FtTdaqK3bIs"
   },
   {
+    "name": "Infernal 47",
+    "game": "Five Nights at Frickbear's 3",
+    "developer": "SpookyRick",
+    "verifier": "beanboy",
+    "length": "N/A",
+    "gameLink": "https://gamejolt.com/games/frickbears3/930477",
+    "verifierLink": "g7OdDuHr2-o"
+  },
+  {
     "name": "Master of Catnip",
     "game": "The Final Fizz, But Better!",
     "developer": "Ink",
@@ -567,15 +576,6 @@
     "verifierLink": "5VWgM86T1Vo"
   },
   {
-    "name": "Worst Day Ever v2.1.1",
-    "game": "Mr. Krabs's Night of Terror",
-    "developer": "Matt Warkoski",
-    "verifier": "mirlie_P",
-    "length": "10:00",
-    "gameLink": "https://drive.google.com/drive/folders/1ZYG6y3GVdcqzKozvqNlvztMzLC2gHmOZ?usp=sharing",
-    "verifierLink": "kB31mItXr1Y"
-  },
-  {
     "name": "Perfect Golden Freddy +",
     "game": "Sister Location Super Custom Night",
     "developer": "astaceres.",
@@ -619,6 +619,15 @@
     "length": "5:15",
     "gameLink": "https://www.dropbox.com/scl/fo/vv5thl3jvfhtqot6md8tq/AHnrxUDl5krLCJ4OTsTV43Y?rlkey=9am6oc2tv4ocwjmep33sf3479&e=2&st=apku4ywl&dl=0",
     "verifierLink": "38uO8nXNgPE"
+  },
+  {
+    "name": "Girlboss",
+    "game": "Girl's Night",
+    "developer": "ITDEER/Bop",
+    "verifier": "cam66",
+    "length": "6:13",
+    "gameLink": "https://gamejolt.com/games/girlsnight/911062",
+    "verifierLink": "JWhtg7WEeCc"
   },
   {
     "name": "Hyper Gatekeep Gaslight",
@@ -1998,7 +2007,7 @@
     "verifierLink": "P3pqUCDC0Fk"
   },
   {
-    "name": "Purr-Gato-Ry",
+    "name": "Purr-Gato-ry",
     "game": "Rat's Night Shift at the Cat Shelter",
     "developer": "BeanieBopper",
     "verifier": "SkidAndPump102",
@@ -2397,7 +2406,7 @@
     "name": "The Gala Files Hard Mode",
     "game": "FNaF SL CN - The Gala Files",
     "developer": "spamtong",
-    "verifier": "Drake",
+    "verifier": "spamtong",
     "length": "7:00",
     "gameLink": "https://gamejolt.com/games/TGLF/1041389",
     "verifierLink": "jpEenOuukQs"
@@ -3261,7 +3270,7 @@
     "name": "Piilo",
     "game": "Consume Glue Custom Night",
     "developer": "vjBNBJK",
-    "verifier": "GODSLAYER7472",
+    "verifier": "Aleks",
     "length": "6:00",
     "gameLink": "https://gamejolt.com/games/consumeglue/1036094",
     "verifierLink": "21s6-dzsXbY"
@@ -3508,5 +3517,365 @@
     "length": "6:00",
     "gameLink": "https://gamejolt.com/games/fnaf1ucn/435176",
     "verifierLink": "x7yo0vdFyiA"
+  },
+  {
+    "name": "Edge of Sanity Classic Night",
+    "game": "Observation at Freddy's: Missing Location",
+    "developer": "HollowBat",
+    "verifier": "Zeffox300_P",
+    "length": "8:55",
+    "gameLink": "https://gamejolt.com/games/observation-at-freddys/921907",
+    "verifierLink": "cWR6C0PA_Dc"
+  },
+  {
+    "name": "Rat & Cat All Challenges",
+    "game": "FNaC 3 Custom Night",
+    "developer": "Mr. Manatee",
+    "verifier": "Delternal",
+    "length": "8:00",
+    "gameLink": "https://gamejolt.com/games/fnacbetter/729972",
+    "verifierLink": "iny2UG2Qa3o"
+  },
+  {
+    "name": "Puppet Master All Challenges",
+    "game": "FNaC 3 Custom Night",
+    "developer": "Mr. Manatee",
+    "verifier": "SpawnRusher",
+    "length": "8:00",
+    "gameLink": "https://gamejolt.com/games/fnacbetter/729972",
+    "verifierLink": "V4W2MGfKHqk"
+  },
+  {
+    "name": "Filming BFP",
+    "game": "The Return to Freddy's 2: Reworked",
+    "developer": "It's me no one",
+    "verifier": "",
+    "length": "6:00",
+    "gameLink": "https://gamejolt.com/games/trtf2reworked/668953",
+    "verifierLink": "JgzofhR3rVc"
+  },
+  {
+    "name": "BLAGHHHGH",
+    "game": "Lovely Friendly Whimsical Assortment of Nights at Hazbear's",
+    "developer": "Bop",
+    "verifier": "Gemy",
+    "length": "4:00",
+    "gameLink": "https://gamejolt.com/games/whimsicallywhimsicalwhimsywhimsical/995733",
+    "verifierLink": "2v37GaD7kZk"
+  },
+  {
+    "name": "Calamitosum Finem All Challenges",
+    "game": "FNaTI Custom Shade Night: Remake",
+    "developer": "Str3l0k",
+    "verifier": "smoothie79",
+    "length": "N/A",
+    "gameLink": "https://gamejolt.com/games/fnati_csnr/976923",
+    "verifierLink": "drZXP-cfHfQ"
+  },
+  {
+    "name": "6/15 All Challenges",
+    "game": "In the Dormant Insanity",
+    "developer": "Joke_",
+    "verifier": "MacacoPlayz_P",
+    "length": "8:45",
+    "gameLink": "https://gamejolt.com/games/dormant/822508",
+    "verifierLink": "9GqccxGBpzk"
+  },
+  {
+    "name": "51/20",
+    "game": "Ultimate Nintendo Night",
+    "developer": "DatBabyGamer",
+    "verifier": "WatchPiggy_P",
+    "length": "4:30",
+    "gameLink": "https://www.dropbox.com/scl/fo/laapdpej7qhd8ajxjk64e/AFnfWavjtmKQJ4XiBhUmC78?rlkey=xwsve4rmm5eb96h304ss2upd2&e=2&st=bebryrjq&dl=0",
+    "verifierLink": "xQGFfiBMPSg"
+  },
+  {
+    "name": "Standard Mode 19- Chips No Office Attacks",
+    "game": "Five Nights at Wario's: High Rollers",
+    "developer": "EpicTagey Games",
+    "verifier": "Aquiarum",
+    "length": "4:30",
+    "gameLink": "https://gamejolt.com/games/fnaw_high_rollers/549069",
+    "verifierLink": "WRiyRCNqhlU"
+  },
+  {
+    "name": "Hardest Fun Fun Fun Dayo Pre-Patch Mode",
+    "game": "Lucky Star CN",
+    "developer": "Taser",
+    "verifier": "Taser",
+    "length": "4:30",
+    "gameLink": "https://gamejolt.com/games/LuckyStarCN/927451",
+    "verifierLink": "v-v7u4Bkkfc"
+  },
+  {
+    "name": "All Hostile",
+    "game": "Swing Shift At Farley's",
+    "developer": "Solar-Neon",
+    "verifier": "Pigmage713",
+    "length": "9:00",
+    "gameLink": "https://gamejolt.com/games/swingshiftatfarleys/1029621",
+    "verifierLink": "YsnT3LT4kJc"
+  },
+  {
+    "name": "The Entire Circus All Challenges",
+    "game": "Five Nights at Freddy's Sister Location, But Cool!",
+    "developer": "Rockitoelkpo",
+    "verifier": "Chisuno",
+    "length": "6:00",
+    "gameLink": "https://gamejolt.com/games/FNaFSLbc/786251",
+    "verifierLink": "CKKAzaK6WCY"
+  },
+  {
+    "name": "True Nightmare Bunnie All Night",
+    "game": "Five Nights to Remember",
+    "developer": "Radiance Team",
+    "verifier": "Shooter25_P",
+    "length": "6:00",
+    "gameLink": "https://gamejolt.com/games/fnaf5/651885",
+    "verifierLink": "EdSRkNkNex4"
+  },
+  {
+    "name": "Base Night Maximized Difficulty No Exploits",
+    "game": "The Seed of Danger",
+    "developer": "Bop",
+    "verifier": "lau",
+    "length": "5:00",
+    "gameLink": "https://gamejolt.com/games/corpseflowerooospookyyy/850060",
+    "verifierLink": "eko5pDMnaaI"
+  },
+  {
+    "name": "Insomniac",
+    "game": "Bedside Custom Night",
+    "developer": "goldenyoshi22",
+    "verifier": "Kirb",
+    "length": "7:00",
+    "gameLink": "https://gamejolt.com/games/bedside_custom_night/972534",
+    "verifierLink": "8lV3W61JMRI"
+  },
+  {
+    "name": "Funtime Fright",
+    "game": "The Return To Freddy's 3: Reworked",
+    "developer": "It's me no one",
+    "verifier": "TheSurvivor 500_P",
+    "length": "6:00",
+    "gameLink": "https://www.mediafire.com/file/qf21n7zvlmo2x4a/trtf3re.exe/file",
+    "verifierLink": "koUUAvcPySU"
+  },
+  {
+    "name": "BFP",
+    "game": "The Return to Freddy's 2: Reworked",
+    "developer": "It's me no one",
+    "verifier": "FNAF翼龙",
+    "length": "6:00",
+    "gameLink": "https://gamejolt.com/games/trtf2reworked/668953",
+    "verifierLink": "m9L89Ow-juQ"
+  },
+  {
+    "name": "Rat & Cat Theatre Faulty Equipment Separate Luring",
+    "game": "FNaC 2 Custom Night",
+    "developer": "Nephryte",
+    "verifier": "EdgeLord",
+    "length": "6:00",
+    "gameLink": "https://gamejolt.com/games/fnacbetter/729972",
+    "verifierLink": "Q96giWuzjNo"
+  },
+  {
+    "name": "9/10 Mode",
+    "game": "SHERIFF",
+    "developer": "LanRicks",
+    "verifier": "Guiltless0910",
+    "length": "5:00",
+    "gameLink": "https://gamejolt.com/games/FinalShot/779454",
+    "verifierLink": "bboI1znCyF4"
+  },
+  {
+    "name": "5/20 No Power Out",
+    "game": "Jolly 1",
+    "developer": "IvanG",
+    "verifier": "Guiltless0910",
+    "length": "7:10",
+    "gameLink": "https://gamejolt.com/games/jolly/165858",
+    "verifierLink": "WP9HNaBw4G4"
+  },
+  {
+    "name": "Absolute Nightmare",
+    "game": "FNaTI Custom Shade Night",
+    "developer": "Str3l0k",
+    "verifier": "Bongocat",
+    "length": "N/A",
+    "gameLink": "https://gamejolt.com/games/fnati_csn/911613",
+    "verifierLink": "rrKZeBldrSw"
+  },
+  {
+    "name": "TV Terror",
+    "game": "TV Custom Night",
+    "developer": "Koolgamer",
+    "verifier": "QL-234",
+    "length": "4:00",
+    "gameLink": "https://gamejolt.com/games/KoolgamerGames/1053095",
+    "verifierLink": "b6aJ1LOj7i4"
+  },
+  {
+    "name": "Calamitosum Finem All Challenges",
+    "game": "FNaTI Custom Shade Night",
+    "developer": "Str3l0k",
+    "verifier": "GODSLAYER7472",
+    "length": "N/A",
+    "gameLink": "https://gamejolt.com/games/fnati_csn/911613",
+    "verifierLink": "qUxWCoMxwq8"
+  },
+  {
+    "name": "Absolute Nightmare",
+    "game": "FNaTI Custom Shade Night: Remake",
+    "developer": "Str3l0k",
+    "verifier": "betadipsygipsy_P",
+    "length": "N/A",
+    "gameLink": "https://gamejolt.com/games/fnati_csnr/976923",
+    "verifierLink": "_LGkZOvFHfo"
+  },
+  {
+    "name": "March 18th All Challenges",
+    "game": "fnar but cool",
+    "developer": "cate gamer",
+    "verifier": "landperior",
+    "length": "6:30",
+    "gameLink": "https://gamejolt.com/games/try-not-to-molest-children-challenge--impossible--/866252",
+    "verifierLink": "AIvJeICIy9Y"
+  },
+  {
+    "name": "Hardest Anomaly Night",
+    "game": "Five Nights at Freddy's Revamp",
+    "developer": "Mechlus",
+    "verifier": "Schokie",
+    "length": "9:00",
+    "gameLink": "https://gamejolt.com/games/FNAFR/918007",
+    "verifierLink": "BEaZ_TOdMw8"
+  },
+  {
+    "name": "MML Challenge",
+    "game": "Five Nights at Candy's 3: Sugar Rush!",
+    "developer": "BubyGamer12",
+    "verifier": "abi",
+    "length": "N/A",
+    "gameLink": "https://gamejolt.com/games/fnac3-sugar-rush/971562",
+    "verifierLink": "FEJODrYYIRg"
+  },
+  {
+    "name": "Robotic Revenge",
+    "game": "Five Nights at Tubbyland 2 Redux",
+    "developer": "GoldChimera",
+    "verifier": "Dark_Reun",
+    "length": "6:00",
+    "gameLink": "https://gamejolt.com/games/gtubby2/888834",
+    "verifierLink": "6-LUWEwBsok"
+  },
+  {
+    "name": "Hardest Overshadowed Monsters",
+    "game": "Office Custom Night",
+    "developer": "TheYeGirl",
+    "verifier": "Bunkaman_P",
+    "length": "5:00",
+    "gameLink": "https://gamejolt.com/games/OCN/743481",
+    "verifierLink": "-bcFRm6Z3co"
+  },
+  {
+    "name": "Silent Nightmare at Disney",
+    "game": "FNATI, But Dumb!",
+    "developer": "CesarZ",
+    "verifier": "Dark_Reun",
+    "length": "7:00",
+    "gameLink": "https://gamejolt.com/games/fnatidumb/819351",
+    "verifierLink": "B0PKPzherco"
+  },
+  {
+    "name": "Insomnious Night",
+    "game": "Tubbyland Act 1: Rebuilt",
+    "developer": "Avocado Dreams",
+    "verifier": "Nowhere Bunny_P",
+    "length": "4:20",
+    "gameLink": "https://gamejolt.com/games/tubbylandact1r/988660",
+    "verifierLink": "uY_63F25kVk"
+  },
+  {
+    "name": "Candy's Showdown All Challenges",
+    "game": "Candy's CN Java Edition",
+    "developer": "Official_LR",
+    "verifier": "KingPinTheBowler",
+    "length": "6:00",
+    "gameLink": "https://gamejolt.com/games/fnacdeluxe/757875",
+    "verifierLink": "pfwyeUZMfUM"
+  },
+  {
+    "name": "Golden Freddy",
+    "game": "Five Nights at Freddy's 3 (2014)",
+    "developer": "Bloxx",
+    "verifier": "Nephryte",
+    "length": "6:00",
+    "gameLink": "https://gamejolt.com/games/fivenightsatfreddys3-2014/956842",
+    "verifierLink": "mxqUCk2LL5Y"
+  },
+  {
+    "name": "Red 40",
+    "game": "Ultimate Buddies Night",
+    "developer": "SplatoonJosh",
+    "verifier": "Zany",
+    "length": "3:00",
+    "gameLink": "https://gamejolt.com/games/ubnBallz/917021",
+    "verifierLink": "-g826hlb2hA"
+  },
+  {
+    "name": "Minigame Specialist No Blackout",
+    "game": "Warioware Custom Night",
+    "developer": "CyanixDash / Elpizo24",
+    "verifier": "CyanixDash",
+    "length": "4:30",
+    "gameLink": "https://gamejolt.com/games/wariowarecn/1043288",
+    "verifierLink": "PApR09mGu4o"
+  },
+  {
+    "name": "MYDOOM",
+    "game": "Virus Alert",
+    "developer": "Itzyaboi3456",
+    "verifier": "evelyn_P",
+    "length": "N/A",
+    "gameLink": "https://www.roblox.com/games/129570390021756/Virus-Alert",
+    "verifierLink": "99jTBZaOg7A"
+  },
+  {
+    "name": "Perpetual Ten++",
+    "game": "Thunder's Frenzy: Recoded (Unlocked)",
+    "developer": "Flairex",
+    "verifier": "Σattia",
+    "length": "6:00",
+    "gameLink": "https://gamejolt.com/games/thunders_frenzy_recoded/970950",
+    "verifierLink": "YRxViOfGnf8"
+  },
+  {
+    "name": "6/20 Hard Mode",
+    "game": "FNaF 1 CN",
+    "developer": "Shooter25",
+    "verifier": "Shooter25_P",
+    "length": "6:00",
+    "gameLink": "https://gamejolt.com/games/fnaf1cn/759676",
+    "verifierLink": "HPDBwcyV62Q"
+  },
+  {
+    "name": "Noite 5",
+    "game": "Five Nights at Macho's",
+    "developer": "DmanV",
+    "verifier": "Deraldo Alves",
+    "length": "16:00",
+    "gameLink": "https://gamejolt.com/games/FNaM/262466",
+    "verifierLink": "NLxD4llQgBk"
+  },
+  {
+    "name": "The Entire Circus",
+    "game": "Five Nights at Freddys Sister Location, But Cool!",
+    "developer": "Rockitoelkpo",
+    "verifier": "cottage",
+    "length": "6:00",
+    "gameLink": "https://gamejolt.com/games/FNaFSLbc/786251",
+    "verifierLink": "WlzKmwrLb4c"
   }
 ]
