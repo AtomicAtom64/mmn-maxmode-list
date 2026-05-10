@@ -964,8 +964,8 @@
   },
   {
     "name": "Min Mode No Closing Together",
-    "game": "One Easy Night at Frogger's",
-    "developer": "Mr. Manatee / Matt Warkoski",
+    "game": "One Easy Night At Frogger's",
+    "developer": "Mr. Manatee",
     "verifier": "Frogger25_P",
     "length": "N/A",
     "gameLink": "https://www.dropbox.com/scl/fi/hexw8mxdbfhpmssdq6786/Frogger-s-Easy-Mode.exe?rlkey=qv8hcknmlax5p8i7ancuk78ql&st=e3vv6uu5&dl=0",
@@ -1474,15 +1474,6 @@
     "length": "8:00",
     "gameLink": "https://gamejolt.com/games/fnacbblegacy/1056763",
     "verifierLink": "zQiJoaYQMvc"
-  },
-  {
-    "name": "35/25",
-    "game": "UCN: Recode",
-    "developer": "Shooter25",
-    "verifier": "Kendrick Lamar",
-    "length": "6:00",
-    "gameLink": "https://gamejolt.com/games/ucn-recode/840706",
-    "verifierLink": "2XQzqayc0Q0"
   },
   {
     "name": "50/20 Deluxe",
