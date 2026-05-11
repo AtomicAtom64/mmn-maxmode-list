@@ -1,2 +1,2 @@
 # mmn-maxmode-list
-idk
+[idk](https://maxmodenoobs.pages.dev/)
