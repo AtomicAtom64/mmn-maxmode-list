@@ -15,14 +15,19 @@ class Record:
     mode_name: str
     mode_skill_pt: int
     mode_rng_pt: int
+    mode_top: int
     youtube_link: str
 
 @dataclass
 class Member:
     id: str
     name: str
+    youtube: str
+    country: str
+    continent: str
     total_skill_pt: int
     total_rng_pt: int
+    modes_beaten: int
     records: list[Record]
 
 def get_members(session):
@@ -35,29 +40,41 @@ def get_members(session):
     return [member["user_id"] for member in results], [member["players"]["name"] for member in results]
 
 def get_info(session, id, name):
-    player_name = name
+    
+    player_url = f"https://aml-api-eta.vercel.app/player/{id}"
 
     modes_url = f"https://aml-api-eta.vercel.app/player/{id}/records/skillValue"
+    
+    r = session.get(player_url, timeout=10)
+    if not r.ok:
+        raise Exception(f"Failed to fetch player info for ID {id}: {r.status_code}")
+    
+    player_results = r.json()
+    player_name = player_results["name"]
+    player_youtuber = player_results["youtube"] or ""
+    player_country = player_results["country"] or ""
+    player_continent = player_results["continent"] or ""
+    total_skill_pt = player_results["totalSkillpt"] or 0
+    total_rng_pt = player_results["totalRNGpt"] or 0
+    modesBeaten = player_results["modesBeaten"] or 0
     
     r = session.get(modes_url, timeout=10)
     if not r.ok:
         raise Exception(f"Failed to fetch player modes for ID {id}: {r.status_code}")
         
-    modes_results = r.json()
+    modes_results = r.json()[:5]  # Get top 5 modes
     records = []
     
     if isinstance(modes_results, list):
         for mode in modes_results:
             mode_name = mode["levels"]["name"]
-            skillpt = int(mode.get("skillValue") or 0)
-            rngpt = int(mode.get("rngValue") or 0)
+            skillpt = mode["skillValue"]
+            rngpt = mode["rngValue"]
+            top = mode["levels"]["top"]
             link = mode["videoLink"]
-            records.append(Record(mode_name, skillpt, rngpt, link))
-            
-    total_skill_pt = sum(record.mode_skill_pt for record in records)
-    total_rng_pt = sum(record.mode_rng_pt for record in records)
+            records.append(Record(mode_name, skillpt, rngpt, top, link))
     
-    return Member(id, player_name, total_skill_pt, total_rng_pt, records)
+    return Member(id, player_name, player_youtuber, player_country, player_continent, total_skill_pt, total_rng_pt, modesBeaten, records)
 
 session = requests.Session()
 members_id, members_names = get_members(session)
