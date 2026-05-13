@@ -54,6 +54,15 @@
     "verifierLink": "ajXhXUn337c"
   },
   {
+    "name": "Perfect Golden Freddy 23 AI",
+    "game": "Sister Location Super Custom Night",
+    "developer": "astaceres.",
+    "verifier": "Bleh_Cat",
+    "length": "6:00",
+    "gameLink": "https://gamejolt.com/games/slscn/805879",
+    "verifierLink": "xnHPFACtlRA"
+  },
+  {
     "name": "The Perfect Run",
     "game": "The Perfect Run",
     "developer": "astaceres. / serdnALof & Sick & Plastino",
@@ -201,7 +210,7 @@
     "name": "The Gala Files Hard Mode",
     "game": "FNaF SL CN - The Gala Files",
     "developer": "spamtong",
-    "verifier": "bocchi_corinthiana",
+    "verifier": "spamtong",
     "length": "7:00",
     "gameLink": "https://gamejolt.com/games/TGLF/1041389",
     "verifierLink": "jpEenOuukQs"
@@ -295,5 +304,14 @@
     "length": "6:00",
     "gameLink": "https://gamejolt.com/games/fnafslcn/804462",
     "verifierLink": "FKZfudQsE_g"
+  },
+  {
+    "name": "Golden Freddy V. Hard",
+    "game": "Five Nights at Freddy's: Sister Location",
+    "developer": "Scott Cawthon",
+    "verifier": "HippoZilla_P",
+    "length": "6:00",
+    "gameLink": "https://store.steampowered.com/app/506610/Five_Nights_at_Freddys_Sister_Location",
+    "verifierLink": "8_grWh1MMvw"
   }
 ]
