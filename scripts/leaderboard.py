@@ -62,7 +62,7 @@ def get_info(session, id, name):
     if not r.ok:
         raise Exception(f"Failed to fetch player modes for ID {id}: {r.status_code}")
         
-    modes_results = r.json()[:5]  # Get top 5 modes
+    modes_results = r.json()
     records = []
     
     if isinstance(modes_results, list):
