@@ -15,7 +15,11 @@
     <link rel="stylesheet" href="assets/styles/index.css">
   </head>
   <body class="d-flex flex-column min-vh-100">
-    <div id="navbar"></div>
+    <div id="navbar"
+      hx-get="assets/templates/navbar.html"
+      hx-trigger="load once"
+      hx-swap="outerHTML">
+    </div>
 
     <main class="flex-fill">
       <div class="py-5 my-5 text-center"> 
@@ -37,9 +41,13 @@
       </div>
     </main>
 
-    <div id="footer"></div>
+    <div id="footer"
+      hx-get="assets/templates/footer.html"
+      hx-trigger="load once"
+      hx-swap="outerHTML">
+    </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
-    <script src="/assets/scripts/templates.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.10/dist/htmx.min.js" integrity="sha384-H5SrcfygHmAuTDZphMHqBJLc3FhssKjG7w/CeCpFReSfwBWDTKpkzPP8c+cLsK+V" crossorigin="anonymous"></script>
   </body>
 </html>
