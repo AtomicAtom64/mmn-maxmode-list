@@ -4,7 +4,7 @@ const scoring = {
     "OG": m => m.computedSkill,
     "100/0": m => m.total_skill_pt,
     "90/10": m => m.total_skill_pt * 0.9 + m.total_rng_pt * 0.1,
-    "Modes": m => m.records.length
+    "Modes": m => m.modes_beaten,
 };
 
 fetch("../resources/members.json")
@@ -18,7 +18,7 @@ fetch("../resources/members.json")
 
         members.sort((a, b) => b.computedSkill - a.computedSkill);
 
-        displayLeaderboard(members, "OG");
+        displayLeaderboard(members, "90/10");
     });
 
 function sorting(members, type){
