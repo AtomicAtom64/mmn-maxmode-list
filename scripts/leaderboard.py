@@ -12,11 +12,11 @@ members = []
 start_time = time.time()
 @dataclass
 class Record:
-    mode_name: str
-    mode_skill_pt: int
-    mode_rng_pt: int
-    mode_top: int
-    youtube_link: str
+    name: str
+    skill_pt: int
+    rng_pt: int
+    top: int
+    link: str
 
 @dataclass
 class Member:
