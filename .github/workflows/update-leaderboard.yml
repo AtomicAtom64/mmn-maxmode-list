@@ -24,8 +24,11 @@ jobs:
       - name: Install dependencies
         run: pip install -r requirements.txt
 
-      - name: Run the script
+      - name: Run the leaderboard script
         run:  python scripts/leaderboard.py
+
+      - name: Run the countries script
+        run:  python scripts/countries.py
 
       - name: Show diff
         run: |
