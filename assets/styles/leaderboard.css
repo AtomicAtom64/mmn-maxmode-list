@@ -2,6 +2,12 @@ body {
     padding-top: 100px;
 }
 
+#reverseButton svg {
+    width: 1rem;
+    height: 1rem;
+    fill: currentColor;
+}
+
 .profile {
     align-items: center;
     gap: 15px;
@@ -16,13 +22,96 @@ body {
     flex: 1;
 }
 
-.hardest {
-    display: block;
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
+.flag-emoji {
+    font-size: 1rem;
+    line-height: 2;
 }
 
 .index {
     width: 30px;
+}
+
+.video-carousel {
+    scroll-snap-type: x mandatory;
+}
+
+.player-details {
+    background-color: rgba(0, 0, 0, 0.05);
+    box-shadow: inset 0 2px 6px rgba(0, 0, 0, 0.15);
+}
+
+.video-card {
+    width: min(360px, 90vw);
+    flex: 0 0 auto;
+    scroll-snap-align: start;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.thumbnail-wrapper {
+    width: 320px;
+    height: 180px;
+    overflow: hidden;
+}
+
+.video-title {
+    margin-top: 0.5rem;
+    text-align: center;
+    width: 100%;
+}
+
+.video-thumbnail {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    transition: transform 0.2s ease;
+}
+
+.video-card:hover .video-thumbnail {
+    transform: scale(1.03);
+}
+
+.rank-1 {
+    background: linear-gradient(
+        135deg,
+        #fff8d6 0%,
+        #ffe066 35%,
+        #ffd43b 50%,
+        #ffe066 65%,
+        #fff8d6 100%
+    );
+    box-shadow:
+        0 0 12px rgba(212, 175, 55, 0.35),
+        0 4px 16px rgba(0, 0, 0, 0.15);
+}
+
+.rank-2 {
+    background: linear-gradient(
+        135deg,
+        #f8f9fa 0%,
+        #e9ecef 30%,
+        #ced4da 50%,
+        #e9ecef 70%,
+        #f8f9fa 100%
+    );
+    box-shadow:
+        0 0 10px rgba(173, 181, 189, 0.35),
+        0 4px 16px rgba(0, 0, 0, 0.12);
+}
+
+.rank-3 {
+    background: linear-gradient(
+        135deg,
+        #f8e7dc 0%,
+        #d9a066 35%,
+        #b87333 50%,
+        #d9a066 65%,
+        #f8e7dc 100%
+    );
+    box-shadow:
+        0 0 10px rgba(184, 115, 51, 0.35),
+        0 4px 16px rgba(0, 0, 0, 0.12);
 }
