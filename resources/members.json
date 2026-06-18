@@ -5,15 +5,15 @@
     "youtube": "https://www.youtube.com/@ImUnreeel",
     "country": "Australia",
     "continent": "Oceania",
-    "total_skill_pt": 3222,
+    "total_skill_pt": 3217,
     "total_rng_pt": 2120,
     "modes_beaten": 24,
     "records": [
       {
         "name": "50/20 Deluxe No Death Coin",
-        "skill_pt": 911,
+        "skill_pt": 906,
         "rng_pt": 200,
-        "top": 237,
+        "top": 238,
         "link": "https://youtu.be/b30YKngXAmk"
       },
       {
@@ -676,7 +676,7 @@
     "youtube": "",
     "country": "Bulgaria",
     "continent": "Europe",
-    "total_skill_pt": 20778,
+    "total_skill_pt": 20768,
     "total_rng_pt": 7045,
     "modes_beaten": 47,
     "records": [
@@ -731,16 +731,16 @@
       },
       {
         "name": "There's A Robot Kidnapped In My Vent All Challenges",
-        "skill_pt": 1046,
+        "skill_pt": 1041,
         "rng_pt": 110,
-        "top": 209,
+        "top": 210,
         "link": "https://youtu.be/70U6Gw01Al4?si=TChHG5E5MS0RnHdB"
       },
       {
         "name": "There's A Robot Kidnapped In My Vent",
-        "skill_pt": 981,
+        "skill_pt": 976,
         "rng_pt": 100,
-        "top": 222,
+        "top": 223,
         "link": "https://youtu.be/70U6Gw01Al4?si=TChHG5E5MS0RnHdB"
       },
       {
@@ -1676,7 +1676,7 @@
     "youtube": "https://www.youtube.com/@Cris-pd2rx",
     "country": "Guatemala",
     "continent": "America",
-    "total_skill_pt": 9085,
+    "total_skill_pt": 9070,
     "total_rng_pt": 4367,
     "modes_beaten": 32,
     "records": [
@@ -1689,23 +1689,23 @@
       },
       {
         "name": "Pure Greed",
-        "skill_pt": 957,
+        "skill_pt": 952,
         "rng_pt": 200,
-        "top": 227,
+        "top": 228,
         "link": "https://youtu.be/9Sjjx3mWKMQ"
       },
       {
         "name": "50/20 Deluxe No Death Coin Long Nights",
-        "skill_pt": 952,
+        "skill_pt": 947,
         "rng_pt": 200,
-        "top": 228,
+        "top": 229,
         "link": "https://youtu.be/wkhXtxvlOe4?si=z9w1XOJXo5yMxTeZ"
       },
       {
         "name": "50/20 Deluxe No Death Coin",
-        "skill_pt": 911,
+        "skill_pt": 906,
         "rng_pt": 200,
-        "top": 237,
+        "top": 238,
         "link": "https://youtu.be/ofEH3cf-Mzk?si=wyRv1tXe8UGwCF9t"
       },
       {
@@ -2326,10 +2326,24 @@
     "youtube": "https://www.youtube.com/@catpi4a88",
     "country": "",
     "continent": "",
-    "total_skill_pt": 359,
-    "total_rng_pt": 1075,
-    "modes_beaten": 13,
+    "total_skill_pt": 683,
+    "total_rng_pt": 1425,
+    "modes_beaten": 15,
     "records": [
+      {
+        "name": "sans 2",
+        "skill_pt": 162,
+        "rng_pt": 200,
+        "top": 603,
+        "link": "https://youtu.be/FboO7ejL9VE"
+      },
+      {
+        "name": "sans 1",
+        "skill_pt": 162,
+        "rng_pt": 150,
+        "top": 604,
+        "link": "https://youtu.be/FboO7ejL9VE"
+      },
       {
         "name": "Bitcrush 3",
         "skill_pt": 161,
@@ -2782,7 +2796,7 @@
     "youtube": "https://www.youtube.com/@eclipsevoid_",
     "country": "Latvia",
     "continent": "Europe",
-    "total_skill_pt": 2957,
+    "total_skill_pt": 2952,
     "total_rng_pt": 1960,
     "modes_beaten": 14,
     "records": [
@@ -2795,9 +2809,9 @@
       },
       {
         "name": "50/20 Deluxe No Death Coin",
-        "skill_pt": 911,
+        "skill_pt": 906,
         "rng_pt": 200,
-        "top": 237,
+        "top": 238,
         "link": "https://www.youtube.com/watch?v=SIsA2tnDpXs"
       },
       {
@@ -4527,6 +4541,13 @@
         "link": "https://www.youtube.com/watch?v=tGibzpEiuyk"
       },
       {
+        "name": "GRILLED HAMS",
+        "skill_pt": 1,
+        "rng_pt": 50,
+        "top": 2093,
+        "link": "https://youtu.be/jiM1UlisFvw"
+      },
+      {
         "name": "Shadow Mr. Hugs' Madness v1",
         "skill_pt": 1,
         "rng_pt": 10,
@@ -4588,6 +4609,13 @@
         "rng_pt": 5,
         "top": 2185,
         "link": "https://youtu.be/s3ZT3S2T4Co"
+      },
+      {
+        "name": "Main Night",
+        "skill_pt": 1,
+        "rng_pt": 10,
+        "top": 2187,
+        "link": "https://youtu.be/jiM1UlisFvw"
       },
       {
         "name": "Mr. Hugs' Madness v1",
@@ -4788,6 +4816,13 @@
     "total_rng_pt": 35,
     "modes_beaten": 3,
     "records": [
+      {
+        "name": "Five Philly Cheesesteaks",
+        "skill_pt": 9,
+        "rng_pt": 50,
+        "top": 1310,
+        "link": "https://www.bilibili.com/video/BV1ghJg6hE5g"
+      },
       {
         "name": "TAS ",
         "skill_pt": 1,
