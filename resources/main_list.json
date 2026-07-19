@@ -1335,7 +1335,7 @@
     "name": "Boring Memory",
     "game": "Sister Location REDUX",
     "developer": "mirk8lik3",
-    "verifier": "Aleks",
+    "verifier": "sh4rknado",
     "length": "6:00",
     "gameLink": "https://gamejolt.com/games/SLR/1043220",
     "verifierLink": "HEysexDMeU4"
@@ -2226,7 +2226,7 @@
     "name": "The Gala Files Hard Mode",
     "game": "FNaF SL CN - The Gala Files",
     "developer": "spamtong",
-    "verifier": "crabapple",
+    "verifier": "spamtong",
     "length": "7:00",
     "gameLink": "https://gamejolt.com/games/TGLF/1041389",
     "verifierLink": "jpEenOuukQs"
@@ -2511,6 +2511,15 @@
     "verifierLink": "tRQc0w07u2g"
   },
   {
+    "name": "Mamma Mia!",
+    "game": "Some Nights At Pizza Tower",
+    "developer": "MaestroMisteri",
+    "verifier": "MaestroMisteri",
+    "length": "4:00",
+    "gameLink": "https://gamejolt.com/games/snapt/1015776",
+    "verifierLink": "hLMCHJBJhU4"
+  },
+  {
     "name": "Let the Nightmare Begin Insta Donald",
     "game": "Five Nights at Treasure Island: Let The Show Begin Quadrilogy Revision",
     "developer": "Cooperklam1",
@@ -2563,15 +2572,6 @@
     "length": "8:00",
     "gameLink": "https://gamejolt.com/games/AransOldGames/935667",
     "verifierLink": "gOIPVC-zen0"
-  },
-  {
-    "name": "Hyper Shadow Sonic",
-    "game": "Five Nights at Sonic's 2 - Reopened (Unofficial)",
-    "developer": "Glittertrash",
-    "verifier": "Katie",
-    "length": "7:00",
-    "gameLink": "https://gamejolt.com/games/Fnas2R-New-home/897960",
-    "verifierLink": "n4o-auR0Sc8"
   },
   {
     "name": "6/15",
@@ -2631,7 +2631,7 @@
     "name": "The Gala Files",
     "game": "FNaF SL CN - The Gala Files",
     "developer": "spamtong",
-    "verifier": "bocchi_corinthiana",
+    "verifier": "spamtong",
     "length": "7:00",
     "gameLink": "https://gamejolt.com/games/TGLF/1041389",
     "verifierLink": "jpEenOuukQs"
@@ -3252,7 +3252,7 @@
     "name": "WI!LD Absolute Chaos",
     "game": "Object Chaos",
     "developer": "Trazi",
-    "verifier": "Bongocat",
+    "verifier": "BONGOCAT_TWO",
     "length": "5:48",
     "gameLink": "https://gamejolt.com/games/Object-Chaos/1022144",
     "verifierLink": "4JQt_l4H6E8"
@@ -3459,7 +3459,7 @@
     "name": "Absolute Nightmare",
     "game": "FNaTI Custom Shade Night",
     "developer": "Str3l0k",
-    "verifier": "Bongocat",
+    "verifier": "BONGOCAT_TWO",
     "length": "N/A",
     "gameLink": "https://gamejolt.com/games/fnati_csn/911613",
     "verifierLink": "rrKZeBldrSw"
