@@ -27,15 +27,6 @@
     "verifierLink": "thNpWWPjg88"
   },
   {
-    "name": "Bitcrush 5 No High Lures",
-    "game": "Lost Location Custom Night",
-    "developer": "KeplerFNAF",
-    "verifier": "trip_P",
-    "length": "6:00",
-    "gameLink": "https://gamejolt.com/games/llcn/912329",
-    "verifierLink": "CIRcR6uSDRY"
-  },
-  {
     "name": "True Nightmare All Challenges v1.0.2",
     "game": "Five Nights at Chuck E. Cheese's: Rebooted",
     "developer": "Radiance Team",
@@ -79,15 +70,6 @@
     "length": "6:00",
     "gameLink": "https://gamejolt.com/games/slscn/805879",
     "verifierLink": "kuCuIkMbHOs"
-  },
-  {
-    "name": "John Man Max Graphics",
-    "game": "John Man",
-    "developer": "TryFlyYT",
-    "verifier": "Techy25",
-    "length": "12:27",
-    "gameLink": "https://www.roblox.com/games/134651077207489/GGD-Man",
-    "verifierLink": "M0wVEZFTllE"
   },
   {
     "name": "Hopeless Pursuit v1.6.5",
@@ -171,15 +153,6 @@
     "verifierLink": "5tU0z3M-2wk"
   },
   {
-    "name": "Happiest Memory",
-    "game": "Sister Location REDUX",
-    "developer": "mirk8lik3",
-    "verifier": "DarkMen",
-    "length": "6:00",
-    "gameLink": "https://gamejolt.com/games/SLR/1043220",
-    "verifierLink": "c45-ZKOa8Xw"
-  },
-  {
     "name": "Happiest Memory v1.3.2",
     "game": "Sister Location REDUX",
     "developer": "mirk8lik3",
@@ -187,6 +160,15 @@
     "length": "6:00",
     "gameLink": "https://www.mediafire.com/file/yb0s249djyv0fbk/SLR+1.3.2.zip/file",
     "verifierLink": "xTKaeCKuBYQ"
+  },
+  {
+    "name": "Happiest Memory",
+    "game": "Sister Location REDUX",
+    "developer": "mirk8lik3",
+    "verifier": "DarkMen",
+    "length": "6:00",
+    "gameLink": "https://gamejolt.com/games/SLR/1043220",
+    "verifierLink": "c45-ZKOa8Xw"
   },
   {
     "name": "Eternal Rainbow Overload",
@@ -630,15 +612,6 @@
     "verifierLink": "jN8Z1_RLeMM"
   },
   {
-    "name": "52 Benadryl",
-    "game": "Ultimate Benadryl Night",
-    "developer": "vjBNBJK",
-    "verifier": "saaveed",
-    "length": "6:00",
-    "gameLink": "https://gamejolt.com/games/benadryl/997254",
-    "verifierLink": "VlqnNOo4FeE"
-  },
-  {
     "name": "Hellish Hyper Showdown",
     "game": "Five Nights at Freddy's 1 Super Custom Night",
     "developer": "astaceres.",
@@ -959,7 +932,7 @@
     "developer": "TheAshton2000 / TryFly",
     "verifier": "Techy25",
     "length": "12:27",
-    "gameLink": "https://www.roblox.com/games/15267322492/DISCONTINUED-Five-Nights-at-The-Gangs",
+    "gameLink": "https://www.roblox.com/games/98460779572845/fnatgde-redux-update",
     "verifierLink": "9lDg5c6fBKQ"
   },
   {
@@ -1812,7 +1785,7 @@
     "name": "My Time",
     "game": "Headspace Night",
     "developer": "Matt Warkoski",
-    "verifier": "Kirb",
+    "verifier": "Toadder25",
     "length": "6:00",
     "gameLink": "https://gamejolt.com/games/fomori/914995",
     "verifierLink": "MJHGuP7bMpY"
@@ -2037,7 +2010,7 @@
     "name": "Perfect Party",
     "game": "Sister Location REDUX",
     "developer": "mirk8lik3",
-    "verifier": "DarkMen",
+    "verifier": "ColebutDumb",
     "length": "6:00",
     "gameLink": "https://gamejolt.com/games/SLR/1043220",
     "verifierLink": "_PQArlGxJ6E"
@@ -2469,7 +2442,7 @@
     "name": "The Gala Files",
     "game": "FNaF SL CN - The Gala Files",
     "developer": "spamtong",
-    "verifier": "Chisuno",
+    "verifier": "crabapple",
     "length": "7:00",
     "gameLink": "https://gamejolt.com/games/TGLF/1041389",
     "verifierLink": "jpEenOuukQs"
@@ -2595,7 +2568,7 @@
     "name": "Acheron",
     "game": "Mr. Krabs's Night of Terror",
     "developer": "Matt Warkoski",
-    "verifier": "Toadder25",
+    "verifier": "Freddyco",
     "length": "10:00",
     "gameLink": "https://gamejolt.com/games/mrkrabsterror/713845",
     "verifierLink": "YtfCwjPGFRg"
@@ -2946,7 +2919,7 @@
     "name": "Super Sonic Showdown",
     "game": "Knuckles' Week At Sonic's",
     "developer": "SplatoonJosh",
-    "verifier": "Guiltless0910",
+    "verifier": "Dlanss",
     "length": "6:00",
     "gameLink": "https://gamejolt.com/games/knucklesweekatsonics/1023417",
     "verifierLink": "qwYTT4JrSAg"
