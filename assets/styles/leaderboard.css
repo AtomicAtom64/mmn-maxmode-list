@@ -115,3 +115,48 @@ body {
         0 0 10px rgba(184, 115, 51, 0.35),
         0 4px 16px rgba(0, 0, 0, 0.12);
 }
+
+[data-bs-theme="dark"] .rank-1 {
+    background: linear-gradient(
+        135deg,
+        #6b5b20 0%,
+        #b8941f 35%,
+        #d4af37 50%,
+        #b8941f 65%,
+        #6b5b20 100%
+    );
+
+    box-shadow:
+        0 0 14px rgba(212, 175, 55, 0.30),
+        0 4px 18px rgba(0, 0, 0, 0.45);
+}
+
+[data-bs-theme="dark"] .rank-2 {
+    background: linear-gradient(
+        135deg,
+        #4a4f54 0%,
+        #737980 30%,
+        #adb5bd 50%,
+        #737980 70%,
+        #4a4f54 100%
+    );
+
+    box-shadow:
+        0 0 12px rgba(173, 181, 189, 0.25),
+        0 4px 18px rgba(0, 0, 0, 0.45);
+}
+
+[data-bs-theme="dark"] .rank-3 {
+    background: linear-gradient(
+        135deg,
+        #5c4030 0%,
+        #8f5f3d 35%,
+        #b87333 50%,
+        #8f5f3d 65%,
+        #5c4030 100%
+    );
+
+    box-shadow:
+        0 0 12px rgba(184, 115, 51, 0.28),
+        0 4px 18px rgba(0, 0, 0, 0.45);
+}
