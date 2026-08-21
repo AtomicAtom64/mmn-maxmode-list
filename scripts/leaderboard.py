@@ -14,7 +14,6 @@ start_time = time.time()
 class Record:
     name: str
     skill_pt: int
-    rng_pt: int
     top: int
     link: str
 
@@ -24,7 +23,6 @@ class Member:
     name: str
     youtube: str
     country: str
-    continent: str
     total_skill_pt: int
     total_rng_pt: int
     modes_beaten: int
@@ -53,7 +51,6 @@ def get_info(session, id, name):
     player_name = player_results["name"]
     player_youtuber = player_results["youtube"] or ""
     player_country = player_results["country"] or ""
-    player_continent = player_results["continent"] or ""
     total_skill_pt = player_results["totalSkillpt"] or 0
     total_rng_pt = player_results["totalRNGpt"] or 0
     modesBeaten = player_results["modesBeaten"] or 0
@@ -69,12 +66,11 @@ def get_info(session, id, name):
         for mode in modes_results:
             mode_name = mode["levels"]["name"]
             skillpt = mode["skillValue"]
-            rngpt = mode["rngValue"]
             top = mode["levels"]["top"]
             link = mode["videoLink"]
-            records.append(Record(mode_name, skillpt, rngpt, top, link))
+            records.append(Record(mode_name, skillpt, top, link))
     
-    return Member(id, player_name, player_youtuber, player_country, player_continent, total_skill_pt, total_rng_pt, modesBeaten, records)
+    return Member(id, player_name, player_youtuber, player_country, total_skill_pt, total_rng_pt, modesBeaten, records)
 
 session = requests.Session()
 members_id, members_names = get_members(session)
