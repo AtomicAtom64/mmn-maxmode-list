@@ -185,9 +185,9 @@
     "youtube": "https://www.youtube.com/@TheSnowan0",
     "country": "Russia",
     "continent": "Trans-Continental",
-    "total_skill_pt": 7854,
-    "total_rng_pt": 9941,
-    "modes_beaten": 61,
+    "total_skill_pt": 8101,
+    "total_rng_pt": 9991,
+    "modes_beaten": 62,
     "records": [
       {
         "name": "Bonus Mode",
@@ -260,6 +260,13 @@
         "link": "https://youtu.be/IsrH2GQwhvA"
       },
       {
+        "name": "Harikitte Ikou",
+        "skill_pt": 246,
+        "rng_pt": 50,
+        "top": 680,
+        "link": "https://youtu.be/0484ClZxKLs"
+      },
+      {
         "name": "Ticketless Nightmare",
         "skill_pt": 240,
         "rng_pt": 200,
@@ -275,9 +282,9 @@
       },
       {
         "name": "Robey Man",
-        "skill_pt": 114,
+        "skill_pt": 115,
         "rng_pt": 100,
-        "top": 906,
+        "top": 905,
         "link": "https://youtu.be/s4bPaCIdMwc?si=HtDcRk4A6UBL1j77"
       },
       {
@@ -949,7 +956,7 @@
     "youtube": "",
     "country": "Bulgaria",
     "continent": "Europe",
-    "total_skill_pt": 23945,
+    "total_skill_pt": 23948,
     "total_rng_pt": 11095,
     "modes_beaten": 59,
     "records": [
@@ -1214,37 +1221,37 @@
       },
       {
         "name": "The Killer Bite",
-        "skill_pt": 147,
+        "skill_pt": 148,
         "rng_pt": 250,
-        "top": 830,
+        "top": 829,
         "link": "https://youtu.be/hBc28xJ1j9E?si=oGZvc2Flm2F09wYC"
       },
       {
         "name": "Funtime Finale Hard",
         "skill_pt": 147,
         "rng_pt": 200,
-        "top": 831,
+        "top": 830,
         "link": "https://youtu.be/evHq3ZrsV5k?si=sSGDEKffurQ6M2Ur"
       },
       {
         "name": "Rat & Cat All Challenges Classic Cat Same Side All Night",
-        "skill_pt": 138,
+        "skill_pt": 139,
         "rng_pt": 200,
-        "top": 849,
+        "top": 848,
         "link": "https://youtu.be/2TOR5KPbd5k?si=owEioFKo4AeLK2Ly"
       },
       {
         "name": "Rat & Cat All Challenges Hardcore Cassette",
         "skill_pt": 138,
         "rng_pt": 200,
-        "top": 850,
+        "top": 849,
         "link": "https://youtu.be/ECwVV8NOCbE?si=4eQPaNi-HYE3wGDh"
       },
       {
         "name": "Puppet Master All Challenges 5 AM All Night",
-        "skill_pt": 96,
+        "skill_pt": 97,
         "rng_pt": 100,
-        "top": 958,
+        "top": 957,
         "link": "https://youtu.be/VwlNB0Tm6ew?si=338-Zj1ZsBtD7ENC"
       },
       {
@@ -1510,14 +1517,14 @@
         "name": "Blood 7/20",
         "skill_pt": 137,
         "rng_pt": 200,
-        "top": 852,
+        "top": 851,
         "link": "https://youtu.be/vPL2_Z6rE9M"
       },
       {
         "name": "Blood 7/20 v2.2.1",
         "skill_pt": 99,
         "rng_pt": 150,
-        "top": 950,
+        "top": 949,
         "link": "https://youtu.be/vPL2_Z6rE9M"
       },
       {
@@ -2032,7 +2039,7 @@
     "youtube": "https://www.youtube.com/@Cris-pd2rx",
     "country": "Guatemala",
     "continent": "America",
-    "total_skill_pt": 18326,
+    "total_skill_pt": 18328,
     "total_rng_pt": 6387,
     "modes_beaten": 46,
     "records": [
@@ -2178,30 +2185,30 @@
       },
       {
         "name": "Blood 7/20 No Power Out v2.2.1",
-        "skill_pt": 131,
+        "skill_pt": 132,
         "rng_pt": 150,
-        "top": 865,
+        "top": 864,
         "link": "https://youtu.be/bY0CPUR-uLM"
       },
       {
         "name": "Blood 7/20 v2.2.1",
         "skill_pt": 99,
         "rng_pt": 150,
-        "top": 950,
+        "top": 949,
         "link": "https://youtu.be/4WTVOQDo7mo?si=QtzPVN-KMeGnB_Ha"
       },
       {
         "name": "Litcrush 3",
         "skill_pt": 97,
         "rng_pt": 25,
-        "top": 957,
+        "top": 956,
         "link": "https://youtu.be/f6zA0UiRVic"
       },
       {
         "name": "Puppet Master All Challenges 5 AM All Night",
-        "skill_pt": 96,
+        "skill_pt": 97,
         "rng_pt": 100,
-        "top": 958,
+        "top": 957,
         "link": "https://youtu.be/qtz0JenXH6I"
       },
       {
@@ -2850,7 +2857,7 @@
     "youtube": "https://www.youtube.com/@catpi4a88",
     "country": "",
     "continent": "",
-    "total_skill_pt": 522,
+    "total_skill_pt": 468,
     "total_rng_pt": 1425,
     "modes_beaten": 15,
     "records": [
@@ -2863,9 +2870,9 @@
       },
       {
         "name": "sans 1",
-        "skill_pt": 150,
+        "skill_pt": 96,
         "rng_pt": 150,
-        "top": 824,
+        "top": 960,
         "link": "https://youtu.be/FboO7ejL9VE"
       },
       {
@@ -3327,7 +3334,7 @@
     "youtube": "https://www.youtube.com/@eclipsevoid_",
     "country": "Latvia",
     "continent": "Europe",
-    "total_skill_pt": 6177,
+    "total_skill_pt": 6179,
     "total_rng_pt": 6272,
     "modes_beaten": 26,
     "records": [
@@ -3389,16 +3396,16 @@
       },
       {
         "name": "50/20 No Death Coin",
-        "skill_pt": 127,
+        "skill_pt": 128,
         "rng_pt": 400,
-        "top": 874,
+        "top": 873,
         "link": "https://youtu.be/QcqnRU3DjtQ?si=a-mslczfsYzeQF9O"
       },
       {
         "name": "Golden Freddy No Blackouts",
-        "skill_pt": 126,
+        "skill_pt": 127,
         "rng_pt": 150,
-        "top": 876,
+        "top": 875,
         "link": "https://www.youtube.com/watch?v=3KCATo2tM7E"
       },
       {
@@ -3521,15 +3528,15 @@
     "youtube": "",
     "country": "",
     "continent": "",
-    "total_skill_pt": 221,
+    "total_skill_pt": 222,
     "total_rng_pt": 2065,
     "modes_beaten": 36,
     "records": [
       {
         "name": "Puppet Master All Challenges 5 AM All Night",
-        "skill_pt": 96,
+        "skill_pt": 97,
         "rng_pt": 100,
-        "top": 958,
+        "top": 957,
         "link": "https://www.youtube.com/watch?v=sa1f8PGjYZM"
       },
       {
@@ -3785,15 +3792,15 @@
     "youtube": "",
     "country": "Japan",
     "continent": "Asia",
-    "total_skill_pt": 152,
+    "total_skill_pt": 153,
     "total_rng_pt": 1447,
     "modes_beaten": 11,
     "records": [
       {
         "name": "Candy Challenge",
-        "skill_pt": 113,
+        "skill_pt": 114,
         "rng_pt": 100,
-        "top": 909,
+        "top": 908,
         "link": "https://youtu.be/ij7Kf23Abto?si=0lJ2atUzhOmVsQJ6"
       },
       {
@@ -4254,15 +4261,15 @@
     "youtube": "",
     "country": "",
     "continent": "",
-    "total_skill_pt": 159,
+    "total_skill_pt": 160,
     "total_rng_pt": 595,
     "modes_beaten": 11,
     "records": [
       {
         "name": "Candy Challenge",
-        "skill_pt": 113,
+        "skill_pt": 114,
         "rng_pt": 100,
-        "top": 909,
+        "top": 908,
         "link": "https://youtu.be/GKMrEKJTA2o"
       },
       {
@@ -4978,10 +4985,17 @@
     "youtube": "https://www.youtube.com/@5harkfinnnn",
     "country": "Australia",
     "continent": "Oceania",
-    "total_skill_pt": 90,
-    "total_rng_pt": 5315,
-    "modes_beaten": 59,
+    "total_skill_pt": 104,
+    "total_rng_pt": 5388,
+    "modes_beaten": 64,
     "records": [
+      {
+        "name": "The Headspace Emissary",
+        "skill_pt": 10,
+        "rng_pt": 60,
+        "top": 1718,
+        "link": "https://youtu.be/-bT5hCBqOuo"
+      },
       {
         "name": "Eternal Matteke! Sailor Fuku Flashlight Mode",
         "skill_pt": 5,
@@ -5249,6 +5263,13 @@
         "link": "https://youtu.be/qcPxDx3wpY8"
       },
       {
+        "name": "Revenge of Dancing Idiot",
+        "skill_pt": 1,
+        "rng_pt": 1,
+        "top": 2900,
+        "link": "https://youtu.be/7AUdA4izNlI"
+      },
+      {
         "name": "Hyper Penguin",
         "skill_pt": 1,
         "rng_pt": 10,
@@ -5284,6 +5305,13 @@
         "link": "https://youtu.be/jiM1UlisFvw"
       },
       {
+        "name": "Greedless Wind",
+        "skill_pt": 1,
+        "rng_pt": 1,
+        "top": 2914,
+        "link": "https://youtu.be/0DZcHEn1ngQ"
+      },
+      {
         "name": "PLaY :)",
         "skill_pt": 1,
         "rng_pt": 10,
@@ -5296,6 +5324,13 @@
         "rng_pt": 10,
         "top": 2916,
         "link": "https://youtu.be/N5BmyZBiR9M"
+      },
+      {
+        "name": "Max All Challenges",
+        "skill_pt": 1,
+        "rng_pt": 10,
+        "top": 2917,
+        "link": "https://youtu.be/GJ5P0wp_Vnc"
       },
       {
         "name": "These Applebees Are So Funny They Make Me Wanna Merge Without Looking",
@@ -5359,6 +5394,13 @@
         "rng_pt": 400,
         "top": 2973,
         "link": "https://youtu.be/yG0GCfq6GJs"
+      },
+      {
+        "name": "Max",
+        "skill_pt": 1,
+        "rng_pt": 1,
+        "top": 2974,
+        "link": "https://youtu.be/GJ5P0wp_Vnc"
       },
       {
         "name": "Mr. Active's Calm Adventure",
@@ -5596,7 +5638,7 @@
         "name": "Good Luck :D",
         "skill_pt": 111,
         "rng_pt": 200,
-        "top": 915,
+        "top": 914,
         "link": "https://www.youtube.com/watch?v=xkIk9hgAohk"
       },
       {
@@ -5777,7 +5819,7 @@
         "name": "Blood 7/20 v2.2.1",
         "skill_pt": 99,
         "rng_pt": 150,
-        "top": 950,
+        "top": 949,
         "link": "https://youtu.be/7lhk-qqCiHI?si=JFFKGX2frf4JUMkx"
       },
       {
@@ -6570,7 +6612,7 @@
     "youtube": "",
     "country": "Greece",
     "continent": "Europe",
-    "total_skill_pt": 18363,
+    "total_skill_pt": 18366,
     "total_rng_pt": 9332,
     "modes_beaten": 69,
     "records": [
@@ -6788,42 +6830,42 @@
         "name": "Blood 7/20",
         "skill_pt": 137,
         "rng_pt": 200,
-        "top": 852,
+        "top": 851,
         "link": "https://youtu.be/Urwtl9ys8eU"
       },
       {
         "name": "Blood 7/20 Cam 9 v2.2.1",
-        "skill_pt": 132,
+        "skill_pt": 133,
         "rng_pt": 150,
-        "top": 862,
+        "top": 861,
         "link": "https://www.youtube.com/watch?v=zkIbcv7VpZ4"
       },
       {
         "name": "Blood 7/20 No Power Out v2.2.1",
-        "skill_pt": 131,
+        "skill_pt": 132,
         "rng_pt": 150,
-        "top": 865,
+        "top": 864,
         "link": "https://youtu.be/5AIS79hNsTU"
       },
       {
         "name": "Blood 7/20 v2.2.1",
         "skill_pt": 99,
         "rng_pt": 150,
-        "top": 950,
+        "top": 949,
         "link": "https://youtu.be/doAz6qa-nlo"
       },
       {
         "name": "Litcrush 3",
         "skill_pt": 97,
         "rng_pt": 25,
-        "top": 957,
+        "top": 956,
         "link": "https://www.youtube.com/watch?v=wOcZbBa0Gs4"
       },
       {
         "name": "Puppet Master All Challenges 5 AM All Night",
-        "skill_pt": 96,
+        "skill_pt": 97,
         "rng_pt": 100,
-        "top": 958,
+        "top": 957,
         "link": "https://youtu.be/I_VW1S6xaMk"
       },
       {
@@ -7065,9 +7107,9 @@
     "youtube": "https://www.youtube.com/@Dellshock",
     "country": "United States",
     "continent": "America",
-    "total_skill_pt": 15131,
-    "total_rng_pt": 3452,
-    "modes_beaten": 40,
+    "total_skill_pt": 15891,
+    "total_rng_pt": 3752,
+    "modes_beaten": 41,
     "records": [
       {
         "name": "The Pizza Challenge",
@@ -7110,6 +7152,13 @@
         "rng_pt": 200,
         "top": 211,
         "link": "https://www.youtube.com/watch?v=U3XzMuZ6qgQ&list=PLEwNsORT_WfSh5pfcFqWbNgfQiGquqQMc"
+      },
+      {
+        "name": "Pizza Man Pre-Patch",
+        "skill_pt": 760,
+        "rng_pt": 300,
+        "top": 364,
+        "link": "https://www.youtube.com/watch?v=QXng7VjkwKA"
       },
       {
         "name": "Hasta La Catnip",
@@ -7528,7 +7577,7 @@
         "name": "Blood 7/20 v2.2.1",
         "skill_pt": 99,
         "rng_pt": 150,
-        "top": 950,
+        "top": 949,
         "link": "https://www.youtube.com/watch?v=gI-hSvtM8Qc"
       },
       {
@@ -7742,10 +7791,24 @@
     "youtube": "https://youtube.com/@exdact",
     "country": "United States",
     "continent": "America",
-    "total_skill_pt": 1,
-    "total_rng_pt": 10,
-    "modes_beaten": 1,
+    "total_skill_pt": 3,
+    "total_rng_pt": 30,
+    "modes_beaten": 3,
     "records": [
+      {
+        "name": "5/20 Aggressive",
+        "skill_pt": 1,
+        "rng_pt": 10,
+        "top": 2741,
+        "link": "https://youtu.be/ukkjeQYWwX8"
+      },
+      {
+        "name": "5/20",
+        "skill_pt": 1,
+        "rng_pt": 10,
+        "top": 2830,
+        "link": "https://youtu.be/9J1c7fWgBE0"
+      },
       {
         "name": "5/20",
         "skill_pt": 1,
@@ -7862,6 +7925,86 @@
         "rng_pt": 0,
         "top": 2983,
         "link": "https://www.youtube.com/watch?v=Cghgay4jyiA"
+      }
+    ]
+  },
+  {
+    "id": "556fb8ee-a4f4-4a5f-9889-c25e6cfdf126",
+    "name": "crimsonspike95",
+    "youtube": "",
+    "country": "",
+    "continent": "",
+    "total_skill_pt": 12,
+    "total_rng_pt": 350,
+    "modes_beaten": 3,
+    "records": [
+      {
+        "name": "Golden Freddy",
+        "skill_pt": 5,
+        "rng_pt": 150,
+        "top": 2001,
+        "link": "https://youtu.be/tDTvnfL0WB0"
+      },
+      {
+        "name": "Soft Boiled Mode",
+        "skill_pt": 4,
+        "rng_pt": 50,
+        "top": 2148,
+        "link": "https://www.youtube.com/watch?v=2qv2WpiTRjg"
+      },
+      {
+        "name": "Yellow Freddy",
+        "skill_pt": 3,
+        "rng_pt": 150,
+        "top": 2307,
+        "link": "https://www.youtube.com/watch?v=9beXWqmQnb0"
+      }
+    ]
+  },
+  {
+    "id": "0581025f-d0ea-4c65-b68f-c9afc6cd3c53",
+    "name": "Slabz",
+    "youtube": "https://www.youtube.com/@SlabzVA",
+    "country": "United States",
+    "continent": "America",
+    "total_skill_pt": 6,
+    "total_rng_pt": 590,
+    "modes_beaten": 5,
+    "records": [
+      {
+        "name": "Golden Freddy",
+        "skill_pt": 2,
+        "rng_pt": 100,
+        "top": 2329,
+        "link": "https://www.youtube.com/watch?v=rhcTwbdeILE"
+      },
+      {
+        "name": "Nightmare Aggressive Only",
+        "skill_pt": 1,
+        "rng_pt": 400,
+        "top": 2671,
+        "link": "https://www.youtube.com/watch?v=II5SF0-UOa0&t=77s"
+      },
+      {
+        "name": "4/20",
+        "skill_pt": 1,
+        "rng_pt": 50,
+        "top": 2789,
+        "link": "https://www.youtube.com/watch?v=93ZeJUU24UQ&t=36s"
+      },
+      {
+        "name": "4/20",
+        "skill_pt": 1,
+        "rng_pt": 40,
+        "top": 2813,
+        "link": "https://www.youtube.com/watch?v=KNBHixl5iQM&t=17s"
+      },
+      {
+        "name": "Eternal Hell Of Suffering And Torment",
+        "skill_pt": 1,
+        "rng_pt": 0,
+        "top": 2982,
+        "link": "https://www.youtube.com/watch?v=FJ94ep5QApE"
       }
     ]
   }
