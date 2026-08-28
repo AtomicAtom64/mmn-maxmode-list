@@ -1,0 +1,67 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://maxmodenoobs.pages.dev/">
+    <meta property="og:title" content="Max Mode Noobs">
+    <meta property="og:description" content="Max Mode Noobs' Silly Website">
+    <meta property="og:image" content="https://maxmodenoobs.pages.dev/assets/images/logo.svg">
+    <title>Beaten Modes</title>
+    <link rel="icon" type="image/x-icon" href="/assets/images/logo.ico">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB" crossorigin="anonymous">
+    <link rel="stylesheet" href="/assets/styles/main.css">
+    <link rel="stylesheet" href="/assets/styles/beatenmodes.css">
+  </head>
+  <body class="d-flex flex-column min-vh-100">
+    <div id="navbar"
+      hx-get="assets/templates/navbar.html"
+      hx-trigger="load once"
+      hx-swap="outerHTML">
+    </div>
+
+    <main class="flex-fill">
+
+      <div class="d-flex justify-content-center container mb-3 gap-2">
+        <label for="nameInput" class="visually-hidden">
+          Search for a mode...
+        </label>
+        <input aria-label="Search by name" type="text" class="form-control form-control-sm w-50" id="nameInput" placeholder="Search by mode...">
+      </div>
+
+      <div class="container">
+
+        <div class="d-flex justify-content-center align-items-center flex-wrap my-3 gap-2">
+          <div class="btn-group" role="group" aria-label="sorting types" id="filter">
+            <button type="button" class="btn btn-outline-primary">Every mode</button>
+            <button type="button" class="btn btn-outline-primary active">Hardests only</button>
+          </div>
+
+          <div class="btn-group"  role="group" aria-label="sorting types" id="sort">
+            <button type="button" class="btn btn-outline-primary">RNG</button>
+            <button type="button" class="btn btn-outline-primary active">Skill</button>
+            <button type="button" class="btn btn-outline-primary">90/10</button>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div id="modesContainer" class="container my-5">
+        
+      </div>
+    </main>
+
+    <div id="footer"
+      hx-get="assets/templates/footer.html"
+      hx-trigger="load once"
+      hx-swap="outerHTML">
+    </div>
+
+    <script src="assets/scripts/theme.js" defer></script>
+    <script src="assets/scripts/beatenmodes.js" defer></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/js/bootstrap.bundle.min.js" integrity="sha384-FKyoEForCGlyvwx9Hj09JcYn3nv7wiPVlz7YYwJrWVcXK/BmnVDxM+D2scQbITxI" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/htmx.org@2.0.10/dist/htmx.min.js" integrity="sha384-H5SrcfygHmAuTDZphMHqBJLc3FhssKjG7w/CeCpFReSfwBWDTKpkzPP8c+cLsK+V" crossorigin="anonymous"></script>
+  </body>
+</html>
