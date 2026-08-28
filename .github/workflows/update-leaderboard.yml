@@ -1,4 +1,4 @@
-name: Update Leaderboard
+name: Update Leaderboard And Beaten Modes List
 
 on:
   schedule:
@@ -30,6 +30,9 @@ jobs:
       - name: Run the countries script
         run:  python scripts/countries.py
 
+      - name: Run the beaten modes script
+        run:  python scripts/beatenmodes.py
+
       - name: Show diff
         run: |
           git status
@@ -37,8 +40,8 @@ jobs:
 
       - name: Commit changes
         run: |
-          git config user.name github-actions
-          git config user.email github-actions@github.com
+          git config --local user.email "github-actions[bot]@users.noreply.github.com"
+          git config --local user.name "github-actions[bot]"
           git add resources
           git commit -m "Update leaderboard" || echo "No changes"
           git push
