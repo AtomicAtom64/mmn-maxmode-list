@@ -5539,9 +5539,9 @@
     "youtube": "https://www.youtube.com/@somerandomfathead",
     "country": "",
     "continent": "",
-    "total_skill_pt": 70,
-    "total_rng_pt": 254,
-    "modes_beaten": 8,
+    "total_skill_pt": 77,
+    "total_rng_pt": 454,
+    "modes_beaten": 9,
     "records": [
       {
         "name": "Five Chicken Nuggets",
@@ -5563,6 +5563,13 @@
         "rng_pt": 50,
         "top": 1752,
         "link": "https://www.bilibili.com/video/BV1ghJg6hE5g"
+      },
+      {
+        "name": "False Golden Freddy",
+        "skill_pt": 7,
+        "rng_pt": 200,
+        "top": 1848,
+        "link": "https://m.youtube.com/watch?v=kDnTM5VAAVc&pp=0gcJCRMMAYcqIYzv"
       },
       {
         "name": "Perfect Attendance",
@@ -7798,13 +7805,13 @@
   },
   {
     "id": "363d5425-d6f0-49d3-8338-b204e8ebffc6",
-    "name": "skyline",
+    "name": "skyyline",
     "youtube": "https://www.youtube.com/@acoolskyline",
     "country": "Canada",
     "continent": "America",
-    "total_skill_pt": 646,
-    "total_rng_pt": 1800,
-    "modes_beaten": 14,
+    "total_skill_pt": 648,
+    "total_rng_pt": 1850,
+    "modes_beaten": 15,
     "records": [
       {
         "name": "Hyper Catfight Crashout",
@@ -7863,6 +7870,13 @@
         "link": "https://www.youtube.com/watch?v=jI1Lmso4c3E&t=34s"
       },
       {
+        "name": "Night 7",
+        "skill_pt": 2,
+        "rng_pt": 50,
+        "top": 2364,
+        "link": "https://www.youtube.com/watch?v=7QaVZXchkB0"
+      },
+      {
         "name": "20/20/20/20",
         "skill_pt": 2,
         "rng_pt": 150,
@@ -7912,10 +7926,17 @@
     "youtube": "",
     "country": "",
     "continent": "",
-    "total_skill_pt": 12,
-    "total_rng_pt": 350,
-    "modes_beaten": 3,
+    "total_skill_pt": 22,
+    "total_rng_pt": 360,
+    "modes_beaten": 4,
     "records": [
+      {
+        "name": "Bitcrush 1",
+        "skill_pt": 10,
+        "rng_pt": 10,
+        "top": 1720,
+        "link": "https://www.youtube.com/watch?v=9e6qwYYgZqg"
+      },
       {
         "name": "Golden Freddy",
         "skill_pt": 5,
