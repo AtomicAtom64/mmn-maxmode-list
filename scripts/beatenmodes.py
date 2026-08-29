@@ -18,6 +18,9 @@ class Record:
     rng: int
     link: str
     time: str
+    top: int
+    hardestSkill: bool = False
+    hardestRng: bool = False
 
 @dataclass
 class Member:
@@ -34,14 +37,16 @@ def get_members(session):
     return [member["user_id"] for member in results], [member["players"]["name"] for member in results]
 
 def get_info(session, id, name):
-    modes_url = f"https://aml-api-eta.vercel.app/player/{id}/records/skillValue"  
+    modes_url = f"https://aml-api-eta.vercel.app/player/{id}/records/skillValue"
     r = session.get(modes_url, timeout=10)
     if not r.ok:
-        raise Exception(f"Failed to fetch player modes for ID {id}: {r.status_code}")
-        
+        raise Exception(
+            f"Failed to fetch player modes for ID {id}: {r.status_code}"
+        )
+
     modes_results = r.json()
     records = []
-    
+
     if isinstance(modes_results, list):
         for mode in modes_results:
             mode_name = mode["levels"]["name"]
@@ -50,7 +55,19 @@ def get_info(session, id, name):
             rngpt = mode["rngValue"]
             link = mode["videoLink"]
             timestamp = mode["timestamp"]
-            records.append(Record(mode_name, mode_game, skillpt, rngpt, link, timestamp))
+            top = mode["levels"]["top"]
+
+            records.append(
+                Record(
+                    mode_name,
+                    mode_game,
+                    skillpt,
+                    rngpt,
+                    link,
+                    timestamp,
+                    top
+                )
+            )
 
     return Member(name, records)
 
@@ -68,6 +85,27 @@ with ThreadPoolExecutor(max_workers=5) as executor:
     members = list(executor.map(fetch, members_id, members_names))
     
 members = [m for m in members if m is not None]
+
+for member in members:
+
+    if not member.records:
+        continue
+
+    hardest_skill = min(
+        member.records,
+        key=lambda record: record.top
+    )
+    
+    hardest_skill.hardestSkill = True
+
+    highest_rng = max(
+        record.rng
+        for record in member.records
+    )
+
+    for record in member.records:
+        if record.rng == highest_rng:
+            record.hardestRng = True
 
 with open("resources/beaten_modes.json", "w") as file:
     json.dump([asdict(member) for member in members], file, indent=2)

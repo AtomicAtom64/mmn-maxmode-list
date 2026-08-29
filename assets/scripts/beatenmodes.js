@@ -1,11 +1,13 @@
 class Mode {
-    constructor(name, game, skill, rng, Records, hardest) {
+    constructor(name, game, skill, rng, top, Records) {
         this.name = name;
         this.game = game;
         this.skill = skill;
         this.rng = rng;
+        this.top = top;
         this.Records = Records;
-        this.hardest = hardest;
+        this.hardestSkill = false;
+        this.hardestRng = false;
     }
 }
 
@@ -32,9 +34,7 @@ fetch("../resources/beaten_modes.json")
 
         beatenModesData.forEach(modeData => {
 
-            modeData.records.forEach((record, index) => {
-
-                const hardest = index === 0;
+            modeData.records.forEach(record => {
 
                 let mode = modesMap.get(record.name);
 
@@ -44,15 +44,21 @@ fetch("../resources/beaten_modes.json")
                         record.game,
                         record.skill,
                         record.rng,
-                        [],
-                        hardest
+                        record.top,
+                        []
                     );
 
                     modes.push(mode);
                     modesMap.set(record.name, mode);
+                }
 
-                } else if (hardest) {
-                    mode.hardest = true;
+                // Mark the mode if this player's record is their hardest
+                if (record.hardestSkill === true) {
+                    mode.hardestSkill = true;
+                }
+
+                if (record.hardestRng === true) {
+                    mode.hardestRng = true;
                 }
 
                 const playerRecord = new Record(
@@ -78,8 +84,12 @@ function updateModes() {
     let results = [...modes];
 
     // Filter hardest modes
-    if (currentFilter === "Hardests only") {
-        results = results.filter(mode => mode.hardest === true);
+    if (currentFilter === "Hardest Skill only") {
+        results = results.filter(mode => mode.hardestSkill);
+    }
+
+    if (currentFilter === "Hardest RNG only") {
+        results = results.filter(mode => mode.hardestRng);
     }
 
     // Sort by selected scoring method
@@ -234,6 +244,7 @@ function createModeCard(mode, rank) {
                         <div class="text-body-secondary small">
                             <div>Skill Points: ${mode.skill}</div>
                             <div>RNG Points: ${mode.rng}</div>
+                            <div>Top: ${mode.top}</div>
                             <div>First beaten by: ${firstRecord.playerName}</div>
                         </div>
 
@@ -294,7 +305,7 @@ function getWins(records) {
 function formatDate(date) {
     return new Date(date).toLocaleDateString("en-GB", {
         day: "2-digit",
-        month: "2-digit",
+        month: "short",
         year: "numeric"
     });
 }
