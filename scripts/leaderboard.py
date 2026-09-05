@@ -1,21 +1,24 @@
-import os
+import asyncio
+import json
 import time
 from dataclasses import asdict, dataclass
-import requests
-import json
-from concurrent.futures import ThreadPoolExecutor
+
+from playwright.async_api import async_playwright
+
 
 CLAN_ID = "1a68233f-ae59-431b-ba1b-e458b548acfa"
-
-members = []
+BASE_URL = "https://aml-api-eta.vercel.app"
 
 start_time = time.time()
+
+
 @dataclass
 class Record:
     name: str
     skill_pt: int
     top: int
     link: str
+
 
 @dataclass
 class Member:
@@ -28,66 +31,171 @@ class Member:
     modes_beaten: int
     records: list[Record]
 
-def get_members(session):
-    url = f"https://aml-api-eta.vercel.app/clans/{CLAN_ID}/members"
-    r = session.get(url, timeout=10)
-    if not r.ok:
-        raise Exception(f"Failed to fetch clan members: {r.status_code}")
-    
-    results = r.json()
-    return [member["user_id"] for member in results], [member["players"]["name"] for member in results]
 
-def get_info(session, id, name):
-    
-    player_url = f"https://aml-api-eta.vercel.app/player/{id}"
+async def fetch_json(page, url):
+    response = await page.goto(
+        url,
+        wait_until="domcontentloaded",
+        timeout=30_000
+    )
 
-    modes_url = f"https://aml-api-eta.vercel.app/player/{id}/records/skillValue"
-    
-    r = session.get(player_url, timeout=10)
-    if not r.ok:
-        raise Exception(f"Failed to fetch player info for ID {id}: {r.status_code}")
-    
-    player_results = r.json()
-    player_name = player_results["name"]
-    player_youtuber = player_results["youtube"] or ""
-    player_country = player_results["country"] or ""
-    total_skill_pt = player_results["totalSkillpt"] or 0
-    total_rng_pt = player_results["totalRNGpt"] or 0
-    modesBeaten = player_results["modesBeaten"] or 0
-    
-    r = session.get(modes_url, timeout=10)
-    if not r.ok:
-        raise Exception(f"Failed to fetch player modes for ID {id}: {r.status_code}")
-        
-    modes_results = r.json()
-    records = []
-    
-    if isinstance(modes_results, list):
-        for mode in modes_results:
-            mode_name = mode["levels"]["name"]
-            skillpt = mode["skillValue"]
-            top = mode["levels"]["top"]
-            link = mode["videoLink"]
-            records.append(Record(mode_name, skillpt, top, link))
-    
-    return Member(id, player_name, player_youtuber, player_country, total_skill_pt, total_rng_pt, modesBeaten, records)
+    if response is None:
+        raise Exception(f"No response received from {url}")
 
-session = requests.Session()
-members_id, members_names = get_members(session)
+    if response.status != 200:
+        body = await page.locator("body").inner_text()
 
-def fetch(id, name):
-    try:
-        return get_info(session, id, name)
-    except Exception as e:
-        print(f"Error fetching info for ID {id}: {e}")
-        return None
+        raise Exception(
+            f"HTTP {response.status} {response.status_text}\n"
+            f"URL: {url}\n"
+            f"Body: {body[:500]}"
+        )
 
-with ThreadPoolExecutor(max_workers=5) as executor:
-    members = list(executor.map(fetch, members_id, members_names))
-    
-members = [m for m in members if m is not None]
+    return await response.json()
 
-with open("resources/members.json", "w") as file:
-    json.dump([asdict(member) for member in members], file, indent=2)
+async def get_members(page):
+    url = f"{BASE_URL}/clans/{CLAN_ID}/members"
 
-print(f"Finished in {time.time() - start_time:.2f} seconds")
+    results = await fetch_json(page, url)
+
+    return (
+        [member["user_id"] for member in results],
+        [member["players"]["name"] for member in results]
+    )
+
+
+async def get_info(context, id, name, semaphore):
+    async with semaphore:
+        page = await context.new_page()
+
+        try:
+            print(f"Fetching {name}...")
+
+            player_url = f"{BASE_URL}/player/{id}"
+            modes_url = f"{BASE_URL}/player/{id}/records/skillValue"
+
+            player_results = await fetch_json(page, player_url)
+            modes_results = await fetch_json(page, modes_url)
+
+            player_name = player_results["name"]
+            player_youtuber = player_results["youtube"] or ""
+            player_country = player_results["country"] or ""
+            total_skill_pt = player_results["totalSkillpt"] or 0
+            total_rng_pt = player_results["totalRNGpt"] or 0
+            modes_beaten = player_results["modesBeaten"] or 0
+
+            records = []
+
+            if isinstance(modes_results, list):
+                for mode in modes_results:
+                    records.append(
+                        Record(
+                            mode["levels"]["name"],
+                            mode["skillValue"],
+                            mode["levels"]["top"],
+                            mode["videoLink"]
+                        )
+                    )
+
+            print(f"Successfully fetched {name}")
+
+            return Member(
+                id=id,
+                name=player_name,
+                youtube=player_youtuber,
+                country=player_country,
+                total_skill_pt=total_skill_pt,
+                total_rng_pt=total_rng_pt,
+                modes_beaten=modes_beaten,
+                records=records
+            )
+
+        except Exception as e:
+            print(f"Failed to fetch {name}: {e}")
+            return None
+
+        finally:
+            await page.close()
+
+
+async def main():
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
+
+        context = await browser.new_context(
+            viewport={"width": 1280, "height": 720},
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/140.0.0.0 Safari/537.36"
+            )
+        )
+
+        try:
+            page = await context.new_page()
+
+            print("Fetching clan members...")
+
+            members_id, members_names = await get_members(page)
+
+            await page.close()
+
+            print(f"Found {len(members_id)} members.")
+
+            # Number of players being processed simultaneously.
+            semaphore = asyncio.Semaphore(5)
+
+            tasks = [
+                get_info(context, id, name, semaphore)
+                for id, name in zip(members_id, members_names)
+            ]
+
+            members = await asyncio.gather(*tasks)
+
+            successful_members = [
+                member for member in members
+                if member is not None
+            ]
+
+            failed_count = len(members_id) - len(successful_members)
+
+            print(
+                f"Successfully fetched "
+                f"{len(successful_members)}/{len(members_id)} members."
+            )
+
+            if failed_count > 0:
+                print(
+                    f"WARNING: {failed_count} member(s) failed. "
+                    "members.json was NOT updated."
+                )
+                raise SystemExit(1)
+            else:
+                with open(
+                    "resources/members.json",
+                    "w",
+                    encoding="utf-8"
+                ) as file:
+                    json.dump(
+                        [asdict(member) for member in successful_members],
+                        file,
+                        indent=2,
+                        ensure_ascii=False
+                    )
+
+                print("members.json updated successfully.")
+
+            elapsed = time.time() - start_time
+
+            print(
+                f"Saved {len(members)} members "
+                f"in {elapsed:.2f} seconds."
+            )
+
+        finally:
+            await context.close()
+            await browser.close()
+
+
+if __name__ == "__main__":
+    asyncio.run(main())

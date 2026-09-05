@@ -1,21 +1,43 @@
+import asyncio
 import json
 import time
-import requests
-from concurrent.futures import ThreadPoolExecutor
+
 import countryflag
+from playwright.async_api import async_playwright
+
 
 CLAN_ID = "1a68233f-ae59-431b-ba1b-e458b548acfa"
+BASE_URL = "https://aml-api-eta.vercel.app"
 
 start_time = time.time()
 
 
-def get_members(session):
-    url = f"https://aml-api-eta.vercel.app/clans/{CLAN_ID}/members"
+async def fetch_json(page, url):
+    response = await page.goto(
+        url,
+        wait_until="domcontentloaded",
+        timeout=30_000
+    )
 
-    r = session.get(url, timeout=10)
-    r.raise_for_status()
+    if response is None:
+        raise Exception(f"No response received from {url}")
 
-    results = r.json()
+    if response.status != 200:
+        body = await page.locator("body").inner_text()
+
+        raise Exception(
+            f"HTTP {response.status} {response.status_text}\n"
+            f"URL: {url}\n"
+            f"Body: {body[:500]}"
+        )
+
+    return await response.json()
+
+
+async def get_members(page):
+    url = f"{BASE_URL}/clans/{CLAN_ID}/members"
+
+    results = await fetch_json(page, url)
 
     return [
         (member["user_id"], member["players"]["name"])
@@ -23,48 +45,92 @@ def get_members(session):
     ]
 
 
-def get_country(session, user_id, name):
-    try:
-        url = f"https://aml-api-eta.vercel.app/player/{user_id}"
+async def get_country(context, user_id, name, semaphore):
+    async with semaphore:
+        page = await context.new_page()
 
-        r = session.get(url, timeout=10)
-        r.raise_for_status()
+        try:
+            print(f"Fetching {name}...")
 
-        player = r.json()
+            url = f"{BASE_URL}/player/{user_id}"
+            player = await fetch_json(page, url)
 
-        return {
-            "country": player.get("country", "")
-        }
+            return player.get("country", "")
 
-    except Exception as e:
-        print(f"Error fetching {name}: {e}")
-        return None
+        except Exception as e:
+            print(f"Error fetching {name}: {e}")
+            return None
+
+        finally:
+            await page.close()
 
 
-session = requests.Session()
+async def main():
+    async with async_playwright() as p:
+        browser = await p.chromium.launch(headless=True)
 
-members = get_members(session)
-
-with ThreadPoolExecutor(max_workers=10) as executor:
-    results = list(
-        executor.map(
-            lambda member: get_country(session, member[0], member[1]),
-            members
+        context = await browser.new_context(
+            viewport={"width": 1280, "height": 720},
+            user_agent=(
+                "Mozilla/5.0 (Windows NT 10.0; Win64; x64) "
+                "AppleWebKit/537.36 (KHTML, like Gecko) "
+                "Chrome/140.0.0.0 Safari/537.36"
+            )
         )
-    )
 
-countries = sorted({
-    r["country"]
-    for r in results
-    if r["country"]
-})
+        try:
+            page = await context.new_page()
 
-mapping = {
-    country: countryflag.getflag([country])
-    for country in countries
-}
+            print("Fetching clan members...")
 
-with open("resources/countries.json", "w", encoding="utf-8") as f:
-    json.dump(mapping, f, indent=2, ensure_ascii=False)
+            members = await get_members(page)
 
-print(f"Finished in {time.time() - start_time:.2f} seconds")
+            await page.close()
+
+            print(f"Found {len(members)} members.")
+
+            semaphore = asyncio.Semaphore(5)
+
+            tasks = [
+                get_country(context, user_id, name, semaphore)
+                for user_id, name in members
+            ]
+
+            results = await asyncio.gather(*tasks)
+
+            countries = sorted({
+                country
+                for country in results
+                if country
+            })
+
+            mapping = {
+                country: countryflag.getflag([country])
+                for country in countries
+            }
+
+            with open(
+                "resources/countries.json",
+                "w",
+                encoding="utf-8"
+            ) as f:
+                json.dump(
+                    mapping,
+                    f,
+                    indent=2,
+                    ensure_ascii=False
+                )
+
+            print(f"Found {len(countries)} countries.")
+            print(
+                f"Finished in "
+                f"{time.time() - start_time:.2f} seconds"
+            )
+
+        finally:
+            await context.close()
+            await browser.close()
+
+
+if __name__ == "__main__":
+    asyncio.run(main())
