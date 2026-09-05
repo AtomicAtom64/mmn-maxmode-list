@@ -22,7 +22,7 @@ class Record {
 const modes = [];
 const modesMap = new Map();
 
-let currentFilter = "Hardests only";
+let currentFilter = "Hardest Skill only";
 let currentSort = "90/10";
 let currentQuery = "";
 
