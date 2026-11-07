@@ -56,6 +56,7 @@ jobs:
           sleep 3
 
           warp-cli --accept-tos registration new
+          warp-cli --accept-tos mode doh
           warp-cli --accept-tos connect
 
           for attempt in {1..30}; do
@@ -63,14 +64,14 @@ jobs:
               sleep 2
               continue
             }
-            if grep -qx 'warp=on' <<< "$trace"; then
-              echo "Cloudflare WARP is connected."
+            if grep -qx 'warp=off' <<< "$trace"; then
+              echo "Cloudflare WARP DNS-only mode is active (traffic is not tunneled)."
               exit 0
             fi
             sleep 2
           done
 
-          echo "Cloudflare WARP did not connect within 60 seconds." >&2
+          echo "Cloudflare WARP DNS-only mode was not confirmed within 60 seconds." >&2
           warp-cli --accept-tos status
           exit 1
 
