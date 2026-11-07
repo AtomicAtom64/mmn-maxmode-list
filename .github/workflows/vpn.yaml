@@ -30,8 +30,11 @@ jobs:
 
       - name: Connect to WARP
         run: |
-          warp-cli --accept-tos registration new
-          warp-cli connect
+         # Give warp-svc daemon a brief moment to initialize its socket
+         sleep 3
+
+         warp-cli --accept-tos registration new
+         warp-cli --accept-tos connect
 
           for attempt in {1..30}; do
             trace="$(curl -fsS https://www.cloudflare.com/cdn-cgi/trace)" || {
@@ -46,7 +49,7 @@ jobs:
           done
 
           echo "Cloudflare WARP did not connect within 60 seconds." >&2
-          warp-cli status
+          warp-cli --accept-tos status
           exit 1
 
       - name: Verify WARP exit IP and run test
