@@ -1,0 +1,58 @@
+name: Free Geo-Block Bypass via Proton VPN
+
+on:
+  workflow_dispatch: # Allows manual trigger from the GitHub UI
+  push:
+    branches: [ main ]
+
+jobs:
+  vpn_job:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+
+    steps:
+      - name: Checkout Code
+        uses: actions/checkout@v4
+
+      - name: Verify Original IP (Before VPN)
+        run: |
+          echo "GitHub Actions original public IP and Country:"
+          curl -s https://ipapi.co | grep -E '"ip"|"country_name"'
+
+      - name: Install Proton VPN CLI
+        run: |
+          # 1. Download the Proton VPN repository setup package
+          wget https://protonvpn.com
+          
+          # 2. Install the repository definition
+          sudo dpkg -i protonvpn-stable-release_1.0.6_all.deb
+          sudo apt-get update
+          
+          # 3. Install the CLI client
+          sudo apt-get install -y protonvpn-cli
+
+      - name: Authenticate and Connect
+        env:
+          PROTON_USER: ${{ secrets.PROTON_USERNAME }}
+          PROTON_PASS: ${{ secrets.PROTON_PASSWORD }}
+        run: |
+          # 1. Log in using your free OpenVPN credentials programmatically
+          echo -e "$PROTON_USER\n$PROTON_PASS" | protonvpn-cli login $PROTON_USER
+          
+          # 2. Connect to the fastest available free server (USA, Netherlands, Japan, etc.)
+          sudo protonvpn-cli connect --fastest
+
+      - name: Verify Masked IP (After VPN)
+        run: |
+          echo "Tunnel active! New exit public IP and Country:"
+          curl -s https://ipapi.co | grep -E '"ip"|"country_name"'
+
+      - name: Run Your Geo-Restricted Steps
+        run: |
+          echo "Test Ping"
+          curl -s https://aml-api-eta.vercel.app/
+
+      - name: Disconnect VPN
+        if: always() # Ensures clean disconnection even if previous steps fail
+        run: |
+          sudo protonvpn-cli disconnect
