@@ -143,10 +143,12 @@ function displayLeaderboard(members, type) {
             `;
     }).join('');
 
-    document.querySelectorAll(".video-thumbnail").forEach(img => {
-        const videoId = getYoutubeVideoId(img.dataset.youtubeLink);
-        setThumbnail(img, videoId);
-    });
+    if (localStorage.getItem("leaderboard-thumbnails") !== "true") {
+        document.querySelectorAll(".video-thumbnail").forEach(img => {
+            const videoId = getYoutubeVideoId(img.dataset.youtubeLink);
+            setThumbnail(img, videoId);
+        });
+    }
 }
 
 function getAvatar(id){
@@ -187,7 +189,7 @@ function getVideoCard(record) {
                                     <img
                                         data-youtube-link="${record.link}"
                                         class="video-thumbnail"
-                                        alt="Video thumbnail"
+                                        alt="${record.name}"
                                     >
 
                                 </div>

@@ -145,9 +145,11 @@ function renderModes() {
     // Set thumbnails AFTER the entire list has been rendered
     const images = container.querySelectorAll("[data-youtube-link]");
 
-    images.forEach(img => {
-        setThumbnail(img, img.dataset.youtubeLink);
-    });
+    if (localStorage.getItem("beatenmodes-thunbnails") !== "true") {
+        images.forEach(img => {
+            setThumbnail(img, img.dataset.youtubeLink);
+        });
+    }
 }
 
 const filter = document.getElementById("filter");
