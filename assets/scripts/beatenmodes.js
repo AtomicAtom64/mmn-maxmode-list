@@ -36,7 +36,8 @@ fetch("../resources/beaten_modes.json")
 
             modeData.records.forEach(record => {
 
-                let mode = modesMap.get(record.name);
+                const modeKey = JSON.stringify([record.name, record.game]);
+                let mode = modesMap.get(modeKey);
 
                 if (!mode) {
                     mode = new Mode(
@@ -49,7 +50,7 @@ fetch("../resources/beaten_modes.json")
                     );
 
                     modes.push(mode);
-                    modesMap.set(record.name, mode);
+                    modesMap.set(modeKey, mode);
                 }
 
                 // Mark the mode if this player's record is their hardest
