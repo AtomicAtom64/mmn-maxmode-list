@@ -30,7 +30,7 @@ jobs:
 
       - name: Connect to WARP
         run: |
-          warp-cli registration new
+          warp-cli registration new --accept-tos
           warp-cli connect
 
           for attempt in {1..30}; do
