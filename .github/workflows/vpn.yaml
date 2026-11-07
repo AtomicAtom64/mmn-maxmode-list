@@ -17,24 +17,46 @@ jobs:
       - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Install Cloudflare WARP
-        id: warp-install
+      - name: Configure Cloudflare package repository
         run: |
           curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg |
             sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
           echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" |
             sudo tee /etc/apt/sources.list.d/cloudflare-client.list
           sudo apt-get update
-          sudo apt-get install -y cloudflare-warp
+
+      - name: Determine WARP package version
+        id: warp-version
+        run: |
+          version="$(apt-cache policy cloudflare-warp | awk '/Candidate:/ {print $2}')"
+          if [[ -z "$version" || "$version" == "(none)" ]]; then
+            echo "Could not determine the Cloudflare WARP package version." >&2
+            exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Cache WARP installation packages
+        uses: actions/cache@v4
+        with:
+          path: ${{ runner.temp }}/apt-archives/*.deb
+          key: ${{ runner.os }}-${{ runner.arch }}-apt-warp-${{ steps.warp-version.outputs.version }}
+          restore-keys: |
+            ${{ runner.os }}-${{ runner.arch }}-apt-warp-
+
+      - name: Install Cloudflare WARP
+        id: warp-install
+        run: |
+          mkdir -p "$RUNNER_TEMP/apt-archives/partial"
+          sudo apt-get -o "Dir::Cache::archives=$RUNNER_TEMP/apt-archives" install -y cloudflare-warp
           sudo systemctl enable --now warp-svc
 
       - name: Connect to WARP
         run: |
-         # Give warp-svc daemon a brief moment to initialize its socket
-         sleep 3
+          # Give warp-svc daemon a brief moment to initialize its socket
+          sleep 3
 
-         warp-cli --accept-tos registration new
-         warp-cli --accept-tos connect
+          warp-cli --accept-tos registration new
+          warp-cli --accept-tos connect
 
           for attempt in {1..30}; do
             trace="$(curl -fsS https://www.cloudflare.com/cdn-cgi/trace)" || {
@@ -58,9 +80,10 @@ jobs:
           curl -fsS https://ipapi.co/json/
           echo
           echo "Calling the authorized test endpoint:"
-          curl -fsS --max-time 30 -o /dev/null -w "HTTP %{http_code}\n" \
+          curl -fsS --retry 5 --retry-all-errors --retry-delay 2 --retry-max-time 120 \
+            --max-time 30 -o /dev/null -w "HTTP %{http_code}\n" \
             https://aml-api-eta.vercel.app/
 
       - name: Disconnect WARP
         if: always() && steps.warp-install.outcome == 'success'
-        run: warp-cli disconnect
+        run: warp-cli --accept-tos disconnect
