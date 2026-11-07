@@ -1,58 +1,63 @@
-name: Free Geo-Block Bypass via Proton VPN
+name: Test with Cloudflare WARP
 
 on:
-  workflow_dispatch: # Allows manual trigger from the GitHub UI
+  workflow_dispatch:
   push:
-    branches: [ main ]
+    branches: [main]
+
+permissions:
+  contents: read
 
 jobs:
-  vpn_job:
+  warp_test:
     runs-on: ubuntu-latest
     timeout-minutes: 15
 
     steps:
-      - name: Checkout Code
+      - name: Checkout code
         uses: actions/checkout@v4
 
-      - name: Verify Original IP (Before VPN)
+      - name: Install Cloudflare WARP
+        id: warp-install
         run: |
-          echo "GitHub Actions original public IP and Country:"
-          curl -s https://ipapi.co | grep -E '"ip"|"country_name"'
-
-      - name: Install Proton VPN CLI
-        run: |
-          # 1. Download the Proton VPN repository setup package
-          wget https://protonvpn.com
-          
-          # 2. Install the repository definition
-          sudo dpkg -i protonvpn-stable-release_1.0.6_all.deb
+          curl -fsSL https://pkg.cloudflareclient.com/pubkey.gpg |
+            sudo gpg --yes --dearmor --output /usr/share/keyrings/cloudflare-warp-archive-keyring.gpg
+          echo "deb [signed-by=/usr/share/keyrings/cloudflare-warp-archive-keyring.gpg] https://pkg.cloudflareclient.com/ $(lsb_release -cs) main" |
+            sudo tee /etc/apt/sources.list.d/cloudflare-client.list
           sudo apt-get update
-          
-          # 3. Install the CLI client
-          sudo apt-get install -y protonvpn-cli
+          sudo apt-get install -y cloudflare-warp
+          sudo systemctl enable --now warp-svc
 
-      - name: Authenticate and Connect
-        env:
-          PROTON_USER: ${{ secrets.PROTON_USERNAME }}
-          PROTON_PASS: ${{ secrets.PROTON_PASSWORD }}
+      - name: Connect to WARP
         run: |
-          # 1. Log in using your free OpenVPN credentials programmatically
-          echo -e "$PROTON_USER\n$PROTON_PASS" | protonvpn-cli login $PROTON_USER
-          
-          # 2. Connect to the fastest available free server (USA, Netherlands, Japan, etc.)
-          sudo protonvpn-cli connect --fastest
+          warp-cli registration new
+          warp-cli connect
 
-      - name: Verify Masked IP (After VPN)
-        run: |
-          echo "Tunnel active! New exit public IP and Country:"
-          curl -s https://ipapi.co | grep -E '"ip"|"country_name"'
+          for attempt in {1..30}; do
+            trace="$(curl -fsS https://www.cloudflare.com/cdn-cgi/trace)" || {
+              sleep 2
+              continue
+            }
+            if grep -qx 'warp=on' <<< "$trace"; then
+              echo "Cloudflare WARP is connected."
+              exit 0
+            fi
+            sleep 2
+          done
 
-      - name: Run Your Geo-Restricted Steps
-        run: |
-          echo "Test Ping"
-          curl -s https://aml-api-eta.vercel.app/
+          echo "Cloudflare WARP did not connect within 60 seconds." >&2
+          warp-cli status
+          exit 1
 
-      - name: Disconnect VPN
-        if: always() # Ensures clean disconnection even if previous steps fail
+      - name: Verify WARP exit IP and run test
         run: |
-          sudo protonvpn-cli disconnect
+          echo "Observed public IP and country:"
+          curl -fsS https://ipapi.co/json/
+          echo
+          echo "Calling the authorized test endpoint:"
+          curl -fsS --max-time 30 -o /dev/null -w "HTTP %{http_code}\n" \
+            https://aml-api-eta.vercel.app/
+
+      - name: Disconnect WARP
+        if: always() && steps.warp-install.outcome == 'success'
+        run: warp-cli disconnect
